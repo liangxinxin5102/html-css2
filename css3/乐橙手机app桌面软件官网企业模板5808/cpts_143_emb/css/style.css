@@ -1,0 +1,1225 @@
+
+body a{
+    transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+input[type="button"]{
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+
+h1,h2,h3,h4,h5,h6{
+	padding:0 0;
+	margin:0 0;
+}
+p{
+	padding:0 0;
+	margin:0 0;
+}
+ul{
+	padding:0 0;
+	margin:0 0;	
+}
+body{
+	padding:0 0;
+	margin:0 0; 
+	font-family: 'Open Sans', sans-serif;
+	
+}
+.header{
+	background: url("../images/banner.jpg") no-repeat 0px 0px;
+	background-size:cover;
+	min-height:774px;  
+}
+
+.header-top {
+	margin-top: 5em;
+}
+.logo{
+	float:left;
+	margin-left:25em;
+}
+.header-menu{
+	float:right;
+}
+.top-menu {
+	text-align: right;
+}
+.top-menu ul li{
+	display: inline-block;
+}
+.top-menu ul li a{
+	font-size:1.5em;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-weight: 700;
+	margin: 0 0.5em;
+}
+.top-menu ul li a:hover{
+	color:#fff;
+	border-top: 3px solid #fff;
+}
+
+.social-icons ul li  {
+	display: inline-block;
+	
+	vertical-align: middle;
+}
+
+li.facebook {
+	width: 33.3%;
+	float: left;
+}
+li.twitter {
+	width: 33.3%;
+	float: left;
+}
+li.google {
+	float: left;
+	width: 25.3%;
+}
+.header-info h1 {
+	font-size: 7em;
+	text-transform: capitalize;
+	font-weight: 700;
+	color: #fff;
+}
+.header-info h2 {
+	font-size: 4.6em;
+	font-weight: 400;
+	color: #fff;
+}
+.header-info {
+	margin-top: 18em;
+}
+.button {
+	padding: 2em 0;
+}
+.button img:hover {
+	opacity: 0.5;
+}
+.button1 img:hover {
+	opacity: 0.5;
+
+}
+.button2 img:hover {
+	opacity: 0.5;
+}
+.button3 img:hover {
+	opacity: 0.5;
+}
+.button4 img:hover {
+	opacity: 0.5;
+}
+.button5 img:hover {
+	opacity: 0.5;
+}
+
+.feature-section{
+	background:#3498db;
+	padding: 3em 0;
+	text-align: right;
+	
+}
+.feature-left {
+	margin-top: 6em;
+}
+.main-grid {
+	padding: 0em 8em 0em 0em;
+}
+.main-grid h3 {
+	font-size: 3em;
+	text-transform: capitalize;
+	color: #fff;
+	font-weight: 600;
+}
+.chat-grid {
+	padding: 2em 0;
+}
+.copyrights{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
+
+.chat {
+	float: left;
+	width: 80%;
+	margin-right: 1%
+}
+.chat-icon {
+	float: right;
+	width: 19%;
+}
+.chat h3 {
+	font-size: 3em;
+	text-transform: capitalize;
+	color: #fff;
+	font-weight: 600;
+}
+.chat p {
+	font-size: 1.37em;
+	color: #fff;
+	font-weight: 500;
+}
+.add-grid {
+	padding: 2em 0;
+}
+.addgroup {
+	float: left;
+	width: 80%;
+	margin-right: 1%
+}
+.add-icon {
+	float: right;
+	width: 19%;
+}
+.addgroup h3 {
+	font-size: 3em;
+	text-transform: capitalize;
+	color: #fff;
+	font-weight: 600;
+}
+
+.addgroup p {
+	font-size: 1.37em;
+	color: #fff;
+	font-weight: 500;
+}
+.discover-section {
+	padding: 5em 0;
+}
+
+.discover-right {
+	margin-top: 12em;
+}
+.discover-right h3 {
+	font-size: 4em;
+	font-weight: 700;
+	color: #3498db;
+}
+.discover-right p {
+	font-size: 1.3em;
+	font-weight: 600;
+	color: #3498db;
+	line-height: 1.4em;
+	margin-top: 3em;
+}
+.fion-section{
+	background:url("../images/banner1.jpg") no-repeat;
+	background-size: cover;
+	min-height: 1445px;
+	padding-top: 12em;
+}
+.fion-left {
+	text-align: right;
+}
+.fion-right {
+	margin-top: 7em;
+	padding: 0 0 0 3em;
+}
+.fion-grid span {
+	color: #3498db;
+}
+.fion-grid h4 {
+	font-size: 4em;
+	font-weight: 700;
+	color: #fff;
+	text-transform:capitalize;
+	letter-spacing: 3px;
+}
+.fion-grid p {
+	font-size: 1.2em;
+	font-weight: 600;
+	color: #fff;
+	line-height: 1.8em;
+	margin-top: 3em;
+}
+.fion-grid1 p {
+	font-size: 1.2em;
+	font-weight: 600;
+	color: #fff;
+	line-height: 1.5em;
+	margin-top: 6em;
+}
+.button4 {
+	padding: 2em 0;
+}
+.lets-section{
+	background: #3498db;
+	text-align: center;
+	padding: 5em 0;
+}
+.button2 {
+	float: left;
+	margin: 1em 2em 0 12em;
+	
+}
+.button3 {
+	float: left;
+	margin-top: 1em;
+	
+}
+.lets-top {
+	width: 64%;
+	margin: 0 auto;
+	border-bottom: 1px solid #fff;
+	padding-bottom: 3em;
+}
+.lets-top h4{
+	font-size: 4.5em;
+	color: #fff;
+	font-weight: 600;
+	margin-bottom:1em;
+}
+.lets-bottom{
+	margin-top: 4em;
+}
+.lets-bottom h4{
+	font-size: 2.5em;
+	color: #fff;
+	font-weight: 600;
+	margin-bottom:1em;
+}
+.lets-bottom p {
+	font-size: 1.3em;
+	color: #fff;
+	font-weight: 500;
+	margin-bottom: 4em;
+}
+.social-icons1 ul li {
+	display: inline-block;
+	vertical-align: middle;
+}
+li.facebook1 {
+	
+}
+li.twitter1 {
+	width: 11%;
+	
+	padding: 3px 0 0 25px;
+
+}
+li.google1 {
+	
+}
+.footer-section{
+	background: #000;
+	padding:3em 0;
+}
+.footer-logo {
+	text-align: center;
+}
+.footer-bottom {
+	text-align: center;
+	padding-top: 2em;
+}
+.footer-bottom p {
+	font-weight: 400;
+	font-size: 1.2em;
+	color: #ffffff;
+	font-family: sans-serif;
+}
+.footer-bottom a {
+	font-size: 19px;
+	color: #f0c514;
+	font-weight: 400;
+	text-transform: capitalize;
+}
+.footer-bottom a:hover {
+	color: #d5d6d7;
+}
+.footer-bottom p a {
+	margin: 0 6px 0 6px;
+}
+/***start blog***/
+.header.head-top {
+	min-height: 185px;
+}
+.header-headright {
+	margin-left: 29em;
+}
+.Error-found {
+	padding-top: 3.5em;
+	
+}
+.error-page {
+	margin-top: 6em;
+	min-height:550px;
+}
+.error-page h3 {
+	font-weight: 500;
+	text-transform: uppercase;
+	color:#000;
+	margin: 0;
+	padding: 0 0 0em 0;
+	font-family: 'Rye', cursive;
+	font-size: 16em;
+}
+.error-page h3 span {
+	color: #E16C5B;
+}
+.error-page p{
+	font-weight:100;
+	font-size:2.5em;
+	color: #666;
+	
+	margin-top:0.6em;
+}
+a.home-btn:hover {
+	border-color: #c1061b;
+	color: #000;
+}
+a.button.curl-bottom-right.two{
+	padding: 1em 1em;
+	width: 15%;
+	font-size: 1.2em;
+	font-weight: 500;
+	
+	border: none;
+}
+/* Curl Bottom Right */
+.curl-bottom-right {
+  display: inline-block;
+  position: relative;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  background:#10d5e3;
+  padding: 0.7em 1.8em;
+  color: #FFF;
+	font-size: 1em;
+	width: 25%;
+	font-weight:400;
+	text-transform: uppercase;
+	text-decoration:none;
+	margin-top: 1em;
+}
+a.button.curl-bottom-right{
+	text-decoration: none;
+}
+a.button.curl-bottom-right:hover{
+	color:#000;
+}
+.curl-bottom-right:before {
+  pointer-events: none;
+  position: absolute;
+  content: '';
+  height: 0;
+  width: 0;
+  bottom: 0;
+  right: 0;
+  background:#10d5e3;
+  /* IE9 */
+  background: linear-gradient(315deg,#fff 45%, #10d5e3 50%, #10d5e3 56%,#10d5e3 80%);
+  box-shadow: -1px -1px 1px rgba(0, 0, 0, 0.4);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: width, height;
+  transition-property: width, height;
+  text-decoration: none;
+}
+.curl-bottom-right:hover:before, .curl-bottom-right:focus:before, .curl-bottom-right:active:before {
+  width: 25px;
+  height: 25px;
+}
+/*--------error-page-ends-
+/***End blog***/
+#toTop {
+	display: none;
+	text-decoration: none;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	overflow: hidden;
+	width: 48px;
+	height: 48px;
+	border: none;
+	text-indent: 100%;
+	background: url("../images/to-top2.png") no-repeat 0px 0px;
+}
+	/*-- responsive-mediaquries --*/
+	@media(max-width:1366px){
+		.header {
+			min-height: 671px;
+		}
+		.header-left img {
+			width: 60%;
+		}
+		.header-info {
+			margin-top: 11em;
+		}
+		.fion-section {
+			min-height: 1235px;
+		
+		}
+		.fion-left img {
+			width: 60%;
+		}
+		.fion-right {
+			margin-top: 4em;
+		}
+		.fion-grid p {
+			margin-top: 2em;
+		}
+		.fion-grid1 p {
+			margin-top: 2em;
+		}
+	}
+	@media (max-width: 1280px){
+		.header {
+			min-height: 620px;
+		}
+		.header-info {
+			margin-top: 10em;
+		}
+		.fion-section {
+			min-height: 1140px;
+		}
+	}
+	@media (max-width: 1024px){
+		.header {
+		min-height: 500px;
+		}
+		.header-top {
+			margin-top: 3em;
+		}
+		.header-info {
+			margin-top: 6em;
+		}
+		.header-info h1 {
+			font-size: 5.5em;
+		}
+		.header-info h2 {
+			font-size: 3.8em;
+		}
+		
+		.appstore p {
+			font-size: 0.79em;
+		}
+		.appstore h5 {
+			font-size: 1.17em;
+		}
+		.appstore1 p {
+			font-size: 0.79em;
+		}
+		.appstore1 h5 {
+			font-size: 1.13em;
+		}
+		.feature-left {
+			margin-top: 2em;
+		}
+		.main-grid h3 {
+			font-size: 2em;
+		}
+		.main-grid {
+			padding: 0em 5em 0em 0em;
+		}
+		.chat h3 {
+			font-size: 2em;
+		}
+		.chat p {
+			font-size: 1.2em;
+		}
+		.add-grid {
+			padding: 0em 0;
+		}
+		.addgroup h3 {
+			font-size: 2em;
+		}
+		.addgroup p {
+			font-size: 1.2em;
+		}
+		.feature-right img {
+			width: 87%;
+		}
+		.discover-right {
+			margin-top: 10em;
+		}
+		.discover-right h3 {
+			font-size: 2.99em;
+		}
+		.discover-right p {
+			font-size: 1.1em;
+		}
+		.fion-section {
+			min-height: 920px;
+			padding-top: 8em;
+		}
+		.fion-left img {
+			width: 55%;
+		}
+		.fion-grid h4 {
+			font-size: 3.5em;
+		}
+		.fion-grid p {
+			margin-top: 1em;
+			font-size: 1.15em;
+		}
+		.fion-grid1 p {
+			height: 120px;
+			overflow: hidden;
+		}
+		.lets-top {
+			width: 57%;
+		}
+		.lets-section {
+			padding: 2em 0;
+		}
+		.lets-top h4 {
+			font-size: 3em;
+			margin-bottom: 0.8em;
+		}
+		.button2 {
+			float: left;
+			margin: 1em 2em 0 7em;
+		}
+		.lets-bottom {
+			margin-top: 3em;
+		}
+		.lets-bottom h4 {
+			font-size: 2em;
+		}
+		.lets-bottom p {
+			font-size: 1.2em;
+			margin-bottom: 3em;
+		}
+		li.twitter1 {
+			width: 12%;
+			padding: 3px 0 0 18px;
+		}
+		.header-headright {
+			margin-left: 18em;
+		}
+		.header.head-top {
+			min-height: 160px;
+		}
+		a.button.curl-bottom-right.two {
+			font-size: 1.05em;
+			
+		}
+	}
+	
+@media (max-width: 800px){
+		.header {
+			min-height: 360px;
+		}
+		.logo img {
+			width: 75%;
+		}
+		.logo {
+			float: left;
+			margin-left: 12em;
+		}
+		.top-menu ul li a {
+			font-size: 1.3em;
+		}
+		.header-left  {
+			width: 30%;
+			float:left;
+		}
+		.header-right  {
+			width: 70%;
+			float:left;
+		}
+		.header-info {
+			margin-top: 2.5em;
+		}
+		.header-info h1 {
+			font-size: 3.5em;
+		}
+		.header-info h2 {
+			font-size: 2.8em;
+		}
+		.button {
+			padding: 1em 0;
+		}
+		.feature-left {
+			margin-top: 2em;
+			float: left;
+			width: 49%;
+			margin-right: 1%;
+		}
+		.feature-right {
+			float: left;
+			width: 50%;
+		}
+		.feature-right img {
+			width: 97%;
+		}
+		.main-grid img {
+			width: 25%;
+		}
+		.main-grid h3 {
+			font-size: 1.5em;
+		}
+		.main-grid {
+			padding: 0em 4em 0em 0em;
+		}
+		.chat h3 {
+			font-size: 1.5em;
+		}
+		.chat p {
+			font-size: 1.2em;
+			height: 90px;
+			overflow: hidden;
+		}
+		.addgroup h3 {
+			font-size: 1.5em;
+		}
+		.addgroup p {
+			font-size: 1.2em;
+			height: 90px;
+			overflow: hidden;
+		}
+		
+		.chat-icon img {
+			width: 90%;
+		}
+		.add-icon img {
+			width: 90%;
+		}
+		.discover-left {
+			float: left;
+			width: 35%;
+		}
+		.discover-right {
+			float: left;
+			width: 65%;
+			margin-top: 7em;
+		}
+		.discover-right h3 {
+			font-size: 2.2em;
+		}
+		.discover-right p {
+			font-size: 1.1em;
+			height: 150px;
+			overflow: hidden;
+		}
+		.fion-left {
+			text-align: right;
+			float: left;
+			width: 60%;
+		}
+		.fion-right {
+			margin-top: 4em;
+			width: 40%;
+			float: left;
+		}
+		.fion-section {
+			min-height: 700px;
+		}
+		.fion-grid h3{
+			font-size:3em;
+		}
+		.fion-grid p {
+			margin-top: 1em;
+			font-size: 1em;
+			line-height: 1.5em;
+			height: 63px;
+			overflow: hidden;
+		}
+		.fion-grid1 p {
+			height: 102px;
+			overflow: hidden;
+			font-size: 1em;
+		}
+		.button4 {
+			padding: 1em 0;
+		}
+		.lets-section {
+			padding: 1em 0;
+		}
+		.lets-top {
+			width: 50%;
+			padding: 2em 0;
+		}
+		.lets-top h4 {
+			font-size: 2em;
+		}
+		.button2 {
+			float: left;
+			margin: 1em 2em 0 1em;
+		}
+		.lets-bottom {
+			margin-top: 2em;
+		}
+		.lets-bottom h4 {
+			font-size: 1.5em;
+		}
+		.lets-bottom p {
+			font-size: 1em;
+			margin-bottom: 2em;
+		}
+		li.twitter1 {
+			width: 15%;
+			padding: 3px 0 0 18px;
+		}
+		.header-headright {
+			margin-left: 12em;
+		}
+		.header.head-top {
+			min-height: 140px;
+		}
+		.error-page {
+			margin-top: 3em;
+			
+		}
+		.error-page p {
+			font-weight: 100;
+			font-size: 2em;
+		}
+		a.button.curl-bottom-right.two {
+			padding: 1em 1em;
+			width: 22%;
+		}
+
+		}
+@media (max-width: 640px){
+		.header {
+			min-height: 300px;
+		}
+		.logo {
+			float: left;
+			margin-left: 10em;
+		}
+		.logo img {
+			
+		}
+		.header-left img {
+			width: 75%;
+		}
+		.top-menu ul li a {
+			font-size: 1.2em;
+		}
+		.header-info {
+			margin-top: 5em;
+		}
+		.header-info h1 {
+			font-size: 2em;
+		}
+		.header-info h2 {
+			font-size: 1.5em;
+		}
+		.button img {
+			width: 30%;
+		}
+		.button1 img {
+			width: 30%;
+		}
+		.feature-left {
+			margin-top: 1em;
+		}
+		.main-grid img {
+			width: 20%;
+		}
+		.main-grid h3 {
+			font-size: 1.3em;
+		}
+		.chat h3 {
+			font-size: 1.3em;
+		}
+		.chat p {
+			font-size: 1em;
+			height: 77px;
+			overflow: hidden;
+		}
+		.addgroup h3 {
+			font-size: 1.3em;
+		}
+		.addgroup p {
+			font-size: 1em;
+			height: 77px;
+			overflow: hidden;
+		}
+		.discover-left {
+			padding: 0;
+		}
+		.discover-right h3 {
+			font-size: 1.5em;
+		}
+		.discover-right p {
+			font-size: 1em;
+			height: 115px;
+			overflow: hidden;
+		}
+		.fion-section {
+			min-height: 550px;
+			padding-top: 5em
+		}
+		.fion-grid h4 {
+			font-size: 2.5em;
+		}
+		.fion-grid p {
+			margin-top: 1em;
+			font-size: 1em;
+			line-height: 1.5em;
+			height: 46px;
+			overflow: hidden;
+		}
+		.fion-grid1 p {
+			height: 66px;
+			overflow: hidden;
+			font-size: 1em;
+		}
+		.fion-right {
+			margin-top: 3em;
+			width: 40%;
+			float: left;
+			padding: 0;
+		}
+		.button4 img {
+			width: 50%;
+		}
+		.button5 img {
+			width: 50%;
+		}
+		
+		.lets-top {
+			width: 47%;
+			padding: 2em 0;
+		}
+		.lets-top h4 {
+			font-size: 1.6em;
+		}
+		.button2 {
+			float: left;
+			margin: 1em 0em 0 0em;
+		}
+		.button2 img {
+			width: 90%;
+		}
+		.button3 img {
+			width: 90%;
+		}
+		.lets-bottom h4 {
+			font-size: 1.3em;
+		}
+		li.twitter1 {
+			width: 18%;
+			padding: 3px 0 0 15px;
+		}
+		
+		.footer-logo img {
+			width: 15%;
+		}
+		.footer-bottom p {
+			font-weight: 400;
+			font-size: 1em;
+		}
+		.footer-bottom a {
+			font-size: 16px;
+		}
+		a.button.curl-bottom-right.two {
+			padding: 1em 1em;
+			width: 33%;
+		}
+		.header.head-top {
+			min-height: 125px;
+		}
+		.error-page {
+			margin-top: 2.5em;
+			min-height: 520px;
+		}
+	}
+@media (max-width: 480px){
+		.header {
+			background: url("../images/banner.jpg") no-repeat -61px 0px;
+			background-size: cover;
+			min-height: 321px;
+		}
+		.button img {
+			width: 46%;
+		}
+		.button1 img {
+			width: 46%;
+		}
+		.header-top {
+			margin-top: 1em;
+		}
+		
+		.header-info {
+			margin-top: 2em;
+		}
+		.feature-left {
+			margin-top: 1em;
+		}
+		.main-grid {
+			padding: 0em 2em 0em 0em;
+		}
+		.main-grid h3 {
+			font-size: 1.1em;
+		}
+		.chat h3 {
+			font-size: 1.1em;
+		}
+		.chat p {
+			font-size: 0.9em;
+			height: 38px;
+		}
+		.addgroup h3 {
+			font-size: 1.1em;
+		}
+		.addgroup p {
+			font-size: 0.9em;
+			height: 38px;
+		}
+		.feature-right img {
+			width: 100%;
+		}
+		.discover-section {
+			padding: 3em 0;
+		}
+		.discover-right {
+			margin-top: 4em;
+		}
+		.discover-right h3 {
+			font-size: 1.3em;
+		}
+		.discover-right p {
+			font-size: 0.9em;
+			height: 88px;
+		}
+		.fion-section {
+			min-height: 420px;
+		}
+		.fion-left img {
+			width: 60%;
+		}
+		.fion-grid h4 {
+			font-size: 2em;
+		}
+		.fion-grid1 p {
+			margin-top: 1em;
+		}
+		.fion-right {
+			margin-top: 2em;
+		}
+		.button4 img {
+			width: 70%;
+		}
+		.button5 img {
+			width: 70%;
+		}
+		.lets-top {
+			width: 69%;
+			padding: 1em 0;
+		}
+		.lets-top h4 {
+			font-size: 1.2em;
+		}
+		.lets-bottom h4 {
+			font-size: 1.1em;
+		}
+		li.twitter1 {
+			width: 24%;
+			padding: 3px 0 0 15px;
+		}
+		.lets-bottom p {
+			font-size: 0.9em;
+			margin-bottom: 1em;
+			height: 20px;
+			overflow: hidden;
+		}
+		.button2 img {
+			width: 80%;
+		}
+			.button3 img {
+			width: 80%;
+		}
+		.footer-logo img {
+			width: 13%;
+		}
+		.footer-section {
+			background: #000;
+			padding: 2em 0;
+		}
+		.footer-bottom {
+			text-align: center;
+			padding-top: 1em;
+		}
+		.header.head-top{
+			background: url("../images/banner.jpg") no-repeat 0px 0px;
+			background-size:cover;
+		}
+		.error-page {
+			margin-top: 2.5em;
+			min-height: 400px;
+		}
+		.error-page h3 {
+			font-size: 12em;
+		}
+		.error-page p {
+			font-size: 1.5em;
+		}
+		a.button.curl-bottom-right.two {
+			font-size: 1em;
+		}
+}
+@media (max-width: 320px){
+		.header {
+			background: url("../images/banner.jpg") no-repeat -544px 0px;
+			background-size: cover;
+			min-height: 377px;
+		}
+		.logo {
+			float: none;
+			margin-left: 0;
+		}
+		.logo img {
+			width: 40%;
+			margin: 0px 0px 0 50px;
+		}
+		.top-menu ul li a {
+			font-size: 1.1em;
+		}
+		.top-menu {
+			text-align: right;
+			margin-top: 1em;
+			margin-bottom: 8px;
+		}
+		.top-menu ul li {
+			display: inline-block;
+		}
+		.header-left {
+			width: 100%;
+			float: none;
+		}
+		.header-left img {
+			width: 38%;
+			margin: 1em auto 0 auto;
+		}
+		.header-right {
+			width: 100%;
+			float: none;
+			text-align: center;
+		}
+		.header-right {
+			margin-bottom: 2em;
+		}
+		.header-info h1 {
+			font-size: 1.5em;
+		}
+		.header-info h2 {
+			font-size: 1.3em;
+		}
+		.button img {
+			width: 50%;
+		}
+		.button1 img {
+			width: 50%;
+		}
+		.feature-section {
+			background: #3498db;
+			padding: 1em 0;
+		}
+		.feature-left {
+			float: none;
+			width: 100%;
+			text-align: center;
+		}
+		.feature-right {
+	
+			display: none;
+		}
+		.discover-left {
+			float: none;
+			width: 100%;
+		}
+		.discover-left img {
+			padding: 0 50px;
+			width: 100%;
+		}
+		.discover-right {
+			margin-top: 2em;
+			float: none;
+			width: 100%;
+			padding:0;
+		}
+		.discover-right h3 {
+			font-size: 1.1em;
+		}
+		.discover-right p {
+			margin-top: 1em;
+		}
+		.discover-right p {
+			margin-top: 0.9em;
+		}
+		.fion-left {
+			text-align: center;
+			width: 100%;
+			padding: 0;
+		}
+		.fion-right {
+			margin-top: 3em;
+			width: 100%;
+			float: none;
+			text-align:center;
+		}
+		.button4 img {
+			width: 50%;
+		}
+		.button5 img {
+			width: 50%;
+		}
+		.button5 {
+			margin-bottom: 2em;
+		}
+		.lets-top {
+			width: 100%;
+		}
+		.lets-top h4 {
+			font-size: 1.1em;
+		}
+		.button2 img {
+			width: 95%;
+		}
+		.button3 img {
+			width: 95%;
+		}
+		.lets-bottom {
+			margin-top: 1em;
+		}
+		.lets-bottom h4 {
+			font-size: 1em;
+		}
+		.lets-bottom p {
+			font-size: 0.8em;
+			margin-bottom: 0.5em;
+			height: 18px;
+			overflow: hidden;
+		}
+		li.twitter1 {
+			width: 35%;
+			padding: 3px 0 0 10px;
+		}
+		.footer-logo img {
+			width: 25%;
+		}
+		.header.head-top {
+			background: url("../images/banner.jpg") no-repeat 0px 0px;
+			background-size: cover;
+			min-height: 165px;
+		}
+		.error-page{
+			margin-top: 6.5em;
+			min-height: 293px;
+		}
+		.error-page h3 {
+			font-size: 5em;
+		}
+		.error-page {
+			margin-top: 6em;
+			min-height: 300px;
+		}
+		a.button.curl-bottom-right.two {
+			padding: 0.8em 0.5em;
+			width: 45%;
+			font-size:0.875em;
+		}
+		.error-page p {
+			font-size: 1em;
+		}	
+	}

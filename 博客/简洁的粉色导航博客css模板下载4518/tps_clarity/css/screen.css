@@ -1,0 +1,129 @@
+/* reset */
+* {margin: 0;outline: 0;padding: 0}
+body, div, span, p, a, img, ul, ol, li, table, th, tr, td, form, fieldset, legend, dl, dt, dd, blockquote, applet, object {border: 0}
+ul{list-style-type:none}
+body {background: url('../img/bg.png') repeat-x;padding-bottom: 30px;color: #40405d;font: normal 12px Arial,sans-serif;position: relative}
+p {font-size: 1.0em;line-height: 1.9em;margin-bottom: 20px}
+p.high {background: #fff0c7;border-left: 1px solid #b87900;padding: 15px}
+address {font-style: normal;padding-bottom: 15px}
+
+/* links */
+a {color: #e31667;text-decoration: underline}
+a:link {color: #e31667}
+a:focus {color: #e31667;outline: 0}
+a:visited {color: #53045c}
+a:hover {color: #000;text-decoration: none}
+
+
+/* titles */
+h1, h2, h3, h4, h5, h6 {margin: 0 0 15px 0;font-weight: normal;font-family: "Times New Romas";color: #262626}
+h1 {font-size: 2.3em;background: url('../img/dotted.gif') repeat-x bottom;padding-bottom: 10px}
+h2 {font-size: 1.8em}
+h3 {font-size: 1.6em}
+h4 {font-size: 1.2em}
+
+
+/* #header */
+#header {position: absolute;top: 0;left: 0;height: 170px;width: 100%}
+
+/* #logo */
+#header a#logo {display: block;height: 33px;color: #fff;font-weight: bold;text-decoration: none;font-size: 28px;left: 0;position: absolute;left: 20px;top: 35px;width: 385px}
+#header a#logo span {background: url('../img/logo.png') no-repeat;position: absolute;cursor: pointer;top: 0;left: 0;width: 100%;height: 100%}
+/* #link */
+#header p#links {position: absolute;right: 0;top: 35px;padding-right: 20px}
+#header p#links a {display: block;color: #6a6a6a;font-size: 11px;text-decoration: none;float: left;height: 25px;line-height: 25px}
+#header p#links a.active {text-decoration: underline}
+#header p#links span {background: url('../img/links-sep.gif') no-repeat 50% 50%;display: block;float: left;width: 16px;height: 25px;line-height: 25px}
+/* #navigation */
+#header #navigation {background: #d00852 url('../img/nav-bg.png') repeat-x;width: 100%;height: 44px;left: 0;top: 96px;position: absolute;z-index: 5}
+#header #navigation li {float: left;height: 44px;padding: 0}
+#header #navigation li a {display: block;float: left;text-decoration: none;height: 44px;line-height: 44px;padding: 0 15px 0 15px;color: #fff;font-weight: bold;text-transform: uppercase;font-size: 1.0em}
+#header #navigation li.active a,
+#header #navigation li a:hover {background: url('../img/nav-active.png') no-repeat 50% 100%;}
+/* #search */
+#header #search {position: absolute;right: 20px;top: 103px;width: 230px;z-index: 100}
+#header #search .text {border: 0;padding: 7px 20px;width: 155px;height: 16px;font-family: "Times New Roman"; font-size: 14px;font-weight: bold;color: #bfbfbf;font-style: italic;background: url('../img/search-input.png') no-repeat;float: left}
+#header #search .submit {float: right}
+
+/* #container */
+#container {border-left: 1px solid #e3e3e3;border-right: 1px solid #e3e3e3}
+
+/* #content */
+#content {}
+#content .title {display: block;margin-bottom: 15px;font-size: 1.2em}
+#content .gallery img {float: left;margin-left: 15px} 
+/* #breadcrumb */
+#breadcrumb {padding: 20px 20px 0;margin: 0;font-size: 11px}
+#breadcrumb a {padding-right: 11px;color: #8e8e8e;background: url('../img/breadcrumb-arrow.png') no-repeat 100% 50%;margin-right: 3px}
+#breadcrumb span {padding: 0;margin: 0;color: #8e8e8e;background: none}
+
+/* #sidebar */
+#sidebar h3 {padding: 0 20px}
+#sidebar .box {background: url('../img/sidebar-bg.png') repeat-y}
+#sidebar .boxTop {background: url('../img/sidebar-top.png') no-repeat;height: 16px}
+#sidebar .boxBtm {background: url('../img/sidebar-btm.png') no-repeat;height: 16px}
+#sidebar .box .inner {padding: 10px 0}
+#sidebar ul {padding: 0;margin: 0;border-top: 1px solid #ffffff;border-bottom: 1px solid #e4e4e4}
+#sidebar ul li {padding: 13px 20px;margin: 0;border-top: 1px solid #e4e4e4;border-bottom: 1px solid #ffffff} 
+#sidebar ul li a {color: #584040}
+/* tables */
+table {border-collapse: collapse;width: 100%}
+table th {border: 1px solid #bfbfbf;font-weight: normal;text-align:left;background: #d9d9d9;padding: 7px}
+table td {border: 1px solid #bfbfbf;padding: 7px}
+
+/* ul, ol */
+#content ul {line-height: 1.5em;margin-bottom: 20px;padding-left: 20px;}
+#content ul li {padding: 0 0 0 20px;background: url('../img/li.png') no-repeat 0 6px;margin-bottom: 3px;}
+#content ul li ul {padding: 10px 0 20px;margin-bottom: 0px}
+#content ul li ul li {padding: 0 0 0 25px;}  
+#content ol {line-height: 1.5em;padding: 0;list-style: none;font-size: 15px;font-weight: normal;color: #000;margin-bottom: 20px}
+#content ol li {margin-bottom: 10px}
+#content ol li ul {padding: 10px 0 20px;margin-bottom: 0px}
+
+/* #footer */
+#footer {background: #f2f2f2;color: #000;margin: 0;border: 1px solid #e3e3e3;border-top: 0;}
+#footer p {margin-bottom: 0;padding: 10px 20px;color: #a6a6a6;font-size: 11px}
+#footer p a {color: #a6a6a6}
+
+/* other */
+hr {display: none} 
+.fontSize2 {font-size: 14px}
+.fontSize3 {font-size: 16px}
+.fontSize4 {font-size: 18px}
+.high {color: #009577}
+.inner {padding: 20px}
+.clear {clear: both;display: block;height: 0;line-height: 0;font-size: 0;width: 100%}
+.noscreen {display: none}
+.floatLeft {float: left}
+.floatRight {float: right}
+.bold {font-weight: bold}
+.small {font-size: 0.9em}
+.large {font-size: 1.2em}
+.italic {font-style: italic}
+.block {display: block}
+.inlineBlock {display: inline-block}
+.inline {display: inline}
+.alignRight {text-align: right}
+.alignCenter {text-align: center !important}
+.verticalTop {vertical-align: top}
+.verticalBtm {vertical-align: bottom}
+.relative {position: relative}
+.noborder {border: 0}
+form .checkbox {float: left;top: 4px;z-index: 0;margin-right: 40px}
+form .checkbox.clearfix {float: none !important;margin-bottom: 8px}
+form .checkbox input {float: left;margin-right: 5px;margin-top:-2px;width: 20px;height: 20px}
+form .checkbox label {float: left;font-weight: normal;}
+img.floatLeft {margin-right: 15px}
+img.floatRight {margin-left: 15px}
+/* cols */
+.w980 {width: 980px;padding-top: 140px;margin: 0 auto;position: relative}
+.w670 {width: 670px}
+.w270 {width: 270px}
+
+.wrapper {width: 100%;position: relative;top: 0;left: 0}
+/* clearfix */
+.clearfix:after {content: ".";display: block;height: 0;clear: both;visibility: hidden}
+.clearfix {display: inline-block}
+/* hidden for ie mac \*/
+* html .clearfix {height: 1%}
+.clearfix {display: block}

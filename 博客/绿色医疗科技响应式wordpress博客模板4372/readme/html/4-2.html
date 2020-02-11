@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Home - Green Deomo README Document</title>
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/style.css">
+<script src="../js/jquery-2.1.1.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/javascript.js"></script>
+</head>
+
+<body>
+<h2>已有功能和方法</h2>
+<p>主题中已经包含了下面这些功能，你不需要再另外开发，只需要调用即可。</p>
+<hr>
+
+<h3>翻页导航</h3>
+<p>只需要在要显示翻页导航的loop结束wp_reset_posts()前面使用<code>the_pagenavi();</code>即可，当然，样式要你自己去调整。源码在includes/function-the_pagenavi.php中。</p>
+<hr>
+
+<h3>面包屑导航</h3>
+<p>只需要在显示当前位置的地方使用函数<code>the_place('首页');</code>即可，有一个参数，即“首页”链接内的文字是什么，默认情况下显示的是网站的名称。源码在includes/function-the_place.php中</p>
+<hr>
+
+<h3>获取文章缩略图，或以文章第一张图片作为缩略图</h3>
+<p>源码在includes/function-the_post_thumb.php中，获取文章的特色图片，如果不存在特色图片，则抓取文章第一张图片，如果文章不存在图片，就返回空。里面共有四个函数：</p>
+<pre>get_post_thumb_src($size = 'post-thumbnail',$default = false):获取缩略图的src地址
+the_post_thumb_src($size = 'post-thumbnail',$default = false)：显示缩略图的地址
+get_post_thumb($size = 'post-thumbnail',$default = false,$alt = false,$width = false,$height = false,$attrs = false)：获取缩略图的HTML代码
+the_post_thumb($size = 'post-thumbnail',$default = false,$alt = false,$width = false,$height = false,$attrs = false)：显示图片</pre>
+
+<h3>用户信息meta扩展</h3>
+<p>你可以增加用户在后台个人资料编辑中要填写的资料信息，打开inlcudes/user-metas.php，在你所看到的地方照葫芦画瓢，增加用户的信息就可以了。</p>
+<hr>
+
+<h3>把后台登陆界面的LOGO和链接更换为自己的</h3>
+<p>在主题目录images中放一个logo.png，即可替换这个LOGO。</p>
+<hr>
+
+<h3>文章被访问量统计</h3>
+<p>使用<code>get_view_count($post_id = false)</code>来获取该文章的被访问量，<code>the_view_count($post_id = '')</code>则是直接显示其数字。源码在includes/wp-post-view-count.php中。</p>
+<hr>
+
+<h3>获取后台admin options的设置值</h3>
+<p>使用<code>get_admin_options($key = false)</code>来获取某一个已知的设置值，在主题中直接声明global $admin_options;也可以。</p>
+<pre>$mode = get_admin_options('mode');// 即可获得当前的撰稿模式
+或者
+global $admin_options;
+$mode = $admin_options['mode'];
+</pre>
+<p>使用<code>update_admin_options($key,$value);</code>来更新某值。</p>
+<pre>update_admin_options('mode',3);</pre>
+<p>使用<code>array_admin_options($options = array());</code>来数组化后台的社交媒体类的设置。</p>
+<pre>global $admin_options;
+$socials = array_admin_options($admin_options['social']);
+$QQ = $socials['QQ'];</pre>
+
+<h3>获取admin options的配置信息</h3>
+<p>使用<code>global $admin_options_config;</code>来获取。</p>
+
+
+<p class="btn-area text-center"><a href="javascript:next()" class="btn btn-success btn-lg">下一节</a></p>
+</body>
+</html>

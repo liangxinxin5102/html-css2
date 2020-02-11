@@ -1,0 +1,4 @@
+    html body #header {background-image:url("../../img/light.png"), url("../../img/light.png"), url("../../img/bg/background6.jpg")}
+    html body #footer {background:url("../../img/bg/background6.jpg") repeat scroll left top transparent}
+    html body .form-style-1 {background:url("../../img/bg/background6.jpg") repeat scroll left top transparent}
+	html body .form-style-1 {background-color:none;}

@@ -1,0 +1,239 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- BEGIN html -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<!-- BEGIN head -->
+	<head>
+		<title>Downloaded from www.cssmoban.com</title>
+		<!-- Meta Tags -->
+		
+		<meta name="description" content="" />
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+		<!-- Stylesheets -->
+		<link rel="stylesheet" type="text/css" href="css/reset.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" id="main-style" />
+		<link rel="stylesheet" type="text/css" href="css/demo-tool.css" media="screen" /><!-- Demo-tool is only demo -->
+		<!-- Scripts -->
+		<script type="text/javascript" src="jscript/jquery.js"></script>
+		<script type="text/javascript" src="jscript/jquery-ui.js"></script>
+		<script type="text/javascript" src="jscript/jquery.cookie.js"></script><!-- Cookie is only demo -->
+		<script type="text/javascript" src="jscript/slimScroll.min.js"></script>
+		<script type="text/javascript" src="jscript/doppio.js"></script>
+		<script type="text/javascript">
+		$(function(){
+			$('#sidebar-scroll').slimScroll({
+				height: ($(window).height()-(64*2))+"px",
+				start: $('#starting-article'),
+			});
+		});
+		</script>
+	<!-- END head -->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+	<!-- BEGIN body -->
+	<body>
+
+		<!-- BEGIN .demo-tool -->
+		<div onmouseover="javascript:demoTool(this, true);" onmouseout="javascript:demoTool(this, false);" class="demo-tool">
+			<div class="comelink"></div>
+			
+			<div>Background</div>
+			<a href="#" onclick="javascript:changeBg(this, 'bg.jpg');" id="tool-bg1" class="change-bg" style="background:url(images/bg.jpg);"></a>
+			<a href="#" onclick="javascript:changeBg(this, 'bg-2.png');" id="tool-bg2" class="change-bg" style="background:url(images/bg-2.png);"></a>
+			<a href="#" onclick="javascript:changeBg(this, 'bg-3.png');" id="tool-bg3" class="change-bg" style="background:url(images/bg-3.png);"></a>
+			<a href="#" onclick="javascript:changeBg(this, 'bg-4.png');" id="tool-bg4" class="change-bg" style="background:url(images/bg-4.png);"></a>
+			<div class="split"></div>
+			
+			<div>Color Scheme</div>
+			<a href="#" onclick="javascript:changeColor(this, 'style.css');" id="tool-color1" class="change-color" style="background:#542c79;"></a>
+			<a href="#" onclick="javascript:changeColor(this, 'style-blue.css');" id="tool-color2" class="change-color" style="background:#2e5688;"></a>
+			<a href="#" onclick="javascript:changeColor(this, 'style-brown.css');" id="tool-color3" class="change-color" style="background:#9f4830;"></a>
+			<a href="#" onclick="javascript:changeColor(this, 'style-green.css');" id="tool-color4" class="change-color" style="background:#679f30;"></a>
+		
+			<script type="text/javascript">
+			/* for demo-tool */
+			if($.cookie("css")) {
+				if($.cookie("css") == "css/style.css")
+					document.getElementById('tool-color1').className = "change-color active";
+				else if($.cookie("css") == "css/style-blue.css")
+					document.getElementById('tool-color2').className = "change-color active";
+				else if($.cookie("css") == "css/style-brown.css")
+					document.getElementById('tool-color3').className = "change-color active";
+				else if($.cookie("css") == "css/style-green.css")
+					document.getElementById('tool-color4').className = "change-color active";
+			}
+			
+			if($.cookie("bgimg")) {
+				if($.cookie("bgimg") == "images/bg.jpg")
+					document.getElementById('tool-bg1').className = "change-bg active";
+				else if($.cookie("bgimg") == "images/bg-2.png")
+					document.getElementById('tool-bg2').className = "change-bg active";
+				else if($.cookie("bgimg") == "images/bg-3.png")
+					document.getElementById('tool-bg3').className = "change-bg active";
+				else if($.cookie("bgimg") == "images/bg-4.png")
+					document.getElementById('tool-bg4').className = "change-bg active";
+			}
+			</script>
+		<!-- END .demo-tool -->
+		</div>
+
+		<!-- BEGIN .wrapper -->
+		<div class="wrapper">
+		
+			<!-- BEGIN .content -->
+			<div class="content">
+			
+				<!-- BEGIN .header -->
+				<div class="header">
+					<a href="index.html"><img class="logo" src="images/logo.png" alt="" title="" /></a>
+					<!--<a href="index.html"><h1 class="logo">Doppio Theme</h1></a>-->
+					<!-- BEGIN .menu -->
+					<ul class="menu">
+						<li><a href="index.html">Homepage</a></li>
+						<li><a href="#"><span>Submenu</span></a>
+							<ul>
+								<li><a href="article.html">Article view</a></li>
+								<li><a href="article-no-comments.html">Article no comments</a></li>
+								<li><a href="#"><span>Photo gallery</span></a>
+									<ul>
+										<li><a href="gallery.html">All galleries</a></li>
+										<li><a href="gallery-view.html">Oppened gallery</a></li>
+									</ul>
+								</li>
+								<li><a href="article-list.html">Article list</a></li>
+							</ul>
+						</li>
+						<li><a href="archive.html">Archive</a></li>
+						<li><a href="contact.html">Contact us</a></li>
+					<!-- END .menu -->
+					</ul>
+					<!-- BEGIN .social-icons -->
+					<div class="social-icons">
+						<a href="#" class="social-facebook"><img src="images/social-facebook.png" alt="" title="" /></a>
+						<a href="#" class="social-twitter"><img src="images/social-twitter.png" alt="" title="" /></a>
+						<a href="#" class="social-rss"><img src="images/social-rss.png" alt="" title="" /></a>
+					<!-- END .social-icons -->
+					</div>
+				<!-- END .header -->
+				</div>
+				
+				<!-- BEGIN .main -->
+				<div class="main">
+					<!-- BEGIN .gallery-front-image -->
+					<div class="gallery-front-image">
+						<img src="images/photos/14.jpg" alt="" title="" />
+						<span class="gallery-image-selector"><span><a href="#" class="next">Next one</a><a href="#" class="previous">Previous</a><b>2</b> of <b>10</b> photos</span></span>
+					<!-- END .gallery-front-image -->
+					</div>
+					<h1>Lorem ipsum dolar sit amet</h1>
+					<p>Nihil impetus ancillae ne eum, nec debet scribentur ut, sea propriae elaboraret cu. Id omnes mucius gloriatur duo, quas iuvaret has cu, everti singulis sit ad. Ex cum alia meliore. Ex sumo suscipiantur vim, illum choro ut has, in sonet postea animal per. Tota meis no has, per iuvaret eleifend ad.</p>
+					<!-- BEGIN .article-gallery.gallery-view -->
+					<div class="article-gallery gallery-view">
+						<ul>
+							<li><a href="gallery-view.html"><img src="images/photos/2.jpg" alt="" title="" /></a></li>
+							<li><a href="gallery-view.html"><img src="images/photos/3.jpg" alt="" title="" /></a></li>
+							<li><a href="gallery-view.html"><img src="images/photos/4.jpg" alt="" title="" /></a></li>
+							<li><a href="gallery-view.html"><img src="images/photos/5.jpg" alt="" title="" /></a></li>
+							<li><a href="gallery-view.html"><img src="images/photos/15.jpg" alt="" title="" /></a></li>
+							<li><a href="gallery-view.html"><img src="images/photos/16.jpg" alt="" title="" /></a></li>
+							<li><a href="gallery-view.html"><img src="images/photos/17.jpg" alt="" title="" /></a></li>
+							<li><a href="gallery-view.html"><img src="images/photos/18.jpg" alt="" title="" /></a></li>
+							<li><a href="gallery-view.html"><img src="images/photos/19.jpg" alt="" title="" /></a></li>
+							<li><a href="gallery-view.html"><img src="images/photos/20.jpg" alt="" title="" /></a></li>
+							<li><a href="gallery.html"><span class="blank"><font>Back to <b>all galleries</b></font></span></a></li>
+						</ul>
+						<div class="clear-float"></div>
+					<!-- END .article-gallery.gallery-view -->
+					</div>
+				<!-- END .main -->
+				</div>
+				
+			<!-- END .content -->
+			</div>
+		
+			<!-- BEGIN .sidebar -->
+			<div class="sidebar">
+				
+				<!-- BEGIN .top -->
+				<div class="top">
+					<div id="side-top">
+						<form action="javascript:getSearchResults();" method="post" />
+							<input id="search-box" type="text" name="search" value="" placeholder="Search something.." />
+							<input type="submit" value="" />
+						</form>
+					</div>
+				<!-- END .top -->
+				</div>
+				
+				<div style="padding:64px 0px;height:100%;">
+					<!-- BEGIN #sidebar-scroll -->
+					<div id="sidebar-scroll">
+						<h2>Featured Articles</h2>
+						<!-- BEGIN .article-list -->
+						<ul class="article-list">
+							<li><a href="article.html"><span class="imagee"><img class="thumbnail" src="images/photos/6.jpg" alt="" title="" /><img class="hover" src="images/px.png" alt="" title="" /></span><span class="title">Lorem ipsum dolor sit amet</span><span class="text">Vis prompta patrioque prodesset in. Melius reprimique et vel, eum</span></a></li>
+							<li><a href="article.html"><span class="imagee"><img class="thumbnail" src="images/photos/7.jpg" alt="" title="" /><img class="hover" src="images/px.png" alt="" title="" /></span><span class="title">Lorem ipsum dolor sit amet</span><span class="text">Vis prompta patrioque prodesset in. Melius reprimique et vel, eum</span></a></li>
+							<li><a href="article.html"><span class="imagee"><img class="thumbnail" src="images/photos/8.jpg" alt="" title="" /><img class="hover" src="images/px.png" alt="" title="" /></span><span class="title">Lorem ipsum dolor sit amet</span><span class="text">Vis prompta patrioque prodesset in. Melius reprimique et vel, eum</span></a></li>
+						<!-- END .article-list -->
+						</ul>
+						<h2>Latest Articles</h2>
+						<!-- BEGIN .article-list -->
+						<ul class="article-list" id="full-article-list">
+							<li><a href="article.html"><span class="imagee"><img class="thumbnail" src="images/photos/6.jpg" alt="" title="" /><img class="hover" src="images/px.png" alt="" title="" /></span><span class="title">Lorem ipsum dolor sit amet</span><span class="text">Vis prompta patrioque prodesset in. Melius reprimique et vel, eum</span></a></li>
+							<li><a href="article.html"><span class="imagee"><img class="thumbnail" src="images/photos/7.jpg" alt="" title="" /><img class="hover" src="images/px.png" alt="" title="" /></span><span class="title">Lorem ipsum dolor sit amet</span><span class="text">Vis prompta patrioque prodesset in. Melius reprimique et vel, eum</span></a></li>
+							<li><a href="article.html"><span class="imagee"><img class="thumbnail" src="images/photos/8.jpg" alt="" title="" /><img class="hover" src="images/px.png" alt="" title="" /></span><span class="title">Lorem ipsum dolor sit amet</span><span class="text">Vis prompta patrioque prodesset in. Melius reprimique et vel, eum</span></a></li>
+							<li><a href="article.html"><span class="imagee"><img class="thumbnail" src="images/photos/9.jpg" alt="" title="" /><img class="hover" src="images/px.png" alt="" title="" /></span><span class="title">Lorem ipsum dolor sit amet</span><span class="text">Vis prompta patrioque prodesset in. Melius reprimique et vel, eum</span></a></li>
+							<li><a href="article.html"><span class="imagee"><img class="thumbnail" src="images/photos/10.jpg" alt="" title="" /><img class="hover" src="images/px.png" alt="" title="" /></span><span class="title">Lorem ipsum dolor sit amet</span><span class="text">Vis prompta patrioque prodesset in. Melius reprimique et vel, eum</span></a></li>
+							<li><a href="article.html"><span class="imagee"><img class="thumbnail" src="images/photos/11.jpg" alt="" title="" /><img class="hover" src="images/px.png" alt="" title="" /></span><span class="title">Lorem ipsum dolor sit amet</span><span class="text">Vis prompta patrioque prodesset in. Melius reprimique et vel, eum</span></a></li>
+							<li><a href="article.html"><span class="imagee"><img class="thumbnail" src="images/photos/12.jpg" alt="" title="" /><img class="hover" src="images/px.png" alt="" title="" /></span><span class="title">Lorem ipsum dolor sit amet</span><span class="text">Vis prompta patrioque prodesset in. Melius reprimique et vel, eum</span></a></li>
+							<li><a href="article.html"><span class="imagee"><img class="thumbnail" src="images/photos/13.jpg" alt="" title="" /><img class="hover" src="images/px.png" alt="" title="" /></span><span class="title">Lorem ipsum dolor sit amet</span><span class="text">Vis prompta patrioque prodesset in. Melius reprimique et vel, eum</span></a></li>
+							<li><a href="article.html"><span class="imagee"><img class="thumbnail" src="images/photos/6.jpg" alt="" title="" /><img class="hover" src="images/px.png" alt="" title="" /></span><span class="title">Lorem ipsum dolor sit amet</span><span class="text">Vis prompta patrioque prodesset in. Melius reprimique et vel, eum</span></a></li>
+							<li><a href="article.html"><span class="imagee"><img class="thumbnail" src="images/photos/7.jpg" alt="" title="" /><img class="hover" src="images/px.png" alt="" title="" /></span><span class="title">Lorem ipsum dolor sit amet</span><span class="text">Vis prompta patrioque prodesset in. Melius reprimique et vel, eum</span></a></li>
+							<li><a href="article.html"><span class="imagee"><img class="thumbnail" src="images/photos/8.jpg" alt="" title="" /><img class="hover" src="images/px.png" alt="" title="" /></span><span class="title">Lorem ipsum dolor sit amet</span><span class="text">Vis prompta patrioque prodesset in. Melius reprimique et vel, eum</span></a></li>
+							<li><a href="article.html"><span class="imagee"><img class="thumbnail" src="images/photos/9.jpg" alt="" title="" /><img class="hover" src="images/px.png" alt="" title="" /></span><span class="title">Lorem ipsum dolor sit amet</span><span class="text">Vis prompta patrioque prodesset in. Melius reprimique et vel, eum</span></a></li>
+							<li><a href="article.html"><span class="imagee"><img class="thumbnail" src="images/photos/10.jpg" alt="" title="" /><img class="hover" src="images/px.png" alt="" title="" /></span><span class="title">Lorem ipsum dolor sit amet</span><span class="text">Vis prompta patrioque prodesset in. Melius reprimique et vel, eum</span></a></li>
+							<li><a href="article.html"><span class="imagee"><img class="thumbnail" src="images/photos/11.jpg" alt="" title="" /><img class="hover" src="images/px.png" alt="" title="" /></span><span class="title">Lorem ipsum dolor sit amet</span><span class="text">Vis prompta patrioque prodesset in. Melius reprimique et vel, eum</span></a></li>
+							<li><a href="article.html"><span class="imagee"><img class="thumbnail" src="images/photos/12.jpg" alt="" title="" /><img class="hover" src="images/px.png" alt="" title="" /></span><span class="title">Lorem ipsum dolor sit amet</span><span class="text">Vis prompta patrioque prodesset in. Melius reprimique et vel, eum</span></a></li>
+							<li><a href="article.html"><span class="imagee"><img class="thumbnail" src="images/photos/13.jpg" alt="" title="" /><img class="hover" src="images/px.png" alt="" title="" /></span><span class="title">Lorem ipsum dolor sit amet</span><span class="text">Vis prompta patrioque prodesset in. Melius reprimique et vel, eum</span></a></li>
+						<!-- END .article-list -->
+						</ul>
+						<a href="javascript:void(0);" onclick="javascript:loadArticles();" class="load-more"><span>Load more</span></a>
+					<!-- END #sidebar-scroll -->
+					</div>
+				</div>
+				
+				<!-- BEGIN .bottom -->
+				<div class="bottom">
+					<div id="side-bottom">
+						<center>
+							<a href="index.html" class="fist-element">Home</a><a href="gallery.html">Gallery</a><a href="archive.html">Archive</a><a href="contact.html">Contacts us</a>
+							<div class="copyright">
+								Copyright 2012 <b>Collect from <a href="http://www.cssmoban.com/" title="网站模板" target="_blank">网站模板</a></b>
+							</div>
+						</center>
+					</div>
+				<!-- END .bottom -->
+				</div>
+				
+			<!-- END .sidebar -->
+			</div>
+		
+		<!-- END .wrapper -->
+		</div>
+
+		<script type="text/javascript">
+		/* for demo-tool */
+		if($.cookie("bgimg")) {
+			var background = $.cookie("bgimg");
+			document.body.style.background = "url("+(background)+") top center";
+			document.getElementById('side-top').style.background = "url("+background+") top center";
+			document.getElementById('side-bottom').style.background = "url("+background+") top center";
+		}
+		</script>
+	<!-- END body -->
+	</body>
+<!-- END html -->
+</html>
+
+

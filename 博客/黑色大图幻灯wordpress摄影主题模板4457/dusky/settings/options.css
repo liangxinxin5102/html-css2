@@ -1,0 +1,80 @@
+#admin {
+	width: 840px;
+	margin-top: 15px; 
+	font-family: Arial,sans-serif;
+	color: #353E34;
+}
+
+#admin .clear{
+	clear:both;
+}
+
+#admin .options-form{
+	background-color: #fff;
+	border-top: none;
+	padding: 15px 20px;
+}
+
+#admin .options-form .field{
+	margin-bottom:10px;
+	overflow:auto;	
+}
+
+#admin .options-form label {
+	font-weight: bold;
+    line-height:2.5;
+    display: inline-block;
+    width:180px;
+    margin-right:10px;
+	text-align:right;	
+}
+	
+#admin .options-form input, #admin .options-form select{
+	border: 1px solid #d5d5d5;
+	color: #444444;   
+    height:34px;
+	font-size:14px;
+    padding:6px 8px;
+    width:330px;
+    display: inline-block;
+    margin-right:10px;		
+}
+	
+
+#admin .options-form .textarea{
+	border:1px solid red;
+	border: 1px solid #d5d5d5;
+	color: #444444;   
+    height:90px;
+	font-size:14px;
+    padding:6px 8px;
+    width:330px;
+    display: inline-block;
+	vertical-align: middle;
+    margin-right:10px;	
+}
+
+#admin .options-form .checkbox{
+	width: 13px;
+    height: 13px;
+    padding: 0;
+    margin:7px 325px 0 5px;   
+}
+
+#admin  .updated_status{
+	background:#89B92C;
+	color:#ffffff;
+	padding:7px 10px;
+	margin:10px 20px;
+	font-weight:bold;	
+}
+
+#admin .submit {
+	float:left;
+	margin-right:10px;
+}
+
+#admin .options-form  .updated {
+	overflow:auto;
+	padding:3px 5px;	
+}

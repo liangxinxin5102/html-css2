@@ -1,0 +1,27 @@
+    /*Light Blue*/
+    html body  #bottom-header {background:url('../../img/themes/light_blue_bar.png') no-repeat center center;}
+    html body  .call-to-action a, html body  .submit input, html body  .submit input:active, html body  .submit input:focus {
+        background-color:#00AAF9; } /* standard color */
+    html body  .call-to-action .btn:hover, html body  .submit input:hover {
+        background-color:#1EC0F9;} /* hover color */
+    html body  ::selection {background:#00AAF9;} /* text selection css IE */
+    html body  ::-moz-selection {background:#00AAF9;} /* text selection css Mozzila */
+    html body  button.btn {
+        background: #80963C; 
+        background: -moz-linear-gradient(top, #00AAF9 0%, #1EC0F9); 
+        background: -webkit-gradient(linear, left top, left bottom, from(#00AAF9), to(#1EC0F9));
+        -moz-box-shadow: inset 1px 0px 9px rgba(255,255,255,0.03), inset 0px 1px 0px rgba(0,0,0,0.2); 
+        -webkit-box-shadow: inset 1px 0px 9px rgba(255,255,255,0.03), inset 0px 1px 0px rgba(0,0,0,0.2);  
+    }
+    html body  button.btn:hover {
+        background: #80963C; 
+        background: -moz-linear-gradient(top, #1EC0F9 0%, #00AAF9); 
+        background: -webkit-gradient(linear, left top, left bottom, from(#1EC0F9), to(#00AAF9));
+        -moz-box-shadow: inset 1px 0px 9px rgba(255,255,255,0.03), inset 0px 1px 0px rgba(0,0,0,0.2); 
+        -webkit-box-shadow: inset 1px 0px 9px rgba(255,255,255,0.03), inset 0px 1px 0px rgba(0,0,0,0.2);  
+    }	
+    html body  .pagination li.current a {color:#00AAF9; background-color: #00AAF9;
+    -moz-box-shadow: 0 -1px 0 #222 inset, 1px 1px 1px #333 inset;
+    -webkit-box-shadow: 0 -1px 0 #222 inset, 1px 1px 1px #333 inset;
+    box-shadow: 0 -1px 0 #222 inset, 1px 1px 1px #333 inset; }
+    html body .num {background-color:#00AAF9;}   

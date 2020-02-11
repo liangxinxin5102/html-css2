@@ -1,0 +1,15 @@
+.colored {
+	color:#ff6000
+}
+
+#teaser {
+	border-bottom:10px solid #ff6000
+}
+
+a.button, #newsletter-form .btn, #teaser a.button, .form-btn {
+	background:#ff6000
+}
+
+footer,#contact {
+	border-top:10px solid #ff6000
+}

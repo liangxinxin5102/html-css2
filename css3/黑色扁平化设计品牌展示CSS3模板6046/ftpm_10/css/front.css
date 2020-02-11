@@ -1,0 +1,134 @@
+/* front page selection */
+
+#layout-choose, #color-choose, #backgrounds {
+    overflow:hidden;
+}
+
+#choose-page h1, #choose-page a {
+    text-shadow:none;
+    font-weight: normal;
+}
+
+#front, footer {
+    width:990px;
+    margin: 0px auto;
+    padding:30px;
+}
+
+footer {
+    padding:15px 0 15px 0;
+    
+}
+
+#choose-page {
+    background-image:url("../img/light.png"), url("../img/bg_shade.jpg");   
+    background-repeat:no-repeat, repeat;
+    background-position: 23% 97%, top left;
+}
+
+#choose-page h1 {
+    font-size:50px;
+}
+
+#choose-page h2, #choose-page h3 {
+    font-size:30px;    
+}
+
+#choose-page h1, #choose-page h2, #choose-page h3 {
+    font-family: "trebuchet ms";    
+    border-bottom:1px solid #444;
+    -moz-box-shadow: 0 -2px 0 #222222 inset;
+    -webkit-box-shadow: 0 -2px 0 #222222 inset;
+    box-shadow: 0 -2px 0 #222222 inset;
+    padding:50px 0 5px 0;
+    text-transform: none;
+}
+
+footer {
+    border-top: 1px solid #444444;
+    color: #CCCCCC;
+    margin-top: 150px;
+    text-shadow: none;
+    -moz-box-shadow: 0 -2px 0 #222222;
+    -webkit-box-shadow: 0 -2px 0 #222222;
+    box-shadow: 0 -2px 0 #222222;
+}
+
+html body a {
+    color:#888;
+}
+
+#layout-choose a, #color-choose a, .bg-1, .bg-2, .bg-3, .bg-4, .bg-5, .bg-6, .bg-7 {
+    display:block;
+    float:left;
+    color:transparent;
+    height:150px;
+    width:220px;
+    background-color:#222;
+    border:2px solid #333;
+    margin:10px;
+    -moz-box-shadow: 1px 1px 0 #111111;
+    -webkit-box-shadow: 1px 1px 0 #111111;
+    box-shadow: 1px 1px 0 #111111;
+}
+
+#layout-choose a:focus, #color-choose a:focus {
+    -moz-box-shadow: 1px 1px 0 #444, 1px 1px 0 #444 inset ;
+    -webkit-box-shadow: 1px 1px 0 #444, 1px 1px 0 #444 inset;
+    box-shadow: 1px 1px 0 #444, 1px 1px 0 #444 inset;    
+}
+
+#color-choose a, .bg-1, .bg-2, .bg-3, .bg-4, .bg-5, .bg-6, .bg-7 {
+    height:50px;
+    width:80px;
+}
+
+#layout-choose a:hover, #color-choose a:hover, #backgrounds a:hover {
+    border:2px solid #666;
+}
+
+#color-choose a.black {background-color:#272727;}
+#color-choose a.blue {background-color:#0057E7;}
+#color-choose a.default {background-color:#00817C;}
+#color-choose a.green {background-color:#80973C;}
+#color-choose a.grey {background-color:#7E7E7E;}
+#color-choose a.light-blue {background-color:#00ADFD;}
+#color-choose a.olive {background-color:#A0B654;}
+#color-choose a.orange {background-color:#E7732F;}
+#color-choose a.purple {background-color:#7B1AC5;}
+.layout1 {background:url(../img/screenshot_1.jpg);}
+.layout2 {background:url(../img/screenshot_2.jpg);}
+.layout3 {background:url(../img/screenshot_3.jpg);}
+.layout4 {background:url(../img/screenshot_4.jpg);}
+.bg-1 {background:url('../img/bg/background1.jpg');}
+.bg-2 {background:url('../img/bg/background2.jpg');}
+.bg-3 {background:url('../img/bg/background3.jpg');}
+.bg-4 {background:url('../img/bg/background4.jpg');}
+.bg-5 {background:url('../img/bg/background5.jpg');}
+.bg-6 {background:url('../img/bg/background6.jpg');}
+.bg-7 {background:url('../img/bg/background7.jpg');}
+
+html body#choose-page p {
+    color:#ccc;
+    text-shadow:1px 1px 1px #333333;
+}
+
+pre {
+    padding-top:30px;    
+    text-shadow:none;
+    color:#fff;
+}
+
+pre span.highlight {
+    background-color:#fff;
+    color:#000;
+    margin:5px;
+    padding:3px;
+}
+
+p {
+padding-bottom:20px;
+}
+
+code , pre{  font-family:"Courier New",Courier,monospace;}
+

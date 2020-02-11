@@ -1,0 +1,57 @@
+* {margin: 0;padding: 0}
+body, div, span, p, a, img, ul, ol, li, table, th, tr, td, form, fieldset, legend, dl, dt, dd, blockquote, applet, object {border: 0}
+ul, ol {list-style-type:none}
+body {font: normal 16px Tahoma,Arial,sans-serif; color: #000}
+p {line-height: 1.5em;padding: 0 0 25px 0}
+
+/* LINKS ---------------------------------------------------------------------------------------------------------- */
+a {color: #000;text-decoration: underline;}
+a:link {color: #000;}
+a:focus {color: #000; outline: 0}
+a:visited {color: #000}
+a:hover {color: #000;text-decoration: none;}
+
+img {display: none }
+/* H1 - H5 -------------------------------------------------------------------------------------------------------- */
+h1, h2, h3, h4, h5, h6 { margin:15px 0 15px 0}
+h1 { font-size: 1.8em;margin: 0 0 30px; color: #000;font-weight: normal}
+h2 { font-size: 1.6em; margin: 0 0 10px; color: #000;font-weight: bold;}
+h3 { font-size:1.4em;margin: 0 0 10px;color: #000;font-weight: bold;padding: 0 0 5px;}
+h4 { font-size:1.0em;margin: 5px 0 10px;color: #000 }
+
+a#logo {display: none}
+ul#navigation {display: none}
+#breadcrumbs {font-size: 0.9em;color: #656565;padding-top: 3px}
+#breadcrumbs a {color: #656565} 
+#search {display: none}
+.w980 {width: 100%;float: none !important}
+.w67 {width: 100%;float: none !important}
+.w270 {width: 100%;float: none !important}
+#content ul {padding: 5px 0 15px 15px;list-style-type: disc;}
+#content ul li {padding: 1px 0}
+#sidebar {display: none}
+form {display: none}
+select {display: none}
+#header {display: none}
+#footer {clear: both;height: 148px;font-size: 0.9em;width: 910px;padding: 30px 0 0;margin: 0 auto}
+table {border-collapse: collapse;width: 100%}
+table th {border: 1px solid #bfbfbf;font-weight: normal;text-align:left;background: #d9d9d9 !important;padding: 7px}
+table td {border: 1px solid #bfbfbf;padding: 7px}
+
+hr {display: none}
+.clear {clear: both;display: block;height: 0;line-height: 0;font-size: 0;width: 100%}
+.noscreen {display: none}
+.floatLeft {float: left}
+.floatRight {float: right}
+.image img {border: 1px solid #808080}
+img.floatLeft {margin-right: 10px}
+img.floatRight {margin-left: 10px}
+.bold {font-weight: bold}
+.center {text-align: center}
+.noborder {border: 0}
+/* clearfix */
+.clearfix:after {content: ".";display: block;height: 0;clear: both;visibility: hidden}
+.clearfix {display: inline-block}
+/* hidden for ie mac \*/
+* html .clearfix {height: 1%}
+.clearfix {display: block}

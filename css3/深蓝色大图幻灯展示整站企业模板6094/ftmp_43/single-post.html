@@ -1,0 +1,299 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<title>Savior</title>
+
+<!--COIN SLIDER SCRIPT AND CSS-->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/coin-slider.min.js"></script>
+
+<!--LIGHTBOX -->
+<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
+<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+
+<!-- THIS IS FOR THE LIGHTBOX EFFECT -->
+<script type="text/javascript" charset="utf-8">
+  $(document).ready(function(){
+    $("a[rel^='prettyPhoto']").prettyPhoto();
+  });
+</script>
+<!-- ////////////////////////////////////////////////////////////////////-->
+
+<!--  THIS LITTLE SCRIPT IS FOR THE SLIDER -->
+<script>$(document).ready(function() {
+	$('#slider').coinslider({ 
+		hoverPause: true,
+		width: 948,
+		height: 367,
+		effect: 'random',
+		delay: 3000
+	
+	});
+});
+</script>
+<!-- ////////////////////////////////////////////////////////////////////-->
+
+<!--  CONTROLS THE SLIDING PANEL FOR THE LOGOS -->
+
+<!-- ////////////////////////////////////////////////////////////////////-->
+<script>
+	$(document).ready(function(){
+			$(".controls").click(function(e){
+				if($(this).hasClass('down-arrow')) {
+					$(this).addClass('up-arrow').removeClass('down-arrow');
+				}
+				else {
+					$(this).addClass('down-arrow').removeClass('up-arrow');
+				}
+				e.preventDefault();
+				$("#logo-background").slideToggle("slow");
+			});
+	});
+</script>
+<!-- ////////////////////////////////////////////////////////////////////-->
+
+<!--  SCRIPTS FOR THE PAGINATION -->
+
+<!-- ////////////////////////////////////////////////////////////////////-->
+
+<script type="text/javascript" src="js/quickpager.jquery.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$("ul.paging").quickPager({
+		pageSize: 6,
+	});
+});
+</script>
+<!-- ////////////////////////////////////////////////////////////////////-->
+
+<!--  PLUGIN TO PROVIDE SUPPORT FOR HTML5 PLACEHOLDER FOR INPUTS-->
+
+<!-- ////////////////////////////////////////////////////////////////////-->
+
+ <script type="text/javascript" src="js/jquery.placeholder.js"></script>
+ <!--The rest of the script is in the footer area-->
+
+
+<link href="style.css" rel="stylesheet" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+
+<body>
+<div id="header-background">
+	<div id="header">
+    	<div id="logo">
+        	<a href="index.html">Savior</a>
+        </div><!--END logo-->
+        
+         <div id="nav">
+        	<ul id="navigation">
+            	<li><a href="index.html">HOME</a>
+                	<ul>
+                    	<li><a href="single-post.html">Single Post</a></li>
+                        <li><a href="gallery-2column.html">Gallery 2 Column</a></li>
+                    	<li><a href="events-post.html">Events Post</a></li>
+                    	<li><a href="404.html">404 Page</a></li>
+                        <li><a href="blank.html">Blank Page</a></li>
+                        <li><a href="layout.html">html stuff</a></li>
+                    </ul>
+                </li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="events.html">EVENTS</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="gallery.html">GALLERY</a>
+                	<ul>
+                    	<li><a href="single-post.html">Single Post</a></li>
+                        <li><a href="gallery-2column.html">Gallery 2 Column</a></li>
+                    	<li><a href="events-post.html">Events Post</a></li>
+                    	<li><a href="404.html">404 Page</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.php">CONTACT</a></li>
+            </ul>
+        </div><!--END navigation-->
+    </div><!--END header-->
+</div><!--END header-background -->
+               <div class="clear"></div>
+
+   
+<div id="page-title-background">
+	<div id="page-title">
+    	<p>Say something about your events</p>
+    </div><!--END page-title-->
+</div><!--END page-title-background-->
+    
+<div id="content">
+
+	<p>Home &rarr; Events &rarr; Help us clean up the shore</p>
+     <div id="sidebar">
+    	<form action="#" method="post" />
+            	<input type="text" name="search" id="search" placeholder="Search..." />
+
+			</form>
+    	<h1 class="tag-background"><span class="background">CATEGORIES</span></h1>
+        
+        	<ul id="categories">
+            	<li>>&nbsp; &nbsp;People</li>
+                <li>>&nbsp; &nbsp;Animals</li>
+                <li>>&nbsp; &nbsp;Earth</li>
+                <li>>&nbsp; &nbsp;Water</li>
+                <li>>&nbsp; &nbsp;Air</li>
+            </ul>
+            
+            <h1 class="tag-background"><span class="background">GALLERY</span></h1>
+            <ul class="gallery">
+            	<li><a href="#"><img src="images/gallery1.png" alt"gallery"="" height="74" width="74" /></a></li>
+                <li><a href="#"><img src="images/gallery2.png" alt"gallery"="" height="74" width="74" /></a></li>
+                <li><a href="#"><img src="images/gallery3.png" alt"gallery"="" height="74" width="74" /></a></li>
+                <li><a href="#"><img src="images/gallery4.png" alt"gallery"="" height="74" width="74" /></a></li>
+                <li><a href="#"><img src="images/gallery5.png" alt"gallery"="" height="74" width="74" /></a></li>
+                <li><a href="#"><img src="images/gallery6.png" alt"gallery"="" height="74" width="74" /></a></li>
+            </ul>
+
+    </div><!--END sidebar-->
+   	<div class="post">
+    	<img src="images/clean-shore.jpg" alt="clean the shore" height="284" width="609" />
+        
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<hr />
+</div><!--END post-->
+
+<h1>4 comments</h1>
+   
+   <div class="user-comment">
+   		<div class="avatar"><img src="images/avatar.jpg" alt="avatar" height="52" width="52" /></div>
+   		<div class="comment-meta">
+   			<ul>
+   				<li class="comment-author"><a href="#">Admin</a>,</li>
+   				<li class="comment-date">November 21, 2012 at 7:30PM - <span class="comment-reply"><a href="#">Reply</a></span></li>
+   			</ul>
+   		</div><!--END comment-meta-->
+   		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec urna in velit mollis semper quis vel sapien. Aenean tristique, diam sed sollicitudin convallis, diam sapien fermentum odio, non venenatis turpis dolor vitae nunc. Donec vestibulum erat et nisi semper et dignissim diam molestie.</p>
+   		<div class="clear"></div>
+   </div><!--END user-comment-->
+   
+   <div class="user-comment">
+   		<div class="avatar"><img src="images/avatar.jpg" alt="avatar" height="52" width="52" /></div>
+   		<div class="comment-meta">
+   			<ul>
+   				<li class="comment-author"><a href="#">Admin</a>,</li>
+   				<li class="comment-date">November 21, 2012 at 7:30PM - <span class="comment-reply"><a href="#">Reply</a></span></li>
+   			</ul>
+   		</div><!--END comment-meta-->
+   		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec urna in velit mollis semper quis vel sapien. Aenean tristique, diam sed sollicitudin convallis, diam sapien fermentum odio, non venenatis turpis dolor vitae nunc. Donec vestibulum erat et nisi semper et dignissim diam molestie.</p>
+   		<div class="clear"></div>
+   </div><!--END user-comment-->
+   
+   <div class="user-comment reply-comment">
+   		<div class="avatar"><img src="images/avatar.jpg" alt="avatar" height="52" width="52" /></div>
+   		<div class="comment-meta">
+   			<ul>
+   				<li class="comment-author"><a href="#">Admin</a>,</li>
+   				<li class="comment-date">November 21, 2012 at 7:30PM - <span class="comment-reply"><a href="#">Reply</a></span></li>
+   			</ul>
+   		</div><!--END comment-meta-->
+   		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec urna in velit mollis semper quis vel sapien. Aenean tristique, diam sed sollicitudin convallis, diam sapien fermentum odio, non venenatis turpis dolor vitae nunc. Donec vestibulum erat et nisi semper et dignissim diam molestie.</p>
+   		<div class="clear"></div>
+   </div><!--END user-comment-->
+     
+     <div class="user-comment">
+   		<div class="avatar"><img src="images/avatar.jpg" alt="avatar" height="52" width="52" /></div>
+   		<div class="comment-meta">
+   			<ul>
+   				<li class="comment-author"><a href="#">Admin</a>,</li>
+   				<li class="comment-date">November 21, 2012 at 7:30PM - <span class="comment-reply"><a href="#">Reply</a></span></li>
+   			</ul>
+   		</div><!--END comment-meta-->
+   		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec urna in velit mollis semper quis vel sapien. Aenean tristique, diam sed sollicitudin convallis, diam sapien fermentum odio, non venenatis turpis dolor vitae nunc. Donec vestibulum erat et nisi semper et dignissim diam molestie.</p>
+   		<div class="clear"></div>
+           </div><!--END user-comment-->
+
+       <div id="respond">
+       <h1>LEAVE A COMMENT</h1>
+				<form action="#" method="post" id="commentform" />
+                    <p class="comment-form-author"><input id="author" name="author" type="text" value="" size="30" aria-required='true' placeholder="Name" /></p>
+                    <p class="comment-form-email"><input id="email" name="email" type="text" value="" size="30" aria-required='true' placeholder="Email" /></p>
+                    <p class="comment-form-url"><input id="url" name="url" type="text" value="" size="30" placeholder="Website" /></p>
+                    <p class="comment-form-comment"><textarea id="comment" name="comment" cols="45" rows="8" aria-required="true" placeholder="Message"></textarea></p>						
+                    <button class="primary" name="submit" type="submit" id="submit"></button>
+                    <input type='hidden' name='comment_post_ID' value='128' id='comment_post_ID' />
+                    <input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+				</form>
+     </div><!-- #respond -->
+
+   <div class="clear"></div>
+</div><!--END content-->
+<div class="clear"></div>
+	<div id="arrows">
+    	<a class="controls down-arrow" href="#"></a>
+    </div><!--END arrows-->
+<div id="logo-background">
+	<div id="logos-wrapper">
+    	<ul id="logos">
+        	<li><a href="#"><img src="images/logo1.jpg" alt="non profit logo" height="100" width="126" /></a></li>
+            <li><a href="#"><img src="images/logo2.jpg" alt="non profit logo" height="100" width="126" /></a></li>
+            <li><a href="#"><img src="images/logo3.jpg" alt="non profit logo" height="100" width="126" /></a></li>
+            <li><a href="#"><img src="images/logo4.jpg" alt="non profit logo" height="100" width="126" /></a></li>
+            <li><a href="#"><img src="images/logo5.jpg" alt="non profit logo" height="100" width="126" /></a></li></ul></div><!--END logos-wrapper-->
+</div><!--END logo-background-->
+
+<div id="widget-background">
+	<div id="footer-widgets">
+        <div class="widget">
+        	<h1>ABOUT SAVIOR</h1>
+        	<p>Donec iaculis gravida nulla. Cras pede libero, dapibus nec, pretium sit amet, tempor quis. Duis bibendum, lectus ut viverra rhoncus, dolor nunc faucibus libero, eget facilisis enim ipsum id lacus. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Maecenas sollicitudin. Nullam at arcu a est sollicitudin euismod. Pellentesque pretium id turpis.</p>
+        </div><!--END widget-->
+          
+          <div class="widget">
+          	<h1>TWITTER FEED</h1>
+            <div id="tweet"><p /></div>
+          </div><!--END widget-->
+          
+          <div class="widget">
+          		<h1>CONTACT US</h1>
+                <p>Donec iaculis gravida nulla. Cras pede libero, dapibus nec, pretium sit amet, tempor quis.</p>
+                <span id="phone">123 456 7890 <br />info@savior.com<a href="#" class="facebook"></a></span>
+                <span id="address">Long Street 123, Second Floor <br />Beautiful Place, California 97020<a href="#" class="twitter"></a></span>
+          </div><!--END widget--> 
+                
+                <div class="clear"></div>
+        </div><!--END footer-widgets-->
+    <div class="clear"></div>
+</div><!--END widget-background-->
+<div id="footer-background">
+	<div id="footer-navigation">
+    	<ul>
+        	<li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.php">Contact</a></li>
+       </ul>
+       
+       <div id="copyright">
+    	&copy; <a class="active" href="#">Savior</a> Theme. Created with love by ThemeBuddies.Collect from <a href="http://www.cssmoban.com/" title="网站模板" target="_blank">网站模板</a>
+    </div><!--END copyright-->
+    </div><!--END footer-navigation-->
+</div><!--END footer-background-->
+<script src="http://twitterjs.googlecode.com/svn/trunk/src/twitter.min.js"></script>
+<script type="text/javascript" charset="utf-8">
+getTwitters('tweet', {
+    id: 'mojothemes',
+    count: 3,
+    enableLinks: true,
+    ignoreReplies: false,
+    clearContents: true,
+    template: '<p>"%text%" <a href="http://twitter.com/%user_screen_name%/statuses/%id%/">%time%</a></p>'
+});
+</script>
+
+<script type="text/javascript">
+$('input[placeholder], textarea[placeholder]').placeholder();
+</script>
+</body>
+</html>

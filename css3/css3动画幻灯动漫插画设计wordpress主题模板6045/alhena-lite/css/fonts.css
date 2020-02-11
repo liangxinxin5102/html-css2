@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Abel';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../font/Abel.eot');
+  src: url('../font/Abel.eot?#iefix') format('embedded-opentype');
+  src: local('Abel'), local('Abel-Regular'), url(../font/Abel.woff) format('woff');
+}
+@font-face {
+  font-family: 'Handlee';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../font/Handlee.eot');
+  src: url('../font/Handlee.eot?#iefix') format('embedded-opentype');
+  src: local('Handlee Regular'), local('Handlee-Regular'), url(../font/Handlee.woff) format('woff');
+}
+@font-face {
+  font-family: 'Kristi';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../font/Kristi.eot');
+  src: url('../font/Kristi.eot?#iefix') format('embedded-opentype');
+  src: local('Kristi'), url(../font/Kristi.woff) format('woff');
+}
+@font-face {
+  font-family: 'Maven Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../font/Mavenpro.eot');
+  src: url('../font/Mavenpro.eot?#iefix') format('embedded-opentype');
+  src: local('Maven Pro Regular'), local('MavenProRegular'), url(../font/Mavenpro.woff) format('woff');
+}
+@font-face {
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../font/Oxygen.eot');
+  src: url('../font/Oxygen.eot?#iefix') format('embedded-opentype');
+  src: local('Oxygen'), local('Oxygen-Regular'), url(../font/Oxygen.woff) format('woff');
+}

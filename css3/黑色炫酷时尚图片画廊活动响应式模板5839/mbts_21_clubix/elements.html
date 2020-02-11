@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <title>Clubix</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="assets/js/jquery.js"></script>
+  <script src="assets/js/component.js" type="text/javascript"></script>
+  <script src="assets/js/application.js" type="text/javascript"></script>
+  <script src="assets/js/easy-filter.js" type="text/javascript"></script><!-- jPlayer -->
+
+  <script src="assets/jplayer/jquery.jplayer.min.js" type="text/javascript"></script>
+  <script src="assets/js/accordion-tab.js" type="text/javascript"></script>
+  <script src="assets/js/tabbed-interface.js" type="text/javascript"></script>
+  <link href="assets/prettyPhoto/css/prettyPhoto.css" media=
+  "screen" rel="stylesheet" title="prettyPhoto main stylesheet" type=
+  "text/css">
+  <script charset="utf-8" src="assets/prettyPhoto/js/jquery.prettyPhoto.js"
+  type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function(){
+      Application.init();
+      Component.Init();
+      EasyFiler.Init();
+    });
+  </script><!-- jQuery Revolution Slider  -->
+
+  <script src="assets/rs-plugin/js/jquery.themepunch.revolution.min.js" type=
+  "text/javascript"></script>
+  <link href="assets/rs-plugin/css/settings.css" media="screen" rel=
+  "stylesheet" type="text/css">
+  <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+  <script src="assets/js/jquery.nicescroll.min.js"></script>
+  <script>
+
+  $(document).ready(function() {
+
+    var nice = $(".block-play-list").niceScroll();  // The document page (body)
+    
+  });
+  </script><!--
+  <link rel="stylesheet/less" href="assets/css/style.less" type="text/css">
+  <script src="assets/js/less.js" type="text/javascript"></script>
+  -->
+  <!--[if IE 8]>
+   
+    <link rel="stylesheet" href="assets/css/css/ie-8.css">
+    <script type="text/javascript" src="assets/js/ie-fix.js"></script>
+
+  <![endif]-->
+</head>
+
+<body>
+  <div class="bg-header">
+    <div class="container_12">
+      <div class="grid_2 alpha">
+        <div class="logo">
+          <a href="index.html"><img alt="Clubix Logo" src=
+          "assets/img/logo.png"></a>
+        </div>
+      </div>
+
+      <div class="grid_2 push_8 omega social-media-container">
+        <div class="social-header-container">
+          <ul>
+            <li class="template-based-element-background-color-hover">
+              <a class="twitter-header" href="http://www.twitter.com"></a>
+            </li>
+
+            <li class="template-based-element-background-color-hover">
+              <a class="tumblr-header" href="http://www.tumblr.com"></a>
+            </li>
+
+            <li class="template-based-element-background-color-hover">
+              <a class="facebook-header" href="http://www.tumblr.com"></a>
+            </li>
+
+            <li class="template-based-element-background-color-hover">
+              <a class="vimeo-header" href="http://www.vimeo.com"></a>
+            </li>
+          </ul>
+
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="clear"></div>
+
+  <div class="bg-header-menu">
+    <div class="container_12">
+      <div class="grid_10 alpha">
+        <ul class="menu">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+
+          <li>
+            <a href="blog-page.html">Blog</a>
+
+            <ul class="sub-menu-header">
+              <li>
+                <a class="template-based-element-background-hover" href=
+                "blog-page.html">Blog Posts</a>
+              </li>
+
+              <li>
+                <a class="template-based-element-background-hover" href=
+                "blog-page-single.html">Blog Post</a>
+              </li>
+
+              <li>
+                <a class="template-based-element-background-hover" href=
+                "blog-page-single-carousel.html">Blog Post Carousel</a>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="events-page.html">Page List</a>
+
+            <ul class="sub-menu-header">
+              <li>
+                <a class="template-based-element-background-hover" href=
+                "albums-page.html">Albums</a>
+              </li>
+
+              <li>
+                <a class="template-based-element-background-hover" href=
+                "events-single-page.html">Event Page</a>
+              </li>
+
+              <li>
+                <a class="template-based-element-background-hover" href=
+                "events-page.html">Events</a>
+              </li>
+
+              <li>
+                <a class="template-based-element-background-hover" href=
+                "events-page-2.html">Events 2</a>
+              </li>
+
+              <li>
+                <a class="template-based-element-background-hover" href=
+                "photos-page.html">Photos</a>
+              </li>
+
+              <li>
+                <a class="template-based-element-background-hover" href=
+                "videos-page.html">Videos</a>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="elements.html" class="selected">Template Information</a>
+
+            <ul class="sub-menu-header">
+              <li>
+                <a class="template-based-element-background-hover selected-sub-menu" href=
+                "elements.html">Elements</a>
+              </li>
+
+              <li>
+                <a class="template-based-element-background-hover" href=
+                "typography.html">Typography</a>
+              </li>
+
+              <li>
+                <a class="template-based-element-background-hover" href=
+                "error.html">Error Page</a>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="contact.html">Contact</a>
+          </li><li>
+            <a href="http://www.cssmoban.com/">More</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="grid_2 search omega alpha container-search-top">
+        <form action="#" method="post">
+          <div class="input-bg">
+            <input name="search" onblur=
+            "if(this.value == ''){this.value = this.defaultValue}" onclick=
+            "if(this.value == this.defaultValue){this.value = ''}" type="text"
+            value="Search...">
+          </div>
+
+          <div class=
+          "bg-submit-search template-based-element-background-color-hover">
+            <input class="submit-button-search" id="submit-header-search" name=
+            "submit" type="submit" value="">
+          </div>
+
+          <div class="clear"></div>
+        </form>
+      </div>
+
+      <ul class="phone-menu">
+        <li class="page-menu">
+          <a>Home <span></span></a>
+
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+
+            <li>
+              <a href="blog-page.html">Blog</a>
+
+              <ul>
+                <li>
+                  <a href="blog-page.html">Blog Posts</a>
+                </li>
+
+                <li>
+                  <a href="blog-page-single.html">Blog Post</a>
+                </li>
+
+                <li>
+                  <a href="blog-page-single-carousel.html">Blog Post
+                  Carousel</a>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <a href="events-page.html">Page List</a>
+
+              <ul>
+                <li>
+                  <a href="albums-page.html">Albums</a>
+                </li>
+
+                <li>
+                  <a href="events-single-page.html">Event Page</a>
+                </li>
+
+                <li>
+                  <a href="events-page.html">Events</a>
+                </li>
+
+                <li>
+                  <a href="events-page-2.html">Events 2</a>
+                </li>
+
+                <li>
+                  <a href="photos-page.html">Photos</a>
+                </li>
+
+                <li>
+                  <a href="videos-page.html">Videos</a>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <a href="elements.html">Template Information</a>
+
+              <ul>
+                <li>
+                  <a href="elements.html">Elements</a>
+                </li>
+
+                <li>
+                  <a href="typography.html">Typography</a>
+                </li>
+
+                <li>
+                  <a href="error.html">Error Page</a>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+            <a href="contact.html">Contact</a>
+          </li><li>
+            <a href="http://www.cssmoban.com/">More</a>
+          </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="clear"></div>
+
+  <div class="container-960 bg-page-bar">
+    <div class="page-bar">
+      <h1 class="title-page">typography</h1>
+
+      <div class="clear"></div>
+    </div>
+  </div>
+
+  <div class="container-960 content-page-home content-page-standard">
+    <div class="grid_12 container_12 alpha omega elements">
+      <h1 class="underline-title"><span>tabs, Accordion, audio
+      player</span></h1>
+
+      <div class="underline-bg">
+        <div class="underline"></div>
+      </div>
+
+      <ul class="elements-list-top">
+        <li class="li-elements">
+          <div class="widget">
+            <div class="tabbed-interface-container">
+              <div class="the-tabs">
+                <ul class="tabs-ul">
+                  <li class="tab">
+                    <a data-file="#tab-1"><img alt="tab-img" src=
+                    "assets/img/heart.png"> Love Tab</a>
+                  </li>
+
+                  <li class="tab">
+                    <a data-file="#tab-2"><img alt="tab-img" src=
+                    "assets/img/star.png"> Next tab</a>
+                  </li>
+
+                  <li class="tab">
+                    <a data-file="#tab-3"><img alt="tab-img" src=
+                    "assets/img/cloud.png"> Tab 3</a>
+                  </li>
+                </ul>
+
+                <div class="clear"></div>
+              </div>
+
+              <div class="content-tabs" id="tab-1">
+                <img alt="tab-img" src="assets/img/tab-img.png">
+
+                <p>A wonderful serenity has taken possession of my entire soul,
+                like these Sweet mornings of spr.</p>
+
+                <div class="clear"></div>
+              </div>
+
+              <div class="content-tabs" id="tab-2">
+                <img alt="tab-img" src="assets/img/tab-img.png">
+
+                <p>A wonderful serenity has taken possession of my entire soul,
+                like these Sweet mornings of spr.</p>
+
+                <div class="clear"></div>
+              </div>
+
+              <div class="content-tabs" id="tab-3">
+                <img alt="tab-img" src="assets/img/tab-img.png">
+
+                <p>A wonderful serenity has taken possession of my entire soul,
+                like these Sweet mornings of spr.</p>
+
+                <div class="clear"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="clear"></div>
+        </li>
+
+        <li class="li-elements">
+          <div class="widget">
+            <div class="accordion-tab-container">
+              <div class="the-tabs">
+                <ul class="tabs-ul">
+                  <li class="tab">
+                    <a data-file="#tab-accordion-1"><img alt="tab-img" src=
+                    "assets/img/heart.png"> This is an accordion tab
+                    <span class="right accordion-hide-show">
+                      <span></span>
+                    </span></a>
+                  </li>
+
+                  <li>
+                    <div class="content-tabs" id="tab-accordion-1">
+                      <p>A wonderful serenity has taken possession of my entire
+                      soul, like these Sweet mornings of spr.</p>
+
+                      <div class="clear"></div>
+                    </div>
+                  </li>
+
+                  <li class="tab">
+                    <a data-file="#tab-accordion-2"><img alt="tab-img" src=
+                    "assets/img/star.png"> Another Accordion tab 
+                  <span class="right accordion-hide-show">
+                      <span></span>
+                    </span></a>
+                  </li>
+
+                  <li>
+                    <div class="content-tabs" id="tab-accordion-2">
+                      <p>A wonderful serenity has taken possession of my entire
+                      soul, like these Sweet mornings of spr.</p>
+
+                      <div class="clear"></div>
+                    </div>
+                  </li>
+
+                  <li class="tab">
+                    <a data-file="#tab-accordion-3"><img alt="tab-img" src=
+                    "assets/img/star.png"> Super tab Lorem ipsum <span class="right accordion-hide-show">
+                      <span></span>
+                    </span></a>
+                  </li>
+
+                  <li>
+                    <div class="content-tabs" id="tab-accordion-3">
+                      <p>A wonderful serenity has taken possession of my entire
+                      soul, like these Sweet mornings of spr.</p>
+
+                      <div class="clear"></div>
+                    </div>
+                  </li>
+                </ul>
+
+                <div class="clear"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="clear"></div>
+        </li>
+
+        <li class="li-elements">
+          <div class="widget">
+              <div class="side-bar">
+                <ul class="list-play-list-side-bar component" data-component=
+                "audio-player">
+                  <li class="sidebar-li-audio-player-01 track"
+                  data-author-name="Alesso Year" data-song-name="Matthew..."
+                  data-song-path="assets/mp3/John_Wort_Hannam.mp3"
+                  data-song-picture="assets/img/30_30.jpg">
+                    <div class="play-pause-sec download-song-side-bar">
+                      <div class="image-play-side-bar image-download-side-bar">
+                      </div>
+                    </div>
+
+                    <div class="play-pause-sec">
+                      <div class="image-play-side-bar"></div>
+                    </div>
+
+                    <div class="song-name-side-bar">
+                      <div class=
+                      "timer-bg-sidebar template-based-element-background-transparent"
+                      style="width: 0;"></div>
+
+                      <p>Alesso Year - Matthew...</p><span class=
+                      "song-name-text"></span>
+                    </div>
+
+                    <div class="clear"></div>
+                  </li>
+
+                  <li class="sidebar-li-audio-player-01 track"
+                  data-author-name="Tujamo" data-song-name="Who"
+                  data-song-path="assets/mp3/John_Wort_Hannam.mp3"
+                  data-song-picture="assets/img/30_30.jpg">
+                    <div class="play-pause-sec download-song-side-bar">
+                      <div class="image-play-side-bar image-download-side-bar">
+                      </div>
+                    </div>
+
+                    <div class="play-pause-sec">
+                      <div class="image-play-side-bar"></div>
+                    </div>
+
+                    <div class="song-name-side-bar">
+                      <div class=
+                      "timer-bg-sidebar template-based-element-background-transparent"
+                      style="width: 0;"></div>
+
+                      <p>Tujamo - Who</p><span class="song-name-text"></span>
+                    </div>
+
+                    <div class="clear"></div>
+                  </li>
+
+                  <li class="sidebar-li-audio-player-01 track"
+                  data-author-name="Dimitri-Vegas" data-song-name="MOGUAI"
+                  data-song-path=
+                  "assets/mp3/John_Wort_Hannam.mp3"
+                  data-song-picture="assets/img/30_30.jpg">
+                    <div class="play-pause-sec download-song-side-bar">
+                      <div class="image-play-side-bar image-download-side-bar">
+                      </div>
+                    </div>
+
+                    <div class="play-pause-sec">
+                      <div class="image-play-side-bar"></div>
+                    </div>
+
+                    <div class="song-name-side-bar">
+                      <div class=
+                      "timer-bg-sidebar template-based-element-background-transparent"
+                      style="width: 0;"></div>
+
+                      <p>Dimitri-Vegas - MOGUAI</p><span class=
+                      "song-name-text"></span>
+                    </div>
+
+                    <div class="clear"></div>
+                  </li>
+
+                  <li class="sidebar-li-audio-player-01 track"
+                  data-author-name="GJan-Tattoo" data-song-name="Dwin-Remix"
+                  data-song-path="assets/mp3/John_Wort_Hannam.mp3"
+                  data-song-picture="assets/img/30_30.jpg">
+                    <div class="play-pause-sec download-song-side-bar">
+                      <div class="image-play-side-bar image-download-side-bar">
+                      </div>
+                    </div>
+
+                    <div class="play-pause-sec">
+                      <div class="image-play-side-bar"></div>
+                    </div>
+
+                    <div class="song-name-side-bar">
+                      <div class=
+                      "timer-bg-sidebar template-based-element-background-transparent"
+                      style="width: 0;"></div>
+
+                      <p>GJan-Tattoo - Dwin-Remix</p><span class=
+                      "song-name-text"></span>
+                    </div>
+
+                    <div class="clear"></div>
+                  </li>
+
+                  <li class="sidebar-li-audio-player-01 track"
+                  data-author-name="Hardwell" data-song-name="Spaceman"
+                  data-song-path=
+                  "assets/mp3/John_Wort_Hannam.mp3"
+                  data-song-picture="assets/img/30_30.jpg">
+                    <div class="play-pause-sec download-song-side-bar">
+                      <div class="image-play-side-bar image-download-side-bar">
+                      </div>
+                    </div>
+
+                    <div class="play-pause-sec">
+                      <div class="image-play-side-bar"></div>
+                    </div>
+
+                    <div class="song-name-side-bar">
+                      <div class=
+                      "timer-bg-sidebar template-based-element-background-transparent"
+                      style="width: 0;"></div>
+
+                      <p>Hardwell - Spaceman</p><span class=
+                      "song-name-text"></span>
+                    </div>
+
+                    <div class="clear"></div>
+                  </li>
+
+                  <li class="sidebar-li-audio-player-01 track"
+                  data-author-name="Martin Garrix" data-song-name="Animals"
+                  data-song-path="assets/mp3/John_Wort_Hannam.mp3"
+                  data-song-picture="assets/img/30_30.jpg">
+                    <div class="play-pause-sec download-song-side-bar">
+                      <div class="image-play-side-bar image-download-side-bar">
+                      </div>
+                    </div>
+
+                    <div class="play-pause-sec">
+                      <div class="image-play-side-bar"></div>
+                    </div>
+
+                    <div class="song-name-side-bar">
+                      <div class=
+                      "timer-bg-sidebar template-based-element-background-transparent"
+                      style="width: 0;"></div>
+
+                      <p>Martin Garrix - Animals</p><span class=
+                      "song-name-text"></span>
+                    </div>
+
+                    <div class="clear"></div>
+                  </li>
+
+                  <li class="sidebar-li-audio-player-01 track"
+                  data-author-name="Hardwell" data-song-name="Spaceman"
+                  data-song-path=
+                  "assets/mp3/John_Wort_Hannam.mp3"
+                  data-song-picture="assets/img/30_30.jpg">
+                    <div class="play-pause-sec download-song-side-bar">
+                      <div class="image-play-side-bar image-download-side-bar">
+                      </div>
+                    </div>
+
+                    <div class="play-pause-sec">
+                      <div class="image-play-side-bar"></div>
+                    </div>
+
+                    <div class="song-name-side-bar">
+                      <div class=
+                      "timer-bg-sidebar template-based-element-background-transparent"
+                      style="width: 0;"></div>
+
+                      <p>Hardwell - Spaceman</p><span class=
+                      "song-name-text"></span>
+                    </div>
+
+                    <div class="clear"></div>
+                  </li>
+
+                  <li class="sidebar-li-audio-player-01 track"
+                  data-author-name="Otto Knows" data-song-name=
+                  "Million Voic..." data-song-path=
+                  "assets/mp3/John_Wort_Hannam.mp3"
+                  data-song-picture="assets/img/30_30.jpg">
+                    <div class="play-pause-sec download-song-side-bar">
+                      <div class="image-play-side-bar image-download-side-bar">
+                      </div>
+                    </div>
+
+                    <div class="play-pause-sec">
+                      <div class="image-play-side-bar"></div>
+                    </div>
+
+                    <div class="song-name-side-bar">
+                      <div class=
+                      "timer-bg-sidebar template-based-element-background-transparent"
+                      style="width: 0;"></div>
+
+                      <p>Otto Knows - Million Voic...</p><span class=
+                      "song-name-text"></span>
+                    </div>
+
+                    <div class="clear"></div>
+                  </li>
+
+                  <li class="sidebar-li-audio-player-01 track"
+                  data-author-name="Skrillex" data-song-name="Summit"
+                  data-song-path=
+                  "assets/mp3/John_Wort_Hannam.mp3"
+                  data-song-picture="assets/img/30_30.jpg">
+                    <div class="play-pause-sec download-song-side-bar">
+                      <div class="image-play-side-bar image-download-side-bar">
+                      </div>
+                    </div>
+
+                    <div class="play-pause-sec">
+                      <div class="image-play-side-bar"></div>
+                    </div>
+
+                    <div class="song-name-side-bar">
+                      <div class=
+                      "timer-bg-sidebar template-based-element-background-transparent"
+                      style="width: 0;"></div>
+
+                      <p>Skrillex - Summit</p><span class=
+                      "song-name-text"></span>
+                    </div>
+
+                    <div class="clear"></div>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="clear"></div>
+            </div>
+        </li>
+      </ul>
+
+
+      <h1 class="underline-title"><span>buttons</span></h1>
+
+      <div class="underline-bg">
+        <div class="underline"></div>
+      </div>
+
+      <ul class="buttons-ul">
+        <li>
+          <a class="download-1" href="#"><span class="container-download-icon-1"><span class="icon-download"></span></span><span class=
+          "text-download">clubix download</span>
+
+          <div class="clear"></div></a>
+        </li>
+
+        <li>
+          <a class="download-2" href="#"><span class="container-download-icon-2"><span class="icon-download"></span></span> <span class=
+          "text-download">clubix download</span>
+
+          <div class="clear"></div></a>
+        </li>
+      </ul>
+
+      <ul class="buttons-ul">
+        <li>
+          <a class="button-green" href="#">clubix btn</a>
+        </li>
+
+        <li>
+          <a class="button-orange" href="#">clubix btn</a>
+        </li>
+
+        <li>
+          <a class="button-red" href="#">clubix btn</a>
+        </li>
+      </ul>
+
+      <ul class="buttons-ul">
+        <li>
+          <a class="button-green-underline" href="#">clubix btn</a>
+        </li>
+
+        <li>
+          <a class="button-green-2-underline" href="#">clubix btn</a>
+        </li>
+
+        <li>
+          <a class="button-turquoise" href="#">clubix btn</a>
+        </li>
+      </ul>
+
+      <div class="clear"></div>
+
+      <h1 class="underline-title"><span>lists, testimonials ,
+      blocqoute</span></h1>
+
+      <div class="underline-bg">
+        <div class="underline"></div>
+      </div>
+
+      <ul class="list-simple">
+        <li>
+          <a href="#">Wordpress sites</a>
+        </li>
+
+        <li>
+          <a href="#">Html articles</a>
+        </li>
+
+        <li>
+          <a href="#">Video blog</a>
+        </li>
+
+        <li>
+          <a href="#">Style Life</a>
+        </li>
+      </ul>
+
+      <ul class="list-simple-2">
+        <li>
+          <a class="arrow-sites" href="#">Wordpress sites</a>
+        </li>
+
+        <li>
+          <a class="arrow-articles" href="#">Html articles</a>
+        </li>
+
+        <li>
+          <a class="arrow-video" href="#">Video blog</a>
+        </li>
+
+        <li>
+          <a class="bif-list" href="#">Style Life</a>
+        </li>
+      </ul>
+
+      <div class="blocqoute-author">
+        <button class="left"></button> <button class="right"></button>
+
+        <div class="author">
+          <img alt="avatar-blocqoute" class="avatar" src=
+          "assets/img/30_30.jpg">
+
+          <p class="name">Ses Vasile Daniel,</p>
+
+          <p class="location">Bucharest</p>
+        </div>
+
+        <div class="clear"></div>
+
+        <div class="arrow-content"></div>
+
+        <div class="blocqoute-content">
+          <p>Nam mollis, elit quis dapibus ornare, elit justo eleifend urna, eu
+          gravida elit orci qui</p>
+
+          <p>Donec id nisl sem. Mauris vulputate massa a tortor ultrices
+          tincidunt. Suspendisse viverra facilisis dui eu suscipit.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="clear"></div>
+  </div>
+
+  <div class="container-footer-top template-based-element-border-color">
+    <div class="container_12">
+      <ul class="footer-top-itm">
+        <li class="grid_3">
+          <a class="logo-footer" href="index.html"><img alt="Clubix Logo" src=
+          "assets/img/logo.png"></a>
+
+          <p class="italic">Lorem ipsum ex vix illud nonummy, novum tation et
+          his. At vix scriptaset patrioque scribentur, at pro fugit erts</p>
+
+          <p class="italic">Srterem molestiae, sed et vivendo ali Lorem ipsum
+          ex vix illud nonummy, novum tation et his. At vix scripta</p>
+        </li>
+
+        <li class="grid_3">
+          <h1 class="footer-top-title">Recent Posts</h1>
+
+          <ul class="recent-post-footer">
+            <li>
+              <a class="template-based-element-color-hover" href=
+              "blog-page-single.html">Voluptas Sadips Ipsums Dolors</a>
+            </li>
+
+            <li>
+              <a class="template-based-element-color-hover" href=
+              "blog-page-single.html-2">Fugiats Litora Ultrices Ante</a>
+            </li>
+
+            <li>
+              <a class="template-based-element-color-hover" href=
+              "blog-page-single.html-3">Sapien Litora Dolores Ultrices</a>
+            </li>
+
+            <li>
+              <a class="template-based-element-color-hover" href=
+              "blog-page-single.html-4">Nemis Fugiats Voluptas Dolores</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="grid_3">
+          <h1 class="footer-top-title">twitter</h1>
+
+          <ul class="twitter-footer-top">
+            <li>
+              <p class="italic"><span>@ dratio</span> Metus, id placerat justo
+              sagittis id.</p>
+            </li>
+
+            <li>
+              <p class="italic"><span>@ buris</span> Curabitur ultrices
+              sollicitudin metus, id placerat justo sagittis id... risus auctor
+              congue ac et risus.</p>
+            </li>
+          </ul>
+        </li>
+
+        <li class="grid_3">
+          <h1 class="footer-top-title">flickr</h1>
+
+          <ul class="flickr-list-footer-top">
+            <li>
+              <a href="#"><img alt="flickr" src=
+              "assets/img/flickr-img.png"></a>
+            </li>
+
+            <li>
+              <a href="#"><img alt="flickr" src=
+              "assets/img/flickr-img.png"></a>
+            </li>
+
+            <li>
+              <a href="#"><img alt="flickr" src=
+              "assets/img/flickr-img.png"></a>
+            </li>
+
+            <li>
+              <a href="#"><img alt="flickr" src=
+              "assets/img/flickr-img.png"></a>
+            </li>
+          </ul>
+
+          <ul class="flickr-list-footer-top">
+            <li>
+              <a href="#"><img alt="flickr" src=
+              "assets/img/flickr-img.png"></a>
+            </li>
+
+            <li>
+              <a href="#"><img alt="flickr" src=
+              "assets/img/flickr-img.png"></a>
+            </li>
+
+            <li>
+              <a href="#"><img alt="flickr" src=
+              "assets/img/flickr-img.png"></a>
+            </li>
+
+            <li>
+              <a href="#"><img alt="flickr" src=
+              "assets/img/flickr-img.png"></a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container-footer-bottom">
+    <div class="container_12">
+      <div class="grid_1 omega">
+        <a class="back-to-top template-based-element-background" href=
+        "#"><span class="icon-back-to-top"></span></a>
+      </div>
+
+      <div class="grid_5 push_6 omega social-cr">
+        <ul class="social-footer-bottom">
+          <li>
+            <a class="facebook" href="http://www.tumblr.com"></a>
+          </li>
+
+          <li>
+            <a class="twitter" href="http://www.twitter.com"></a>
+          </li>
+
+          <li>
+            <a class="in" href="http://www.vimeo.com"></a>
+          </li>
+
+          <li>
+            <a class="rss" href="http://www.tumblr.com"></a>
+          </li>
+
+          <li>
+            <a class="dribble" href="http://www.tumblr.com"></a>
+          </li>
+        </ul>
+
+        <div class="cr-section">
+          <p>Copyright 2012 <a href="index.html">Clubix</a> <span class=
+          "sep-cr">|</span>All Rights Reserved <span class=
+          "sep-cr">|</span>More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+.phone-menu {
+ 	display: none;
+ 	float: left;
+ 	width: 280px;
+ 	position: relative;
+ 	z-index: 99;
+ 	margin: 10px 0;
+ 	li {
+ 		a {
+ 			background: #000;
+ 			display: block;
+ 			padding: 10px;
+ 			color: #a99d9b;
+ 			font-size: 12px;
+ 			cursor: pointer;
+ 			width: 260px;
+ 			span {
+ 				width: 20px !important;
+ 				height: 16px !important;
+ 				float: right;
+ 				position: relative;
+ 				z-index: 5;
+ 				background: url(../img/menu-icon.png) no-repeat;
+ 			}
+ 		}
+ 		ul {
+ 			display: none;
+ 			position: absolute;
+ 			li {
+ 				a {
+ 					background: #1c1c1c;
+ 					.transition;
+ 					&:hover {
+ 						background: #282828;
+ 					}
+ 				}
+ 				ul {
+ 					position: relative;
+ 					li {
+ 						a {
+ 							padding-left: 30px;
+ 							width: 240px;
+ 						}
+ 					}
+ 				}
+ 			}
+ 		}
+ 	}
+ }

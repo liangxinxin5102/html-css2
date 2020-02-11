@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="stylesheet" href="css/grid.css">
+        <link rel="stylesheet" href="css/grid.responsive.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="http://fonts.useso.com/css?family=Oswald">
+        <link rel="stylesheet" href="http://fonts.useso.com/css?family=Pontano+Sans&amp;subset=latin,latin-ext">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/core.css">
+        <link rel="stylesheet" href="css/color-green.css">
+
+        <!--[if IE 8]> <link rel="stylesheet" href="css/ie8.css"> <![endif]-->        
+        
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body class="theme-orange">
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- stylesheet switcher begin
+        
+        Delete if you're not planning to use multiple 
+        layout colors depending on user choice.
+        -->
+
+        <dl id="styleswitcher">
+        	<dt>Choose color</dt>
+        	<dd><a href="#" class="style green" rel="css/color-green.css">Green</a></dd>
+        	<dd><a href="#" class="style orange" rel="css/color-orange.css">Orange</a></dd>
+        	<dd><a href="#" class="style red" rel="css/color-red.css">Red</a></dd>
+        	<dd><a href="#" class="style violet" rel="css/color-violet.css">Violet</a></dd>
+        	<dd><a href="#" class="style blue" rel="css/color-blue.css">Blue</a></dd>
+	    </dl>
+	    <!-- stylesheet switcher end -->
+
+        <header id="page-header">
+        	<div class="container">
+        		<div class="row-fluid">
+        			<div class="span12">
+        				<a href="index-2.html" id="logotype">company name</a>
+        				<nav id="primary-nav">
+        					<ul>
+        						<li><a href="index-2.html">home</a></li>
+        						<li>
+        							<a href="#" class="withsiblings">pages</a>
+        							<ul>
+        								<li><a href="index-left.html">Index - left sidebar</a></li>
+        								<li><a href="page-fullwidth.html">fullwidth-page</a></li>
+        								<li><a href="page-fullwidth-grid2.html">fullwidth-page 2-col</a></li>
+        								<li><a href="page-fullwidth-grid3.html">fullwidth-page 3-col</a></li>
+        								<li><a href="page-fullwidth-grid4.html">fullwidth-page 4-col</a></li>
+        							</ul>
+        						</li>
+        						<li><a href="page-eventcalendar.html">events</a></li>
+        						<li>
+        							<a href="#" class="withsiblings">blog</a>
+        							<ul>
+        								<li><a href="blog.html">blog page</a></li>
+        								<li><a href="blog-left.html">blog page - left sidebar</a></li>
+        								<li><a href="single.html">single post</a></li>
+        								<li><a href="single-left.html">single post - left sidebar</a></li>
+        							</ul>
+        						</li>
+        						<li><a href="contact.html">contact</a></li>
+        					</ul>
+        				</nav><!-- /primary nav -->
+        				<nav id="primary-nav-mobile">
+	        				<form method="post" action="#" name="mobile-menu">
+	        					<select id="mobileSelect" onchange="$(this).submit();">
+	        						<option value="index-2.html">home</option>
+	        						<option value="page.html">pages</option>
+	        						<option value="index-left.html">- Index - left sidebar</option>
+	        						<option value="page-fullwidth.html">- fullwidth-page</option>
+	        						<option value="page-fullwidth-grid2.html">- fullwidth-page 2-col</option>
+	        						<option value="page-fullwidth-grid3.html">- fullwidth-page 3-col</option>
+	        						<option value="page-fullwidth-grid4.html">- fullwidth-page 4-col</option>
+	        						<option value="page-eventcalendar.html">events</option>
+	        						<option value="blog.html">blog</option>
+	        						<option value="blog.html">- blog page</option>
+	        						<option value="blog-left.html">- blog page - left sidebar</option>
+	        						<option value="single.html">- single post</option>
+	        						<option value="single-left.html">- single post - left sidebar</option>
+	        						<option value="contact.html">contact</option>
+	        					</select>
+	        				</form>
+        				</nav>
+        			</div>
+        		</div><!-- /row-fluid -->
+        	</div>
+        </header><!-- /page-header -->
+        <section id="slider">
+        	<div class="container">
+		        <!--
+		        Depending on purpose, there are two types of sliders included (Nivo Slider & Flexslider)
+		        For each slider you have to use an appropiate markup in order to use it
+		        -->
+		        
+		        <!-- Flexslider Basic Markup -->
+		        <div class="flex-container">
+			        <div class="flexslider">
+				        <ul class="slides">
+					        <li>
+						        <img src="img/common/slide01.jpg" />
+						        <div class="flex-caption">
+						        	<div>
+							        	<hgroup class="fancy-headers">
+								        	<h1>20/12/2013 <span>live event</span></h1>
+									        <h2>Jermaine Dupree</h2>
+									    </hgroup>
+									    <p>Maecenas ullamcorper feugiat dui vitae tempus. Suspendisse risus lectus, 
+									    faucibus vel placerat non, blandit id ante. Nullam orci lectus, cursus nec iaculis at, 
+									    ullamcorper sed erat. Praesent consectetur dui id mi pharetra bibendum.</p>
+						        	</div>
+						        </div>
+						    </li>
+						    <li>
+								<img src="img/common/slide02.jpg" />
+						        <div class="flex-caption">
+						        	<div>
+							        	<hgroup class="fancy-headers">
+								        	<h1>03/02/2013 <span>live event</span></h1>
+									        <h2>!HOT GIRLS NIGHT</h2>
+									    </hgroup>
+									    <p>Maecenas ullamcorper feugiat dui vitae tempus. Suspendisse risus lectus, 
+									    faucibus vel placerat non, blandit id ante. Nullam orci lectus, cursus nec iaculis at, 
+									    ullamcorper sed erat. Praesent consectetur dui id mi pharetra bibendum.</p>
+						        	</div>
+						        </div>
+							</li>
+							<li>
+								<img src="img/common/slide03.jpg" />
+						        <div class="flex-caption">
+						        	<div>
+							        	<hgroup class="fancy-headers">
+								        	<h1>14/02/2013 <span>lovers night</span></h1>
+									        <h2>dance &amp; romance</h2>
+									    </hgroup>
+									    <p>Maecenas ullamcorper feugiat dui vitae tempus. Suspendisse risus lectus, 
+									    faucibus vel placerat non, blandit id ante. Nullam orci lectus, cursus nec iaculis at, 
+									    ullamcorper sed erat. Praesent consectetur dui id mi pharetra bibendum.</p>
+						        	</div>
+						        </div>
+							</li>
+						</ul>
+					</div>
+				</div>
+		        <!-- End Flexslider Basic Markup -->
+        	</div>
+	        
+	    </section><!-- /slider -->
+
+	    <section id="content-header">
+	    	<div class="container">
+	    		<div class="row-fluid">
+	    			<div class="span8">
+				    	<hgroup class="content-title welcome">
+				    		<h1>Welcome to Orange Club Theme</h1>
+				    		<h2>Some descriptive sub-header to catch attention</h2>
+				    	</hgroup>
+	    			</div>
+	    			<div class="span4">
+				    	<hgroup class="fancy-headers">
+				    		<h1>check out <span>latest gallery</span></h1>
+				    		<h2>new year party eve</h2>
+				    	</hgroup>
+			    	</div>
+	    		</div>
+	    	</div>
+	    </section><!-- /content-header -->	    
+
+	    <section id="content-container" class="container">
+
+	    	<div class="row-fluid">
+
+
+			    <section id="content" class="span8 front-page posts">
+
+				    <article class="post">
+				    	<div class="post-offset">
+				    	<figure class="post-icon"><a href="single.html" title=""><img src="img/common/news01.jpg" alt=""/></a></figure>
+				    	<h1><a href="single.html" title="">we are looking for three experienced bartenders for a full-time job</a></h1>
+				    	<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+				    	Nunc ut diam dolor, rutrum bibendum nisi. Cras sapien ante, eleifend quis rhoncus a, hendrerit vel ante. 
+				    	Curabitur venenatis condimentum ligula, eu posuere mauris pharetra et.</p>
+				    	<div class="post-options">
+				    		<ul class="social">
+				    			<li><a href="#" class="share">Share</a></li>
+				    			<li><a href="#" class="facebook-share">Share on Facebook</a></li>
+				    			<li><a href="#" class="twitter-share">Share on Twitter</a></li>
+				    		</ul>
+				    		<a href="single.html" class="btn btn-medium more-link"><span class="icon icon-bubble-1"></span> <span class="resp">Read more</span></a>
+				    	</div>
+				    	</div>
+				    </article><!-- /post -->
+				    
+				    <article class="post">
+				    	<div class="post-offset">
+				    	<figure class="post-icon"><a href="single.html" title=""><img src="img/common/news02.jpg" alt=""/></a></figure>
+				    	<h1><a href="single.html" title="">we are looking for three experienced bartenders for a full-time job</a></h1>
+				    	<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+				    	Nunc ut diam dolor, rutrum bibendum nisi. Cras sapien ante, eleifend quis rhoncus a, hendrerit vel ante. 
+				    	Curabitur venenatis condimentum ligula, eu posuere mauris pharetra et.</p>
+				    	<div class="post-options">
+				    		<ul class="social">
+				    			<li><a href="#" class="share">Share</a></li>
+				    			<li><a href="#" class="facebook-share">Share on Facebook</a></li>
+				    			<li><a href="#" class="twitter-share">Share on Twitter</a></li>
+				    		</ul>
+				    		<a href="single.html" class="btn btn-medium more-link"><span class="icon icon-bubble-1"></span> <span class="resp">Read more</span></a>
+				    	</div>
+				    	</div>
+				    </article><!-- /post -->
+				    
+				    <article class="post">
+				    	<div class="post-offset">
+				    	<figure class="post-icon"><a href="single.html" title=""><img src="img/common/news03.jpg" alt=""/></a></figure>
+				    	<h1><a href="single.html" title="">we are looking for three experienced bartenders for a full-time job</a></h1>
+				    	<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+				    	Nunc ut diam dolor, rutrum bibendum nisi. Cras sapien ante, eleifend quis rhoncus a, hendrerit vel ante. 
+				    	Curabitur venenatis condimentum ligula, eu posuere mauris pharetra et.</p>
+				    	<div class="post-options">
+				    		<ul class="social">
+				    			<li><a href="#" class="share">Share</a></li>
+				    			<li><a href="#" class="facebook-share">Share on Facebook</a></li>
+				    			<li><a href="#" class="twitter-share">Share on Twitter</a></li>
+				    		</ul>
+				    		<a href="single.html" class="btn btn-medium more-link"><span class="icon icon-bubble-1"></span> <span class="resp">Read more</span></a>
+				    	</div>
+				    	</div>
+				    </article><!-- /post -->
+				    
+				    <article class="post">
+				    	<div class="post-offset">
+				    	<figure class="post-icon"><a href="single.html" title=""><img src="img/common/news04.jpg" alt=""/></a></figure>
+				    	<h1><a href="single.html" title="">we are looking for three experienced bartenders for a full-time job</a></h1>
+				    	<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+				    	Nunc ut diam dolor, rutrum bibendum nisi. Cras sapien ante, eleifend quis rhoncus a, hendrerit vel ante. 
+				    	Curabitur venenatis condimentum ligula, eu posuere mauris pharetra et.</p>
+				    	
+				    	<div class="post-options">
+				    		<ul class="social">
+				    			<li><a href="#" class="share">Share</a></li>
+				    			<li><a href="#" class="facebook-share">Share on Facebook</a></li>
+				    			<li><a href="#" class="twitter-share">Share on Twitter</a></li>
+				    		</ul>
+				    		<a href="single.html" class="btn btn-medium more-link"><span class="icon icon-bubble-1"></span> <span class="resp">Read more</span></a>
+				    	</div>
+				    	</div>
+				    	
+				    </article><!-- /post -->
+
+				    <div class="clearfix"></div>
+				    
+				    	<div id="banner">
+				    		<a href="page-event-info.html" title="Banner"><img src="img/common/banner.png" alt="BannerAd"/></a>
+				    	</div>
+				    
+				    
+				    <div class="clearfix"></div>
+
+				    <section id="pagination">
+				    	<ol>
+				    		<li><a href="#" title="">&laquo;</a></li>
+				    		<li><a href="#" title="">1</a></li>
+				    		<li><a href="#" title="" class="current">2</a></li>
+				    		<li><a href="#" title="">3</a></li>
+				    		<li><a href="#" title="">4</a></li>
+				    		<li><a href="#" title="">&raquo;</a></li>
+				    	</ol>
+				    </section>
+				    
+			    </section><!-- /content -->
+			    
+			    <aside id="sidebar" class="span4">
+			    
+			    	<div class="widget photos">
+					    <ul class="photo-stream">
+					    	<li><a rel="lightbox" href="img/common/gal01.jpg"><img src="img/common/gal01.jpg" alt="gal01" width="" height="" /></a></li>
+						    <li><a rel="lightbox" href="img/common/gal02.jpg"><img src="img/common/gal02.jpg" alt="gal02" width="" height="" /></a></li>
+						    <li><a rel="lightbox" href="img/common/gal03.jpg"><img src="img/common/gal03.jpg" alt="gal02" width="" height="" /></a></li>
+						    <li><a rel="lightbox" href="img/common/gal04.jpg"><img src="img/common/gal04.jpg" alt="gal04" width="" height="" /></a></li>
+						    <li><a rel="lightbox" href="img/common/gal05.jpg"><img src="img/common/gal05.jpg" alt="gal05" width="" height="" /></a></li>
+						    <li><a rel="lightbox" href="img/common/gal06.jpg"><img src="img/common/gal06.jpg" alt="gal06" width="" height="" /></a></li>
+						    <li><a rel="lightbox" href="img/common/gal07.jpg"><img src="img/common/gal07.jpg" alt="gal07" width="" height="" /></a></li>
+						    <li><a rel="lightbox" href="img/common/gal08.jpg"><img src="img/common/gal08.jpg" alt="gal08" width="" height="" /></a></li>
+						    <li><a rel="lightbox" href="img/common/gal09.jpg"><img src="img/common/gal09.jpg" alt="gal08" width="" height="" /></a></li>
+					    </ul>
+			    	</div>
+				    
+				    <div class="widget live-sets">
+				    	<header>
+					    	<hgroup class="fancy-headers">
+					    		<h1>listen to our featured <span>dj sets</span></h1>
+					    		<h2>recorded during live parties</h2>
+					    	</hgroup>
+				    	</header>
+				    	<div class="media-container">
+					    	<iframe id="media-player" width="640" height="360" src="http://www.youtube.com/embed/O3c4dPxN1qM?rel=0;showinfo=0" frameborder="0" allowfullscreen></iframe>
+				    	</div>
+				    	<div class="playlist">
+				    		<ul>
+				    			<li><p><span class="set-name" data-href="http://www.youtube.com/watch?v=Bparw9Jo3dk">DJ Kumba Live @ NEW YEAR PARTY</span><span class="set-time">1:15:40</span></p></li>
+				    			<li><p><span class="set-name" data-href="http://www.youtube.com/watch?v=KQ6zr6kCPj8">DJ Timon Live @ Second day of Christmas</span><span class="set-time">40:20</span></p></li>
+				    			<li><p><span class="set-name" data-href="http://www.youtube.com/watch?v=UA8rcLvS1BY">DJ Malik Live @ First day of Christmas</span><span class="set-time">42:00</span></p></li>
+				    			<li><p><span class="set-name" data-href="http://www.youtube.com/watch?v=VdEVuk82pTU">DJ ThiveLive @ XMAS Before Party</span><span class="set-time">45:00</span></p></li>
+				    			<li><p><span class="set-name" data-href="http://www.youtube.com/watch?v=dkZvwAtYNm4">DJ Thorn Live @ Heat the Ground</span><span class="set-time">40:00</span></p></li>
+				    		</ul>
+				    	</div>
+				    </div><!-- /live-stes -->
+				    
+				    <div class="widget upcoming-events">
+				    	<header>
+					    	<hgroup class="fancy-headers">
+					    		<h1>check <span class="resp">out</span> our <span>upcoming event</span></h1>
+					    		<h2>dont miss that party!</h2>
+					    	</hgroup>
+				    	</header>
+				    	
+				    	<div class="flyer-wrapper">
+				    		<p class="event-date">30/07/2013 <span>8:00PM</span></p>
+				    		<p class="view-event">view event on <span>Facebook</span></p>
+				    		<figure>
+				    			<a href="page-event-info.html" title=""><img src="img/common/poster.png" alt=""/></a>
+				    		</figure>
+				    	</div>
+				    	
+				    </div><!-- /upcoming-events -->
+				    
+			    </aside>
+	    	</div>
+	    </section><!-- content-container -->
+	    
+
+	    <footer id="page-footer">
+
+	    	<div class="container">
+				<div class="row-fluid">
+					<div class="span4">
+						<div>
+							<div class="fancy-headers"><h3>need some info? <span>get in touch</span></h3></div>
+							<div class="vcard">
+								<span class="fn">Orange Club &amp; Restaurant</span><br/>
+								<div class="adr">
+									<span class="street-address">665 3rd St.</span>
+									<span class="extended-address">Suite 207</span><br/>
+									<span class="locality">San Francisco</span>,
+									<abbr class="region">CA</abbr>
+									<span class="postal-code">94107</span>
+								</div>
+								<div class="tel">818 555 1212</div>
+								<div><a class="email" href="mailto:sally@example.com">sally@example.com</a></div>
+							</div>
+						</div>
+						<div>
+							<div class="fancy-headers"><h3>order yourself <span>a table</span></h3></div>
+							<p>Make a reservation on any amount of tables you need under this number:</p>
+							<div class="vcard">
+								<div class="tel">phone: 392 120 320</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="span4">
+						<div>
+							<div class="fancy-headers"><h3>our staff</h3></div>
+							<p>Those are the people, who take care of everything, so you could party all night long being safe and have fun!</p>
+							<ul class="staff-members">
+								<li>
+									<p class="bubble">Tom, bartender</p>
+									<figure><img src="img/common/staff01.jpg" alt="staff01" width="" height="" /></figure>
+								</li>
+								<li>
+									<p class="bubble">Tom, bartender</p>
+									<figure><img src="img/common/staff02.jpg" alt="staff02" width="" height="" /></figure>
+								</li>
+								<li>
+									<p class="bubble">Tom, bartender</p>
+									<figure><img src="img/common/staff03.jpg" alt="staff03" width="" height="" /></figure>
+								</li>
+								<li>
+									<p class="bubble">Tom, bartender</p>
+									<figure><img src="img/common/staff04.jpg" alt="staff04" width="" height="" /></figure>
+								</li>
+								<li>
+									<p class="bubble">Tom, bartender</p>
+									<figure><img src="img/common/staff05.jpg" alt="staff05" width="" height="" /></figure>
+								</li>
+								<li>
+									<p class="bubble">Tom, bartender</p>
+									<figure><img src="img/common/staff06.jpg" alt="staff06" width="" height="" /></figure>
+								</li>
+								<li>
+									<p class="bubble">Tom, bartender</p>
+									<figure><img src="img/common/staff07.jpg" alt="staff07" width="" height="" /></figure>
+								</li>
+								<li>
+									<p class="bubble">Tom, bartender</p>
+									<figure><img src="img/common/staff08.jpg" alt="staff08" width="" height="" /></figure>
+								</li>
+								<li>
+									<p class="bubble">Tom, bartender</p>
+									<figure><img src="img/common/staff09.jpg" alt="staff09" width="" height="" /></figure>
+								</li>
+								<li>
+									<p class="bubble">Tom, bartender</p>
+									<figure><img src="img/common/staff10.jpg" alt="staff10" width="" height="" /></figure>
+								</li>
+							</ul>
+						</div>						
+					</div>
+					
+					<div class="span4">
+						<div>
+							<div class="fancy-headers"><h3>social hub</h3></div>
+							<p>Be always up to date with our latest events! Like our Facebook Fanpage and follow us on Twitter. Discounts, free entries and contest are waiting for you!</p>
+							<ul class="social-hub">
+				    			<li><a href="#" class="share"><span>Share</span></a></li>
+				    			<li><a href="#" class="facebook-share"><span>Share on Facebook</span></a></li>
+				    			<li><a href="#" class="twitter-share"><span>Share on Twitter</span></a></li>
+							</ul>
+						</div>
+						<div>
+							<div class="fancy-headers"><h3>latest tweet</h3></div>
+							<p class="latest-tweet">Be always up to date with our latest events! Like our Facebook Fanpage! <a href="#">#facebook</a> <a href="#">#twitter</a></p>
+						</div>							
+					</div>
+					
+				</div>
+	    	</div>
+	    
+			<div class="copyright">2013 All rights reserved by <a href="#">Orange Club &amp; Restaurant</a>. <span class="author">More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></span></div>
+	    </footer>
+
+
+
+        <script src="js/jquery-1.8.2.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/jquery.flexslider.js"></script>
+        <script src="js/jquery.nivo.slider.js"></script>
+        <script src="js/jquery.cookie.js"></script>
+        <script src="js/jquery.easing-1.3.pack.js"></script>
+        <script src="js/jquery.fancybox1.3.4.js"></script>
+        <script src="js/jquery.player.js"></script>
+        <script src="js/jquery.event-calendar.js"></script>
+
+        <script src="js/main.js"></script>
+
+        
+                
+    </body>
+</html>

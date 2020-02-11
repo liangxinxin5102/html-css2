@@ -1,0 +1,126 @@
+/*
+Collect From Free Html5 Templates
+http://www.freehtml5template.com
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	font-size:14px;
+	font-family: 'Arvo', serif;
+	background: #000000 url(images/siteBackground.jpg) no-repeat center top fixed;
+	color:#CCCCCC;
+}
+a {
+	font-size:14px;
+	color:#ff2102;
+	text-decoration:underline;
+}
+a:hover {
+	font-size:14px;
+	color:#ff2102;
+	text-decoration:none;
+}
+h1, h2 {
+	padding:0 15px;
+	color:#ff2102;
+}
+p {
+	padding:10px 15px 35px 15px;
+	line-height: 170%;
+}
+#container {
+	width: 960px;
+	position:absolute;
+	right:10%;
+}
+#header {
+	padding: 0 10px 0 20px;
+}
+#header h1 {
+	margin: 0; 
+	padding: 10px 0;
+	float:left;
+}
+#header h1 a {
+	font-size:64px;
+	padding:0 15px;
+	text-decoration:none;
+}
+#mainContent {
+	padding: 0 20px;
+	background:none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+}
+#mainContent h1 {
+	padding-top:50px;
+}
+#mainContent ul {
+	padding:0 15px 40px 15px;
+}
+#mainContent ul a {
+	text-decoration:none;
+}
+#mainContent li {
+	padding:7px 0 7px 0;
+	border-bottom:1px solid rgba(0, 0, 0, 0.5);
+	list-style:none;
+}
+#mainContent ul a:hover {
+	color:#CCCCCC;
+}
+.picClear {
+	float:left;
+	padding:7px 25px 10px 0;
+}
+#footer {
+	padding: 0 10px;
+}
+#footer p {
+	font-size:12px;
+	margin: 0; 
+	padding: 30px 0;
+	text-align:center;
+}
+#footer p a {
+	font-size:12px;
+}
+.clearer {
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+/*MAIN MENU*/
+ul#navlist {
+	font: bold 11px verdana, arial, sans-serif;
+	list-style-type: none;
+	padding-bottom: 62px;
+	margin: 0;
+	padding-top: 104px;
+	padding-left:15px;
+	padding-right:15px;
+}
+ul#navlist li {
+	float: left;
+	height: 62px;
+	background:none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+}
+#navlist #active a {
+	background: #ff2102;
+	color: #F5F5F5;
+}
+#navlist a {
+	float: left;
+	display: block;
+	color: #CCCCCC;
+	text-decoration: none;
+	padding:20px 20px;
+	text-transform:uppercase;
+	font-size:18px;
+}
+#navlist a:hover {
+	background: #ff2102;
+	color: #F5F5F5;
+}

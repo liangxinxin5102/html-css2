@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Green Deomo README Document</title>
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/style.css">
+<script src="../js/jquery-2.1.1.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/javascript.js"></script>
+</head>
+
+<body>
+<h2>后台高度控制</h2>
+<p>GD使用了强大的Admin Options作为后台开发框架，实现了高度的可控。前台的很多东西可以通过后台直接设置，例如logo、版权、SEO、广告等。而且在前台，如果你稍微懂一点代码，就可以极快的调用后台增加的选项。</p>
+<div class="panel panel-default">
+  <div class="panel-heading">案例1 超级简单的后台选项扩展</div>
+  <div class="panel-body">
+    <p>你需要在你的网站中贴出你的google+地址，但是主题默认是没有的。怎么办呢？进入后台“外观-Admin Options”选项，选择“社交媒体”菜单，添加一个名为 <em>GooglePlus</em> 的项，如下图：</p>
+    <p><img src="../img/menu_2_1-1.jpg" class="img-rounded"></p>
+    <p>添加之后，按照下方的提示信息，在你的主题中使用代码：</p>
+    <pre>global $admin_options;
+$socials = array_admin_options($admin_options['social']);
+$GooglePlus = $socials['GooglePlus'];</pre>
+    <p>使用方法非常简单。</p>
+  </div>
+</div>
+<p>后台加入的这些功能，不单单是对前台的控制，而且是可以扩展的，这在以前所有的主题中都是没有的，而且更重要的是，内置的这些功能（SEO、Post Metas等）是<strong class="text-success">免费的</strong>！</p>
+
+<p class="btn-area text-center"><a href="javascript:next()" class="btn btn-success btn-lg">下一节</a></p>
+
+</body>
+</html>

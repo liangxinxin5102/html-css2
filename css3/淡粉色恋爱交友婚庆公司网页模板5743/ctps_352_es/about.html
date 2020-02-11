@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>About</title>
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/component.css" rel="stylesheet" type="text/css"  />
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Weekend Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--web-fonts-->
+<link href='http://fonts.useso.com/css?family=Philosopher:400,700,400italic,700italic|PT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+<!--js-->
+<script src="js/jquery-1.11.1.min.js"></script> 
+ <script src="js/bootstrap.js"> </script>
+<script src="js/modernizr.custom.js"></script>
+<!--//js-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<!--/script-->
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+</script>
+
+</head>
+  <!--start-home-->
+ <body class="cbp-spmenu-push">
+       <!--top-header-->
+         <div id="house" class="top-header">
+			  <div class="container">
+				 <p class="col-md-3 location"><i class="glyphicon glyphicon-map-marker"></i>16A, Honey Street</p>
+				 <p class="col-md-3 phone"><i class="glyphicon glyphicon-phone"></i> 655 7758 2068 54892</p>
+				 <p class="col-md-3 mail"><i class="glyphicon glyphicon-envelope"></i><a href="mailto:info@example.com">mail@example.com</a></p>
+				<div class="col-md-3 search">
+					<form>
+						<input type="submit" value="">
+						<input type="text" value="Search " onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
+					</form>
+				</div>
+
+
+				<div class="clearfix"></div>
+			 </div>
+		</div>
+		<!--bottomner-->
+		  <section class="buttonset">
+					<button id="showLeftPush"><img src="images/menu-icon.png" alt=""></button>
+		   </section>
+			<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+			<h3>Menu</h3>
+			<a href="index.html" class="active">Home</a>
+						<a href="about.html">About us</a>
+						<a href="typography.html">services</a>
+						<a href="News.html">News</a>
+					    <a href="gallery.html">Gallery</a>
+						<a href="contact.html">Contact</a>
+
+		  </nav>
+	      <div class="banner two">
+		        <div class="logo two">
+					<a href="index.html"><h1>Weeke<span>nd</span></h1><p>After Friday...</p></a>
+				</div>
+		 </div>
+		<!-- Classie - class helper functions by @desandro https://github.com/desandro/classie -->
+		<script src="js/classie.js"></script>
+		<script>
+			var menuLeft = document.getElementById( 'cbp-spmenu-s1' ),
+				showLeftPush = document.getElementById( 'showLeftPush' ),
+				showRightPush = document.getElementById( 'showRightPush' ),
+				body = document.body;
+
+			showLeftPush.onclick = function() {
+				classie.toggle( this, 'active' );
+				classie.toggle( body, 'cbp-spmenu-push-toright' );
+				classie.toggle( menuLeft, 'cbp-spmenu-open' );
+				disableOther( 'showLeftPush' );
+			};
+
+			function disableOther( button ) {
+				if( button !== 'showLeftPush' ) {
+					classie.toggle( showLeftPush, 'disabled' );
+				}
+				if( button !== 'showRightPush' ) {
+					classie.toggle( showRightPush, 'disabled' );
+				}
+			}
+		</script>
+		<!--start-about-->
+			<div class="about">
+				<div class="container">
+						<h3 class="tittle">ABOUT US</h3>
+					<div class="about-bottom">
+						<p>Pellentesque aliquet sit amet purus gravida pulvinar. Duis quis risus a nunc ultricies varius. Aenean aliquam pellentesque magna consectetur hendrerit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc id est ac nulla venenatis luctus vulputate sit amet libero. Praesent et aliquam leo. In aliquet felis orci, in dapibus nisi ullamcorper sed. Praesent congue ante sed dui sodales, vitae pharetra risus semper. Aliquam malesuada non ex quis mollis. Etiam non felis id lorem sodales posuere. Ut est nisl, viverra id nisi et, maximus pellentesque elit. Etiam luctus nulla at semper congue.</p>
+						<p>Maecenas metus purus, lacinia auctor dignissim in, dapibus vitae elit. Sed facilisis interdum est, a vulputate risus dictum ut. In ex erat, placerat eget nunc vitae, accumsan euismod sem. Duis scelerisque a dui a mattis. Praesent et tellus vitae neque ultrices malesuada.</p>
+						<div class="about-btm">
+							<div class="col-md-6 about-left">
+								<img src="images/b5.jpg" alt="" />
+							</div>
+							<div class="col-md-6 about-right">
+								<img src="images/b6.jpg" alt="" />
+							</div>
+							<div class="clearfix"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+	<!--end-about-->
+	<!--start-openion-->
+			<div class="openion">
+				<div class="container">
+					<h3 class="tittle">Openions Of People</h3>
+				    <div class="op-grids">
+						<div class="col-md-7 openion-fam">
+							<iframe src="https://www.youtube.com/embed/NNLUOCbyEkA" frameborder="0" allowfullscreen></iframe>
+						</div>
+						<div class="col-md-5 openion-text">
+							 <div class="sub-trailer">
+				       <div class="col-md-4 sub-img">
+							<img src="images/v2.jpg" alt="img07"/>
+					   </div>
+					   <div class="col-md-8 sub-text">
+					   		 <a href="#">People 1: Nam nec tellus a odio tincidunt a odio.</a>
+							 <p>Lorem ipsum dolor sit amet, consectetur adipi…</p>
+					   </div>
+					    <div class="clearfix"> </div>
+				   </div>
+				    <div class="sub-trailer">
+				       <div class="col-md-4 sub-img">
+							<img src="images/v1.jpg" alt="img07"/>
+					   </div>
+					   <div class="col-md-8 sub-text">
+					   		 <a href="#">People 2: Nam nec tellus a odio tincidunt a odio.</a>
+							 <p>Lorem ipsum dolor sit amet, consectetur adipi…</p>
+					   </div>
+					    <div class="clearfix"> </div>
+				   </div>
+				    <div class="sub-trailer">
+				       <div class="col-md-4 sub-img">
+							<img src="images/v3.jpg" alt="img07"/>
+					   </div>
+					   <div class="col-md-8 sub-text">
+					   		 <a href="#">People 3: Nam nec tellus a odio tincidunt a odio.</a>
+							 <p>Lorem ipsum dolor sit amet, consectetur adipi…</p>
+					   </div>
+					    <div class="clearfix"> </div>
+				   </div>
+
+						</div>
+							<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>
+	<!--/testimonials-->
+	<div class="testi-m">
+		<div class="container">
+			 <h3 class="tittle three">Testimonials</h3>
+			 <div class="test">
+				<img src="images/t1.jpg" alt="name" />
+					<div class="test-text">
+					   <h4>David son</h4>
+					   <p><span> </span>Duis quis risus a nunc ultricies varius.Duis quis risus a nunc ultricies varius. Aenean aliquam pellentesque magna consectetur hendrerit. Cum sociis natoque penatibus.</p>
+					</div>
+			 </div>
+		</div>
+	</div>
+<!--contact-->
+		   <div class="contact">
+		         <div class="col-md-6 contact-top">
+				     	<div class="point"> <i class="glyphicon glyphicon-map-marker"></i></div>
+					  <h3 class="tittle two">Find Us</h3>
+				      <h4>For Any questions, Please feel free to Contact us by mail.</h4>
+					     <div class="contact-ad">
+								<p>Address:Newyork Still Road.756 gt globel Place.<p>
+								<p>Phone:Newyork Still Road.756 gt globel Place.<p>
+								<p>E-mail :<a href="mailto:info@example.com">mail@example.com</a></p>
+
+					     </div>
+			      </div>
+				  <div class="col-md-6 map">
+						<iframe src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Purwokerto,+Central+Java,+Indonesia&amp;aq=0&amp;oq=purwo&amp;sll=37.0625,-95.677068&amp;sspn=50.291089,104.238281&amp;ie=UTF8&amp;hq=&amp;hnear=Purwokerto,+Banyumas,+Central+Java,+Indonesia&amp;ll=-7.431391,109.24783&amp;spn=0.031022,0.050898&amp;t=m&amp;z=14&amp;output=embed"></iframe>
+						<div class="black"> 
+						  <div class="map-l"> <i class="glyphicon glyphicon-map-marker"></i></div>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+	       </div>
+	<!--//contact-->
+
+	<!--/footer-->
+			<div class="copy">
+		              <p>Copyright &copy; 2015.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
+		            </div>
+			<!--start-smoth-scrolling-->
+			<script type="text/javascript">
+								jQuery(document).ready(function($) {
+									$(".scroll").click(function(event){		
+										event.preventDefault();
+										$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+									});
+								});
+								</script>
+							<!--start-smoth-scrolling-->
+						<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+		<a href="#house" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+</body>
+</html>

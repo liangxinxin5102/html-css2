@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Shortly | Coming Soon Template</title>
+	
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	
+	<!-- stylesheets -->
+	<link href="css/skeleton.css" rel="stylesheet" type="text/css" />
+	<link href="css/base.css" rel="stylesheet" type="text/css" />
+	
+
+	<!-- javascript-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="js/jquery.cycle.js"></script>
+
+	<!-- google fonts -->
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,400italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Patua+One' rel='stylesheet' type='text/css'>
+
+	<!-- favicons -->
+	<link rel="icon" type="image/png" href="img/favicon.html" />
+	
+	<style>
+		body { /*background: url('img/960grid.png') center repeat-y;*/ }
+	</style>
+</head>
+<body>
+	
+		
+	<div class="container">
+		
+		<div class="row">
+		
+			<div class="eight columns">
+				
+				<img src="img/logo.png" alt="Shortly" class="logo" />
+				<h1>Our website is coming soon</h1>
+				
+				<p>Be the first to find out when we launch.</p>
+			
+				<form action="#" method="post">
+				
+					<input type="email" name="email" placeholder="Email Address" />
+					<input type="submit" name="submit" value="GO" />
+				
+				</form>
+			
+			</div>
+			
+			<div class="six columns offset-by-two">
+			
+				<div class="slideshow">
+				
+					<a href="#" class="slide-control left">Left</a>
+					<a href="#" class="slide-control right">Right</a>
+					
+					<div class="slides">
+					
+						<img src="img/photo1.jpg" alt="Girl with glasses" />
+						<img src="img/photo2.jpg" alt="Girl on railway" />
+						<img src="img/photo3.jpg" alt="Girl in bushes" />
+					
+					</div>
+				
+				</div>
+			
+			</div>
+		
+		</div>
+		
+		<div class="copyrights">Collect from <a href="http://www.cssmoban.com/"  title="">网站模板</a></div>
+		
+		<div class="row">
+	
+			<div class="sixteen columns top-border">
+			
+				<h2>What you have to look forward to...</h2>
+			
+			</div>
+		
+		</div>
+		
+		<div class="row">
+		
+			<div class="one-third column">
+			
+				<h3 class="icon one">Multitrack Recording</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra nibh quis diam lobortis tempus. Quisque ullamcorper rhoncus velit, sit amet cursus mi pharetra varius. Integer ultricies iaculis ligula quis.</p>
+			
+			</div>
+			
+			<div class="one-third column borders">
+			
+				<h3 class="icon two">Easy To Use Interface</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra nibh quis diam lobortis tempus. Quisque ullamcorper rhoncus velit, sit amet cursus mi pharetra varius. Integer ultricies iaculis ligula quis.</p>
+			
+			</div>
+			
+			<div class="one-third column">
+			
+				<h3 class="icon three">Cloud Storage</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra nibh quis diam lobortis tempus. Quisque ullamcorper rhoncus velit, sit amet cursus mi pharetra varius. Integer ultricies iaculis ligula quis.</p>
+			
+			</div>
+		
+		</div>
+	
+	</div>
+	
+	<script>
+	$(window).load(function() {
+		$('.slides').cycle({
+			fx: 'fade',
+			timeout: 6000,
+			next:   '.right', 
+			prev:   '.left' 
+		});
+	});
+	</script>
+		
+</body>
+</html>

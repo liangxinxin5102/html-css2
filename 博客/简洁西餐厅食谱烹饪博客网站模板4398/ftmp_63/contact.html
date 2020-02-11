@@ -1,0 +1,187 @@
+<!DOCTYPE HTML>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300|Bitter:400,700,400italic' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="javascript/jquery-latest.js"></script>
+<script type="text/javascript" src="javascript/red-sky-options.js"></script>
+<script type="text/javascript" src="javascript/contacts.js"></script>
+<!-- Mobile Specific Metas -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!-- CSS -->
+<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/responsive.css" rel="stylesheet" type="text/css">
+<!-- START SETTINGS BOX -->
+<script type="text/javascript" src="settingsbox/farbtastic/farbtastic.js"></script>
+<script type="text/javascript" src="settingsbox/settingsbox.js"></script>
+<link href="settingsbox/settingsbox.css" rel="stylesheet" type="text/css">
+<link href="settingsbox/farbtastic/farbtastic.css" rel="stylesheet" type="text/css">
+<!-- END SETTINGS BOX -->
+
+<title>iCOOK</title>
+</head>
+<body>
+
+<!-- START SETTINGS BOX -->
+<div class="customPanel customPanelClosed">
+  <div class="customPanelOptions">
+    <h1>Settings Box</h1>
+    Background<br />
+    <div style="clear:both;"></div>
+    <div class="customPanelOptionsDefault">Default</div>
+    <div style="clear:both;"></div>
+    <div style="height: 10px"></div>
+    Colors:<br />
+    <div style="clear:both;"></div>
+    <div class="customPanelOptionsColor bodycolor01"></div>
+    <div class="customPanelOptionsColor bodycolor02"></div>
+    <div class="customPanelOptionsColor bodycolor03"></div>
+    <div class="customPanelOptionsColor bodycolor04"></div>
+    <div class="customPanelOptionsColor bodycolor06"></div>
+    <div class="customPanelOptionsColor bodycolor07"></div>
+    <div class="customPanelOptionsColor bodycolor08"></div>
+    <div class="customPanelOptionsColor bodycolor09"></div>
+    <div class="customPanelOptionsColor bodycolor10"></div>
+    <div class="customPanelOptionsPickerButton customPanelOptionsPickerButtonBackground"></div>
+    <div style="clear:both;"></div>
+    Textures:<br />
+    <div style="clear:both;"></div>
+    <div class="customPanelOptionsTexture bodytexture01 bodytexturePreview"></div>
+    <div class="customPanelOptionsTexture bodytexture02 bodytexturePreview"></div>
+    <div class="customPanelOptionsTexture bodytexture03 bodytexturePreview"></div>
+    <div class="customPanelOptionsTexture bodytexture04 bodytexturePreview"></div>
+    <div class="customPanelOptionsTexture bodytexture05 bodytexturePreview"></div>
+    <div class="customPanelOptionsTexture bodytexture06 bodytexturePreview"></div>
+    <div class="customPanelOptionsTexture bodytexture07 bodytexturePreview"></div>
+    <div class="customPanelOptionsTexture bodytexture08 bodytexturePreview"></div>
+    <div class="customPanelOptionsTexture bodytexture09 bodytexturePreview"></div>
+    <div class="customPanelOptionsTexture bodytexture10 bodytexturePreview"></div>
+    <div style="clear:both;"></div>
+  </div>
+  <div class="customPanelOptionsPicker customPanelOptionsPickerBackground"></div>
+  <div class="customPanelOptionsPicker customPanelOptionsPickerSite"></div>
+  <div class="customPanelButton"></div>
+</div>
+<!-- END SETTINGS BOX --> <!-- START CONTENT -->
+<div id="box">
+	<div class="container">
+<!-- START HEADER -->
+<div class="columns one">
+	<div id="header">
+    	<div id="logo"><a href="index-2.html">iCOOK</a></div>
+        
+        <ul class="menu">
+        	<li><a href="index-2.html">Home</a></li>
+            <li><a href="recipes.html">Recipe Gallery</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+      <div class="navigation">
+      <form action="http://wp.red-sky.pl/">
+        <select class="navigationmicro" name="myDestination" onChange="this.form.window_name.value++; ob=this.form.myDestination; window.open(ob.options[ob.selectedIndex].value,'Window_Name'+this.form.window_name.value,'toolbar=1,location=1,directories=1,status=1,menubar=1,scrollbars=1,resizable=1,width=400,height=300')">
+          <option value="#">- Contact -</option>
+          <option value="index-2.html">Home</option>
+          <option value="recipes.html">Recipe Gallery</option>
+          <option value="about.html">About</option>
+          <option value="contact.html">Contact</option>
+        </select>
+        <input name="window_name" style="display:none;" type="hidden" value="1">
+      </form>
+      <div class="clear"></div>
+    </div>
+    	<div class="clear"></div>
+    </div>
+</div>
+<!-- END HEADER -->
+
+<!-- START HINTS -->
+<div class="hint columns one">
+	Your recipe is at a click away. Choose your favorite recipe and cooking with
+iCOOK. Enjoy flavors with iCOOK.
+</div>
+<!-- END HINTS -->
+
+<!-- START LEFT CONTENT -->
+<div class="columns two-thirds">
+
+  <div class="single_post">
+  
+  <div class="contact">
+  <h2>Write me a letter</h2>
+      <form id="contactForm">  
+          <div class="left">
+          <p>Name</p>
+          <input class="leftline" name="name" type="text">
+          </div>
+          <div class="right">
+          <p>E-mail</p>
+          <input class="rightline" name="email" type="text">
+          </div>
+          <div class="center">
+          <p>Message</p>
+          <textarea class="centerline" name="message" cols="10" rows="10"></textarea>
+          </div>
+      
+      <input name="send" class="button" type="submit" value="YES I'M SURE">
+      </form>
+  <div id="contactResult"></div>
+  </div>
+  
+  
+  
+    <div class="clear"></div>  
+    </div>
+    
+</div>
+<!-- END LEFT CONTENT -->
+
+<!-- START RIGHT SIDEBAR -->
+<div class="columns one-third_last sidebar">
+<input class="searchline" name="search" value="What are you searching for?" onblur="if(this.value=='') this.value='What are you searching for?'" onfocus="if(this.value =='What are you searching for?' ) this.value=''">
+
+<div class="title">Popular</div>
+<div class="image"><img src="images/cook/carpaccio_with_nuts.jpg" alt="blogimg" /></div>
+<h4><a href="single_post.html">carpaccio with nuts</a></h4>
+
+<div class="image"><img src="images/cook/strawberry_with_cream.jpg" alt="blogimg" /></div>
+<h4><a href="single_post.html">strawberry with cream</a></h4>
+
+<div class="image"><img src="images/cook/cookies_with_strawberry.jpg" alt="blogimg" /></div>
+<h4><a href="single_post.html">cookies with strawberry</a></h4>
+
+<div class="title">Social</div>
+<div class="social">
+<a href="#"><img src="images/mini_facebook.png" alt="facebook" /></a>
+<a href="#"><img src="images/mini_twitter.png" alt="twitter" /></a>
+<a href="#"><img src="images/mini_rss.png" alt="rss" /></a>
+<a href="#"><img src="images/mini_google%2b.png" alt="google+" /></a>
+</div>
+
+
+</div>
+<!-- END RIGHT SIDEBAR -->
+
+
+<div class="clear"></div>
+
+<!-- START FOOTER -->
+<div id="footer">
+<p>&copy; Copyright &copy; 2013.Company name All rights reserved.<a target="_blank" href="http://www.cssmoban.com/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
+<p><a href="about.html">About</a> - <a href="recipes.html">Recipe Gallery</a> - <a href="contact.html">Contact</a></p>
+</div>
+<!-- END FOOTER -->
+
+	</div>
+</div>
+<!-- END CONTENT -->
+
+</body>
+</html>

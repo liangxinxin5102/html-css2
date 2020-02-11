@@ -1,0 +1,176 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Green Deomo README Document</title>
+<style>
+html,body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#menu {
+  width: 20%;
+  height: 100%;
+  float: left;
+  overflow-x: hidden;
+}
+#menu a {
+  color: #219A44;
+  font-weight: 800;
+}
+#menu .logo {
+  margin: .5em 0;
+}
+#menu .link {
+  margin-top: 4em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+#menu ul {
+  padding: 0;
+  margin: 0;
+}
+#menu ul li {
+  padding: .2em 1em;
+  list-style: none;
+}
+#menu ul li a {
+  text-decoration: none;
+}
+#menu .root-menu a.color-red {
+  color: #EA6553;
+}
+#menu ul ul {
+  border-right: 0;
+}
+#frame {
+  width: 80%;
+  height: 100%;
+  float: right;
+}
+#frame iframe {
+  width: 100%;
+  height: 100%;
+}
+</style>
+<script src="js/jquery-2.1.1.min.js"></script>
+<script>
+$(function(){
+  var dir = './html/';// 设置html文档的目录
+  $('#menu .root-menu a').click(function(e){
+    var $this = $(this),$li = $this.parent(),$ul = $li.parent(),
+        child,parent,menu,url,hash;
+    if($ul.hasClass('sub-menu')) {
+      $root = $ul.parent();
+      child = $ul.find('li').index($li) + 1;
+      parent = $('#menu > ul > li').index($root);
+      menu = parent + '-' + child;
+    }
+    else {
+      parent = $('#menu > ul > li').index($li);
+      menu = parent;
+    }
+    url = dir + menu + '.html';
+    hash = '#!' + menu;
+    $('#frame iframe').attr('src',url);
+    window.location.hash = hash;
+    $('#menu .root-menu a').removeClass('color-red');
+    $this.addClass('color-red');
+  });
+  var hash = window.location.hash,
+      href = window.location.href,
+      menu,parent,child;
+  if(href.indexOf('?') >= 0 || href.indexOf('index.html') < 0) {
+    window.location.href = 'index.html' + hash;
+  }
+  if(hash == '')$('#menu .root-menu a:first').click();// 第一次进入页面的时候显示第一个菜单的页面
+  if(hash != '' && hash.indexOf('#!') == 0) {
+    menu = hash.replace('#!','');
+    url = dir + menu + '.html';
+    $('#frame iframe').attr('src',url);
+    menu = menu.split('-');
+    parent = menu[0];
+    child = menu[1];
+    $('#menu .root-menu a').removeClass('color-red');
+    if(child == undefined) {
+      $('#menu .root-menu > li').eq(parent).children('a').addClass('color-red');
+    }
+    else {
+      child = parseInt(child);
+      $('#menu .root-menu > li').eq(parent).find('.sub-menu > li').eq(child-1).children('a').addClass('color-red');
+    }
+  }
+});
+</script>
+</head>
+
+<body>
+<div id="menu">
+  <div class="logo"><img src="img/logo.png"></div>
+  <ul class="root-menu">
+    <li><a href="javascript:void(0)">首页</a></li>
+    <li><a href="javascript:void(0)">第一章 基本知识</a>
+      <ul class="sub-menu">
+        <li><a href="javascript:void(0)">WordPress的使用</a></li>
+        <li><a href="javascript:void(0)">术语约定</a></li>
+        <li><a href="javascript:void(0)">安装方法</a></li>
+        <li><a href="javascript:void(0)">初始化</a></li>
+      </ul>
+    </li>
+    <li><a href="javascript:void(0)">第二章 特色</a>
+      <ul class="sub-menu">
+        <li><a href="javascript:void(0)">后台高度控制</a></li>
+        <li><a href="javascript:void(0)">响应式设计</a></li>
+        <li><a href="javascript:void(0)">集流行元素于一身</a></li>
+        <li><a href="javascript:void(0)">可控的投稿功能</a></li>
+        <li><a href="javascript:void(0)">异步加载设计</a></li>
+        <li><a href="javascript:void(0)">界面展示</a></li>
+        <li><a href="javascript:void(0)">功能展示</a></li>
+      </ul>
+    </li>
+    <li><a href="javascript:void(0)">第三章 使用方法</a>
+      <ul class="sub-menu">
+        <li><a href="javascript:void(0)">写作（成员）模式</a></li>
+        <li><a href="javascript:void(0)">响应式</a></li>
+        <li><a href="javascript:void(0)">投稿</a></li>
+        <li><a href="javascript:void(0)">logo</a></li>
+        <li><a href="javascript:void(0)">导航菜单</a></li>
+        <li><a href="javascript:void(0)">社交媒体按钮</a></li>
+        <li><a href="javascript:void(0)">幻灯片<sup>*</sup></a></li>
+        <li><a href="javascript:void(0)">边侧栏</a></li>
+        <li><a href="javascript:void(0)">网页底部</a></li>
+        <li><a href="javascript:void(0)">无限拖加载</a></li>
+        <li><a href="javascript:void(0)">图片尺寸</a></li>
+        <li><a href="javascript:void(0)">SEO</a></li>
+        <li><a href="javascript:void(0)">文章新增字段</a></li>
+        <li><a href="javascript:void(0)">广告<sup>*</sup></a></li>
+        <li><a href="javascript:void(0)">获取更多功能</a></li>
+        <li><a href="javascript:void(0)">升级主题</a></li>
+        <li><a href="javascript:void(0)">适用范围（局限性）</a></li>
+      </ul>
+    </li>
+    <li><a href="javascript:void(0)">第四章 二次开发</a>
+      <ul class="sub-menu">
+        <li><a href="javascript:void(0)">目录结构</a></li>
+        <li><a href="javascript:void(0)">调用</a></li>
+      </ul>
+    </li>
+    <li><a href="javascript:void(0)">第五章 付费</a>
+      <ul class="sub-menu">
+        <li><a href="javascript:void(0)">在售列表</a></li>
+        <li><a href="javascript:void(0)">会员服务</a></li>
+      </ul>
+    </li>
+    <li><a href="javascript:void(0)">鸣谢</a></li>
+  </ul>
+  <p class="link">&copy; <a href="http://www.utubon.com" target="_blank">乌徒帮</a> <a href="http://green.demo.utubon.com" target="_blank">GD演示站</a></p>
+</div>
+<div id="frame"><iframe frameborder="0"></iframe></div>
+</body>
+</html>

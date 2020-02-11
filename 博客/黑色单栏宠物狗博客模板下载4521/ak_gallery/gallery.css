@@ -1,0 +1,59 @@
+/*
+Original design: Gallery (v1.2 - Sep 11, 2012) - A free xhtml/css website template by Steve Austin (dogs.net) for Ä£°åÖ®¼Ò.
+For more information, see http://www.cssmoban.com/templates/gallery/
+*/
+
+/* General tags */
+body {background:#202020 url(images/background.gif) repeat-y top center; color:#555; font:84% Georgia,Times New Roman,serif; line-height:1.6em; margin:0 auto; padding:0;}
+a {color:#c03939; font-weight:700; text-decoration:none;}
+a:hover {text-decoration:underline;}
+a img {border:0;}
+p {margin:0 0 18px 0; font-family:Helvetica,Tahoma,sans-serif;}
+ul,ol,dl {font-size:0.9em; margin:2px 0 16px 35px;}
+ul ul,ol ol {margin:4px 0 4px 35px;}
+blockquote {border:1px solid #dadada; font-size:0.9em; margin:20px 10px; padding:8px;}
+blockquote p {margin:0;}
+
+/* Headers */
+h1 {color:#c03939; font-size:3.6em; letter-spacing:-1px; margin:0 0 20px 25px;}
+h1 a {color:#c03939; text-transform:none; font-weight:400;}
+h2 {border-bottom:2px solid #888; color:#ddd; font-size:2em; letter-spacing:-1px; margin:0 0 10px; padding:0 0 4px 4px;}
+h3 {border-bottom:1px solid #888; color:#ddd; font-size:1.6em; margin:10px 0 8px; padding:0 0 4px 4px;}
+h1,h2,h3 {font-weight:400;}
+
+/* Main wrap */
+#wrap {margin:25px auto; padding:0; width:980px;}
+#header {margin:0; text-align:center; width:750px;}
+#toplinks {font-size:0.9em; padding:5px 2px 2px 3px; text-align:right;}
+#toplinks a {color:gray;}
+#slogan {color:gray; font-size:1.5em; letter-spacing:-1px; line-height:1.2em; margin:15px 0 20px 35px; border:0;}
+
+/* Sidebar and menu */
+#sidebar {float:right; line-height:1.4em; margin:-70px 3px 5px 0; padding:1px 0 0; width:200px;}
+#sidebar ul {font-size:1.2em; list-style:none; margin:0; padding:0 0 15px 10px;}
+#sidebar li {list-style:none; margin:0 0 8px; padding:0;}
+#sidebar a {font-weight:400; padding:2px;}
+#sidebar ul ul {line-height:1.2em; font-size:0.8em; margin:6px 0 3px 15px; padding:0;}
+#sidebar ul ul li a {font-weight:400;}
+#sidebar h2 {margin:3px 0 8px; font-size:1.4em; color:#c03939;border-bottom:2px solid #aaa; }
+#sidebar p {margin-left:0;}
+
+/* Main content */
+#content {float:left; color:#ddd; line-height:1.5em; margin-right:15px; padding:0; text-align:left; width:750px;}
+#content a {color:#ddd;}
+#content h3,#contentalt h3 {margin:10px 0 8px;}
+
+/* Footer */
+#footer {width:750px; border-top:1px solid #888; clear:both; color:gray; font-size:1.1em; line-height:1.6em; padding:8px 0; text-align:center;}
+#footer p {margin:0; padding:10px 0;}
+#footer a {color:#999; font-weight:400;}
+
+/* Additional classes */
+.prevnextlinks {font-size:1.2em;}
+.timestamp {font-size:1em; line-height:2em; text-align:center; margin: 10px 0 15px 0;}
+.timestamp a {font-weight:normal;}
+.blue {color:#c03939;}
+.clear {clear:both;}
+.fade {color:#c8c8c8;}
+.gray {color:gray;}
+.photo {background:#fff; border:1px solid #bababa; margin:6px 18px 2px 5px; padding:2px;}

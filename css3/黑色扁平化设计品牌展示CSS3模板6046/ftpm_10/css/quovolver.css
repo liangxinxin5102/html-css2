@@ -1,0 +1,23 @@
+/* For the testimonials page */
+
+blockquote {
+    font-family: Georgia, Times, serif;
+    width: 900px;
+    margin: 0 auto;
+    border:1px solid transparent;
+}
+
+#quote_wrap { 
+    margin: 0px 0;
+    overflow: hidden;
+}
+        
+blockquote cite {
+    float: right;
+    padding:10px;
+    font:bold 18px Georgia;
+    text-shadow:1px 1px 1px #FFFFFF;
+    letter-spacing: 0.008em;
+    word-spacing: 1px;
+    color:#999;
+}

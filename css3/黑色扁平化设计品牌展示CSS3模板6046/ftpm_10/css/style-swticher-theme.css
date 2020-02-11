@@ -1,0 +1,131 @@
+/*
+Author: Vorel Media; Evangelos Evangelou, Bryan Vorel
+URI: http://www.vorelmedia.com/
+Date: 10 May 12 
+*/
+
+.color-choose, .choose-layout {
+padding:4px 0 4px 8px;
+}
+
+.color-choose  a {
+height:30px;
+width:30px;
+border:1px solid #444;
+-moz-box-shadow: 1px 1px 0px #222;
+-webkit-box-shadow: 1px 1px 0px #222;
+box-shadow: 1px 1px 0px #222;	
+text-indent:-110000px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius:5px;	
+margin-right:5px;
+}
+
+.color-choose  a:hover {
+border:1px solid #fff;
+}
+
+.choose-layout a {
+text-shadow:none;
+font-weight:normal;
+color:#fff;
+}
+.color-choose a.black {background-color:#272727;}
+.color-choose a.blue {background-color:#0057E7;}
+.color-choose a.default {background-color:#00817C;}
+.color-choose a.green {background-color:#80973C;}
+.color-choose a.grey {background-color:#7E7E7E;}
+.color-choose a.light-blue {background-color:#00ADFD;}
+.color-choose a.olive {background-color:#A0B654;}
+.color-choose a.orange {background-color:#E7732F;}
+.color-choose a.purple {background-color:#7B1AC5;}
+.color-choose a.yellow {background-color:#FFCF3F;}
+.color-choose a.red {background-color:#B40200;}
+.bg-1 {background:url('../img/bg/background1.jpg');}
+.bg-2 {background:url('../img/bg/background2.jpg');}
+.bg-3 {background:url('../img/bg/background3.jpg');}
+.bg-4 {background:url('../img/bg/background4.jpg');}
+.bg-5 {background:url('../img/bg/background5.jpg');}
+.bg-6 {background:url('../img/bg/background6.jpg');}
+.bg-7 {background:url('../img/bg/background7.jpg');}
+#color-choose a:hover, #arrow-up a:hover {opacity: 0.8;}
+
+#arrow-up a {
+display:block;
+text-align:center;
+background-color:#333;
+text-shadow:1px 1px 1px #000;
+padding-right:20px;
+padding-left:20px;
+font-weight:normal;
+color:#F5D41C;
+}
+
+.ttl-style {
+color: #F5D41C;
+padding-right: 10px;
+text-align: right;
+text-shadow: 1px 1px 1px #202020;
+width: 180px;
+}
+
+body.style-switcher-page #container{
+}
+
+html body div.choose-layout a.active {
+color:#F5D41C;
+}
+
+#top-template-settings {
+display:block;
+position:fixed;
+border-bottom:2px solid #333;
+width:100%;
+z-index:1000000;
+color: #F5D41C;
+text-shadow:none;
+padding:10px;
+font:normal 16px/20px "Trebuchet MS";
+text-align:center;
+}
+
+#top-template-settings{
+background-color:#222;
+opacity:0.8;
+}
+
+#top-template-settings:hover {
+background: -moz-linear-gradient(top, rgba(17,17,17,0.8) 0%, rgba(17,17,17,0.8) 1%, rgba(17,17,17,0.59) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(17,17,17,0.8)), color-stop(1%,rgba(17,17,17,0.8)), color-stop(100%,rgba(17,17,17,0.59))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(17,17,17,0.8) 0%,rgba(17,17,17,0.8) 1%,rgba(17,17,17,0.59) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(17,17,17,0.8) 0%,rgba(17,17,17,0.8) 1%,rgba(17,17,17,0.59) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(17,17,17,0.8) 0%,rgba(17,17,17,0.8) 1%,rgba(17,17,17,0.59) 100%); /* IE10+ */
+background: linear-gradient(top, rgba(17,17,17,0.8) 0%,rgba(17,17,17,0.8) 1%,rgba(17,17,17,0.59) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc111111', endColorstr='#96111111',GradientType=0 ); /* IE6-9 */
+}
+
+#style-switcher-container {
+position:fixed;
+margin-top:40px;
+background-color:#222;
+opacity:0.8;
+border-bottom-color: #333333;
+border-bottom-style: solid;
+border-bottom-width: 2px;
+width: 100%;
+z-index: 10000;
+}
+
+#style-switcher {
+width:1025px;
+margin:0px auto;
+padding:10px;
+background:url('../img/vorel_logo.png') left 50% no-repeat;
+min-height:65px;
+}
+
+#inside-switcher {
+width:750px;
+margin-left:230px;
+}

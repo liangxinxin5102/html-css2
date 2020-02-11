@@ -1,0 +1,121 @@
+/*
+Template name: Pink Sunset
+Template URI: http://www.cssmoban.com/pink-sunset-website-template/
+Release date: 2006-05-07
+Description: A clean pink two-column layout.
+Author: Viktor Persson
+Author URI: http://cssmoban.com/
+
+This template is licensed under a Creative Commons Attribution 2.5 License:
+http://www.cssmoban.com/license/
+*/
+
+/* standard elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	color: #F09;
+	text-decoration: none;
+}
+body {
+	background: #FFF url(img/bg.jpg) repeat-y fixed bottom center;
+	color: #311;
+	font: normal 12px "Trebuchet MS",Arial;
+	margin: 20px 0;
+	text-align: center;
+}
+ul {
+	padding: 10px 0;
+}
+li {
+	list-style: none;
+	margin: 4px 0 4px 20px;
+}
+li span {
+	font-size: 0.9em; color: #444;
+}
+
+/* misc */
+
+.clearer,.footer {
+	clear: both;
+}
+.content,.footer {
+	padding: 0 5px;
+}
+
+/* structure */
+.container {
+	background: #FFF url(img/top.gif) no-repeat;
+	border: 1px solid #EEE;
+	border-color: #EEE #CCC #AAA;
+	margin: 0 auto;
+	text-align: left;
+	width: 600px;
+}
+
+/* header */
+.top {
+	height: 250px;
+}
+.header {
+	height: 210px;
+}
+.header h1 {
+	line-height: 2.4em;
+	padding-left: 18px;
+	color: #F09;
+	font-size: 2.4em;
+}
+
+/* footer */
+.footer {
+	background: #000;
+	color: #FFF;
+	margin: 5px;
+	padding: 2px 5px;
+}
+
+/* content */
+.item {
+	padding: 10px;
+	text-align: justify;
+}
+.item h1 {
+	font: normal 1.6em serif,Arial;
+	letter-spacing: 1px;
+	color: #C36;
+}
+.left {
+	float: left;
+	width: 390px;
+	background: #F2EEF2;
+}
+/* menu */
+.menu {
+	margin-left: 18px;
+}
+.menu a {
+	padding: 0 2px;
+	margin-right: 12px;
+	font-size: 1.2em;
+}
+.menu a:hover {
+	background: #F09;
+	color: #FFF;
+}
+
+/* submenu */
+.right .submenu_end {
+	background: url(img/bgsubmenu_end.gif) no-repeat; height: 29px;
+}
+.right {
+	float: right;
+	width: 195px;
+	background: #DDD;
+}
+.right a:hover {
+	text-decoration: underline;
+}

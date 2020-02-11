@@ -1,0 +1,30 @@
+@media screen and (width: 1024px){
+	
+	.intro-content{
+		max-height: 500px;
+	}
+	
+	.feature-box-item{
+		max-width: 584px;
+		
+	}
+	.feature-box-title,
+	.box-content .card-title{
+		font-size: 25px;
+	}
+	
+}
+
+/* Small devices (landscape phones, less than 48em) */
+@media only screen and (min-width: 47.9em) { 
+	.element-item { 
+		width: 33.33% 
+	} 
+}
+
+/* Extra small devices (portrait phones, less than 34em) */
+@media only screen and (max-width: 33.9em) { 
+	.element-item { 
+		width: 100% 
+	} 
+}

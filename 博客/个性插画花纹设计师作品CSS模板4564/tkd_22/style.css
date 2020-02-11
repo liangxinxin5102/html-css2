@@ -1,0 +1,624 @@
+/* CSS Document */
+/*-------General Starts-------*/
+body {
+	margin:0;
+	padding:0;
+	background:url(images/body_bg.jpg) repeat-x 0 0 #E4D790;
+	color:#BA882B;
+	font:normal 11px/14px Arial, Helvetica, sans-serif;
+}
+div, ul, li, p, h1, h2, h4, h5, form, input, label, textarea{
+	padding:0;
+	margin:0;
+}
+img{
+	padding:0;
+	margin:0;
+	border:none;
+	line-height:0px;
+	font-size:0px;
+}
+ul{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	border:0;
+	}
+p{
+	color:#7E5C1A;
+	font:normal 11px/14px Georgia, "Times New Roman", Times, serif;
+	background-color:inherit;
+}
+h2{
+	font:normal 30px/34px Georgia, "Times New Roman", Times, serif;
+	color:#000;
+	background-color:inherit;
+}
+.spacer{ 
+	line-height:0; 
+	font-size:0; 
+	clear:both;
+}
+
+p.more{
+	margin:0;
+	width:37px;
+	background-color:#5D0102;
+	text-align:center;
+	color:#E6CB73;
+}
+p.more a{
+	font:normal 11px/16px Georgia, "Times New Roman", Times, serif;
+	color:#E6CB73;
+	background-color:inherit;
+	text-decoration:none;
+}
+p.more a:hover{
+	color:#FBF9E1;
+	background-color:inherit;
+	text-decoration:none;
+}
+/*-------General Ends-------*/
+#main_pannel{
+	margin:0;
+	width:989px;
+}
+/*----------------------LEFT PANNEL STARTS------------------------------*/
+#left_pannel{
+	width:762px;
+	float:left;
+	background:url(images/footer_bg.jpg) no-repeat 0 100% #E8E4B5;
+	line-height:0px;
+	font-size:0px;
+	color:#7E5C1A;
+}
+#header_bg{
+	background:url(images/header_bg.jpg) no-repeat 0 0;
+	line-height:0px;
+	font-size:0px;
+	padding:23px 0 0 35px;
+	width:727px;
+}
+/*--------------LOGO-BG STARTS--------------*/
+#header_bg div.logo_bg{
+	width:160px;
+	float:left;
+	background:url(images/logo_design.jpg) no-repeat 0 0;
+	line-height:0px;
+	font-size:0px;
+	padding:12px 0 0 0;
+	margin:80px 19px 0 0;
+}
+#header_bg div.logo_divider{
+	background:url(images/divider.gif) repeat-y 0 100%;
+	padding:157px 19px 24px;
+	line-height:0px;
+	font-size:0px;
+	width:122px;
+	text-align:center;
+}
+/*--------------LOGO-BG STARTS--------------*/
+/*--------------WEB-DESIGN STARTS--------------*/
+#header_bg div.webdesign_bg{
+	width:160px;
+	float:left;
+	background:url(images/web_design.jpg) no-repeat 0 0;
+	line-height:0px;
+	font-size:0px;
+	padding:12px 0 0 0;
+	margin:32px 19px 0 0;
+}
+#header_bg div.webdesign_divider{
+	background:url(images/divider.gif) repeat-y 0 100%;
+	padding:160px 19px 55px;
+	line-height:0px;
+	font-size:0px;
+	width:122px;
+	text-align:center;
+}
+/*--------------WEB-DESIGN ENDS--------------*/
+/*--------------ILLUSTARTION STARTS--------------*/
+#header_bg div.illustration_bg{
+	width:160px;
+	float:left;
+	background:url(images/illustrtaion.jpg) no-repeat 0 0;
+	line-height:0px;
+	font-size:0px;
+	padding:12px 0 0 0;
+	margin:121px 19px 0 0;
+}
+#header_bg div.illustration_divider{
+	background:url(images/divider.gif) repeat-y 0 100%;
+	padding:159px 19px 9px;
+	line-height:0px;
+	font-size:0px;
+	width:122px;
+	text-align:center;
+}
+/*--------------ILLUSTARTION ENDS--------------*/
+/*--------------ILLUSTARTION-01 STARTS--------------*/
+#header_bg div.illustration01_bg{
+	width:160px;
+	float:left;
+	background:url(images/illustrtaion_01.jpg) no-repeat 0 0;
+	line-height:0px;
+	font-size:0px;
+	padding:12px 0 0 0;
+	margin:0px 0 0 0;
+}
+#header_bg div.illustration01_divider{
+	background:url(images/divider.gif) repeat-y 0 100%;
+	padding:160px 19px 60px;
+	line-height:0px;
+	font-size:0px;
+	width:122px;
+	text-align:center;
+}
+/*--------------ILLUSTARTION-01 ENDS--------------*/
+#header_bg p.content{
+	font:normal 11px/14px Georgia, "Times New Roman", Times, serif;
+	color:#245E06;
+	background-color:inherit;
+	margin:16px 0 17px;
+}
+#header_bg p.more{
+	margin:0 auto;
+}
+#header_bg h5{
+	font:normal 18px/20px Georgia, "Times New Roman", Times, serif;
+	color:#000;
+	background-color:inherit;
+	text-align:center;
+}
+#header_bg h5 span{
+	font:normal 24px/20px Georgia, "Times New Roman", Times, serif;
+	color:#245E06;
+	background-color:inherit;
+	display:block;
+}
+#body_left{
+	width:696px;
+	padding:26px 0 0 35px;
+}
+#body_left h1{
+	font:normal 72px/67px Georgia, "Times New Roman", Times, serif;
+	color:#245E06;
+	background-color:inherit;
+}
+#body_left h4{
+	font:normal 14px/18px Georgia, "Times New Roman", Times, serif;
+	color:#986C0E;
+	background-color:inherit;
+}
+#body_left h4.green_text{
+	font:normal 16px/19px Georgia, "Times New Roman", Times, serif;
+	color:#245E06;
+	background-color:inherit;
+}
+#body_bttm div.banner{
+	width:108px;
+	float:right;
+	background:url(images/banner.jpg) no-repeat 0 0;
+	padding:25px 25px 61px;
+	line-height:0px;
+	font-size:0px;
+}
+#body_bttm div.banner h4{
+	width:108px;
+	height:39px;
+	background:url(images/banner_hd.gif) no-repeat 0 0;
+	text-indent:-200000px;
+}
+#body_bttm div.banner p.more{
+	margin:2px 0 113px;
+	width:108px;
+	background-color:#5D0102;
+	text-align:center;
+	font:normal 11px/16px Georgia, "Times New Roman", Times, serif;
+	color:#E6CB73;
+}
+#body_bttm div.banner h5{
+	margin:2px 0 0;
+	font:normal 16px/14px Georgia, "Times New Roman", Times, serif;
+	color:#F4D06C;
+	background-color:inherit;
+}
+#body_bttm{
+	width:696px;
+	float:right;
+	padding:37px 0 0;
+}
+#bttm_left{
+	width:503px;
+	float:left;
+}
+#bttm_left form{
+	width:453px;
+	background-color:#E4D790;
+	border:2px solid #DFD081;
+	padding:23px 23px 17px;
+	margin:15px 0 17px;
+	color:#245E06;
+}
+#bttm_left form input{
+	width:200px;
+	height:17px;
+	float:left;
+	border:none;
+	font:normal 11px/13px Georgia, "Times New Roman", Times, serif;
+	color:#986C0E;
+	background-color:#DFD080;
+	padding:4px 0 0 9px;
+	margin-bottom:7px;
+}
+#bttm_left form input.textbox{
+	float:right;
+	width:200px;
+}
+#bttm_left form label{
+	float:left;
+	font:normal 11px/13px Georgia, "Times New Roman", Times, serif;
+	color:#245E06;
+	background-color:inherit;
+}
+#bttm_left form input.bttn_submit{
+	width:52px;
+	height:21px;
+	float:right;
+	border:none;
+	line-height:0px;
+	font-size:0px;
+	background-color:inherit;
+	color:#000;
+	padding:0px;
+	margin:0px;
+}
+#bttm_left form textarea{
+	width:444px;
+	height:31px;
+	float:left;
+	border:none;
+	outline:none;
+	font:normal 11px/12px Georgia, "Times New Roman", Times, serif;
+	color:#986C0E;
+	background-color:#DFD080;
+	padding:4px 0 0 9px;
+	margin-bottom:7px;
+}
+#bttm_left p.date_bg{
+	width:53px;
+	float:left;
+	text-align:center;
+	font:normal 18px/20px Georgia, "Times New Roman", Times, serif;
+	color:#DFD081;
+	background-color:#B89228;
+	border:4px solid #DFD081;
+	padding:4px 0 5px;
+	margin:14px 18px 15px 0;
+}
+#bttm_left p.date_bg span{
+	font:normal 22px/22px Georgia, "Times New Roman", Times, serif;
+	color:#DFD081;
+	display:block;
+	background-color:inherit;
+}
+#bttm_left p.content_date{
+	color:#5D0102;
+	background-color:inherit;
+	width:422px;
+	float:left;
+	margin:14px 0 0;
+}
+#bttm_left ul{
+	width:416px;
+	float:left;
+	background-color:#DFD080;
+	padding:0 0 0 6px;
+	height:21px;
+	margin-top:9px;
+	color:#A70105;
+}
+#bttm_left ul li{
+	float:left;
+	margin:4px 0 0 0;
+}
+#bttm_left ul li.comment{
+	padding:0 0 0 15px;
+	background:url(images/icon_comment.gif) no-repeat 0 50%;
+	line-height:0px;
+	font-size:0px;
+	margin-right:15px;
+}
+#bttm_left ul li.post{
+	padding:0 0 0 18px;
+	background:url(images/icon_post.gif) no-repeat 0 50%;
+	line-height:0px;
+	font-size:0px;
+	margin-right:15px;
+}
+#bttm_left ul li.testmonial{
+	padding:0 0 0 13px;
+	background:url(images/icon_testimonial.gif) no-repeat 0 50%;
+	line-height:0px;
+	font-size:0px;
+	margin-right:15px;
+}
+#bttm_left ul li a{
+	font:normal 10px/12px Georgia, "Times New Roman", Times, serif;
+	color:#A70105;
+	text-decoration:none;
+	background-color:inherit;
+}
+#bttm_left ul li a:hover{
+	text-decoration:underline;
+}
+/*-----------------------LEFT PANNEL ENDS------------------------------*/
+/*-----------------------LEFT PANNEL ENDS------------------------------*/
+#shdw_pannel{
+ 	width:4px;
+	float:left;
+	background:url(images/shdw_bg.gif) repeat-y 0 0;
+	line-height:0px;
+	font-size:0px;
+}
+/*-----------------------LEFT PANNEL ENDS------------------------------*/
+/*----------------------RIGHT PANNEL STARTS------------------------------*/
+#right_pannel{
+ 	width:222px;
+	float:right;
+	padding:18px 0 24px 1px;
+	background:url(images/right_pannel.jpg) no-repeat 0 0;
+	line-height:0px;
+	font-size:0px;
+}
+.logo{
+	margin:0 0 0 47px;
+	outline:none;
+	border:none;
+}
+/*-------NAVIGATION STARTS--------*/
+#right_pannel ul.navigation{
+	margin:99px 0 0 0;
+	width:220px;
+	clear:both;
+}
+#right_pannel ul.navigation li{
+	padding-bottom:1px;	
+}
+/*-------YELLOW-NAV STARTS--------*/
+#right_pannel ul.navigation li.yellow{
+	color:#D3C570;
+	height:35px;
+	background-color:inherit;
+}
+#right_pannel ul.navigation li.yellow span.main{
+	background:url(images/yellow_right.gif) no-repeat 100% 0;
+	display:block;
+	height:35px;
+	float:left;
+	padding:0 3px 0 0;
+}
+#right_pannel ul.navigation li.yellow span.main span.left{
+	background:url(images/yellow_nav.jpg) no-repeat 0 0;
+	float:left;
+	display:block;
+	padding:0 22px 0 35px;
+}
+/*-------YELLOW-NAV ENDS--------*/
+/*-------RED-NAV STARTS--------*/
+#right_pannel ul.navigation li.red{
+	color:#D3C570;
+	height:35px;
+	background-color:inherit;
+}
+#right_pannel ul.navigation li.red span.main{
+	background:url(images/red_right.gif) no-repeat 100% 0;
+	display:block;
+	height:35px;
+	float:left;
+	padding:0 3px 0 0;
+}
+#right_pannel ul.navigation li.red span.main span.left{
+	background:url(images/red_nav.jpg) no-repeat 0 0;
+	float:left;
+	display:block;
+	padding:0 20px 0 35px;
+}
+/*-------RED-NAV ENDS--------*/
+/*-------GREEN-NAV STARTS--------*/
+#right_pannel ul.navigation li.green{
+	color:#D3C570;
+	height:35px;
+	background-color:inherit;
+}
+#right_pannel ul.navigation li.green span.main{
+	background:url(images/green_right.gif) no-repeat 100% 0;
+	display:block;
+	height:35px;
+	float:left;
+	padding:0 3px 0 0;
+}
+#right_pannel ul.navigation li.green span.main span.left{
+	background:url(images/green_nav.jpg) no-repeat 0 0;
+	float:left;
+	display:block;
+	padding:0 15px 0 35px;
+}
+/*-------GREEN-NAV ENDS--------*/
+/*-------BROWN-NAV STARTS--------*/
+#right_pannel ul.navigation li.brown{
+	color:#D3C570;
+	height:35px;
+	background-color:inherit;
+}
+#right_pannel ul.navigation li.brown span.main{
+	background:url(images/brown_right.gif) no-repeat 100% 0;
+	display:block;
+	height:35px;
+	float:left;
+	padding:0 3px 0 0;
+}
+#right_pannel ul.navigation li.brown span.main span.left{
+	background:url(images/brown_nav.jpg) no-repeat 0 0;
+	float:left;
+	display:block;
+	padding:0 18px 0 35px;
+}
+/*-------BROWN-NAV ENDS--------*/
+#right_pannel ul.navigation li a{
+	font:normal 12px/35px Georgia, "Times New Roman", Times, serif;
+	color:#D3C570;
+	text-decoration:none;
+	background-color:inherit;
+}
+#right_pannel ul.navigation li a:hover{
+	color:#FFFAC4;
+	background-color:inherit;
+}
+/*-------NAVIGATION ENDS--------*/
+#portfoilio_bg{
+	width:190px;
+	float:right;
+	margin:65px 0 0;
+}
+#portfoilio_bg p.port_cont{
+	color:#245E06;
+	background-color:inherit;
+}
+#portfoilio_bg h5{
+	background:url(images/portfolio_hdBG.gif) repeat-x 0 0;
+	padding:0 0 0 4px;
+	font:normal 11px/28px Georgia, "Times New Roman", Times, serif;
+	color:#E2D58C;
+	margin:20px 0 12px;
+	background-color:inherit;
+}
+#portfoilio_bg h2{
+	margin-bottom:4px;
+}
+#portfoilio_bg img{
+	display:block;
+	border:1px dashed #BCAF67;
+	margin-bottom:11px;
+}
+#portfoilio_bg p.more{
+	margin:11px 0 0;
+}
+/*-----------------------RIGHT PANNEL ENDS------------------------------*/
+/*-----------------------WORKS-PAGE STARTS------------------------------*/
+#body_left h4.works_page{
+	font:normal 16px/20px Georgia, "Times New Roman", Times, serif;
+	color:#986C0E;
+	background-color:inherit;
+	margin:29px 0 17px;
+}
+#body_left h4.works_text{
+	font:normal 16px/20px Georgia, "Times New Roman", Times, serif;
+	color:#245E06;
+	background-color:inherit;
+}
+#body_left h4.works_text{
+	font:normal 16px/20px Georgia, "Times New Roman", Times, serif;
+	color:#245E06;
+	background-color:inherit;
+}
+#body_left #work_pannel{
+	width:696px;
+}
+#work_pannel div.works_bg{
+	width:696px;
+	background:url(images/works_divider.gif) repeat-x 0 100%;
+	padding:0 0 17px;
+	margin:27px 0 0;
+}
+#work_pannel div.works_bottom{
+	width:696px;
+	margin:27px 0 0;
+}
+#work_pannel img{
+	float:left;
+	display:block;
+	border:1px dashed #BCAF67;
+	margin:0 14px 11px 0;
+}
+#work_pannel h5{
+	background-color:#DFD080;
+	padding:0 0 0 10px;
+	font:normal 10px/21px Georgia, "Times New Roman", Times, serif;
+	color:#245E06;
+	width:481px;
+	float:left;
+}
+#work_pannel p.works_content{
+	color:#5D0102;
+	background-color:inherit;
+	width:491px;
+	float:left;
+}
+#work_pannel h4{
+	color:#A70105;
+	font:normal 18px/20px Georgia, "Times New Roman", Times, serif;
+	background-color:inherit;
+	width:491px;
+	float:left;
+	margin:8px 0;
+}
+/*-----------------------WORKS-PAGE ENDS------------------------------*/
+
+/*-----------------------FOOTER STARTS------------------------------*/
+#footer-main{
+	line-height:0px;
+	font-size:0px;
+	padding:73px 0 40px 35px;
+	width:696px;
+}
+#footer-main ul{
+	margin:0px;
+}
+#footer-main ul li{
+	padding:0 4px;
+	float:left;
+	font:normal 12px/15px Georgia, "Times New Roman", Times, serif;
+	color:#A70105;
+	background-color:inherit;
+}
+#footer-main ul li.active{
+	color:#000;
+	text-decoration:none;
+	background-color:inherit;
+	font:normal 12px/15px Georgia, "Times New Roman", Times, serif;
+}
+#footer-main ul li a{
+	font:normal 12px/15px Georgia, "Times New Roman", Times, serif;
+	color:#A70105;
+	text-decoration:none;
+	background-color:inherit;
+}
+#footer-main ul li a:hover{
+	color:#000;
+	text-decoration:none;
+	background-color:inherit;
+}
+#footer-main p{
+	font:normal 10px/15px Georgia, "Times New Roman", Times, serif;
+	color:#000000; 
+	text-decoration:none;
+	background-color:inherit;
+	padding-top:9px;
+	display:block;
+}
+#footer-main p span{
+	font-size:11px;
+	display:block;
+}
+#footer-main a{
+	font:normal 12px/15px Georgia, "Times New Roman", Times, serif;
+	color:#A70105;
+	text-decoration:none;
+	background-color:inherit;
+}
+#footer-main a:hover{
+	text-decoration:underline;
+}
+
+/*-----------------------FOOTER ENDS------------------------------*/

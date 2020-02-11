@@ -1,0 +1,30 @@
+ /* purple */
+ 
+    html body #bottom-header {background:url('../../img/themes/purple_bar.png') no-repeat center center;}
+    html body .call-to-action a, html body .submit input, html body .submit input:active, html body .submit input:focus {
+        background-color:#6516A2; } /* standard color */
+    html body .call-to-action .btn:hover, html body .submit input:hover {
+        background-color:#7E1BCA;} /* hover color */
+    html body ::selection {background:#6516A2;} /* text selection css IE */
+    html body ::-moz-selection {background:#6516A2;} /* text selection css Mozzila */
+    html body button.btn {
+        background: #80963C; 
+        background: -moz-linear-gradient(top, #6516A2 0%, #7E1BCA); 
+        background: -webkit-gradient(linear, left top, left bottom, from(#6516A2), to(#7E1BCA));
+        -moz-box-shadow: inset 1px 0px 9px rgba(255,255,255,0.03), inset 0px 1px 0px rgba(0,0,0,0.2); 
+        -webkit-box-shadow: inset 1px 0px 9px rgba(255,255,255,0.03), inset 0px 1px 0px rgba(0,0,0,0.2);  
+    }
+    html body button.btn:hover  {
+        background: #80963C; 
+        background: -moz-linear-gradient(top, #7D1BC8 0%, #6D17AE); 
+        background: -webkit-gradient(linear, left top, left bottom, from(#7D1BC8), to(#6D17AE));
+        -moz-box-shadow: inset 1px 0px 9px rgba(255,255,255,0.03), inset 0px 1px 0px rgba(0,0,0,0.2); 
+        -webkit-box-shadow: inset 1px 0px 9px rgba(255,255,255,0.03), inset 0px 1px 0px rgba(0,0,0,0.2);  
+    }	
+    html body .pagination li.current a {color:#7B1AC5; background-color: #7B1AC5;
+    -moz-box-shadow: 0 -1px 0 #222 inset, 1px 1px 1px #222 inset;
+    -webkit-box-shadow: 0 -1px 0 #222 inset, 1px 1px 1px #222 inset;
+    box-shadow: 0 -1px 0 #222 inset, 1px 1px 1px #222 inset; }
+    html body .num {background-color:#6516A2;}
+	
+	

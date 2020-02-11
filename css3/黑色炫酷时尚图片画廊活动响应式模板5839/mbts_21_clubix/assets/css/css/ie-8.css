@@ -1,0 +1,233 @@
+body {
+	font-family: Arial , sans-serif , Helvetica;
+}
+
+.ie_last_child {
+	margin-right: 0 !important;
+}
+
+
+.bg-header-menu ul.sub-menu-header li.ie_last_child {
+	border-right: 0;
+}
+
+.container-information img {
+	border: 2px solid #6f6f6f;
+	width: 88px !important;
+	height: 88px !important;
+}
+
+.bg-header,
+.bg-audio-player ,  
+ul.sub-menu-header li ,
+.bg-page-bar , 
+.container-footer-top , 
+.container-footer-bottom ,
+.content-page-home {
+	background:transparent;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#50ffffff,endColorstr=#50ffffff); 
+    zoom: 1;
+}
+
+.bg-header-menu , .slider-title-container a.click-to-start-slider:hover  {
+	background:url(../../img/black-bg-07.png);
+}
+
+
+
+.container-footer-top , 
+.container-footer-bottom {
+	background:transparent;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#1ffffff,endColorstr=#1ffffff); 
+    zoom: 1;
+}
+
+.container-footer-top ul.footer-top-itm li.grid_3 ul.flickr-list-footer-top li {
+	margin-right: 2px;
+	margin-bottom: 0;
+}
+
+ul.latest-events li .flipping-albums-events .black-sec-tornament ul.info-latest-events li p {
+	font-size: 10px;
+}
+
+.bg-header ul li:hover {
+	background: #8f44ad;
+}
+
+.bg-header .social-media-container a.twitter-header {
+	border: 1px solid #787878;
+}
+
+.bg-header .social-media-container a.twitter-header:hover {
+	background: url(../../img/twitter-hover.png) no-repeat;
+}
+
+.bg-header .social-media-container a.tumblr-header {
+	border: 1px solid #787878;
+}
+
+.bg-header .social-media-container a.tumblr-header:hover {
+	background: url(../../img/tumblr-hover.png) no-repeat;
+}
+
+.bg-header .social-media-container a.facebook-header {
+	border: 1px solid #787878;
+}
+
+.bg-header .social-media-container a.facebook-header:hover {
+	background: url(../../img/facebook-hover.png) no-repeat;
+}
+
+.bg-header .social-media-container a.vimeo-header {
+	border: 1px solid #787878;
+}
+
+.bg-header .social-media-container a.vimeo-header:hover {
+	background: url(../../img/vimeo-hover.png) no-repeat;
+}
+
+p.col-3-4 {
+	height: 200px;
+}
+
+img.slider-header-img {
+	max-height: 653px !important;
+}
+
+.bg-header-menu ul.menu li a {
+	line-height: 38px;
+}
+
+.bg-header-menu ul.menu li a:hover , 
+.bg-header-menu ul.menu li a.selected {
+	color: #242424;
+	background: #dadada;
+	border-bottom: 2px solid #8e44ad;
+}
+
+.bg-header-menu ul.sub-menu-header li a {
+	border: none !important;
+}
+
+.widget-bg-videos-sidebar ul.latest-video-list li {
+	margin-left: 2.5px;
+	margin-right: 2.5px;
+	margin-bottom: 5px;
+}
+
+.widget-bg-videos-sidebar {
+	padding-bottom: 5px !important;
+}
+
+.widget-bg-videos-sidebar ul.latest-video-list li .flipping-albums-events .back .bg-pink-flip {
+	background:transparent;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#808e44ad,endColorstr=#808e44ad); 
+    zoom: 1;
+}
+
+ul.albums-photos-videos li a .black-bg-albums-photos-videos , ul.latest-events li .flipping-albums-events .black-sec-tornament , ul.latest-events li .flipping-albums-events .back .bg-black-flip , .posts-container .post-container-event .left-content .black-sec-event-post {
+	background:transparent;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#80000000,endColorstr=#80000000); 
+    zoom: 1;
+}
+
+.black-bg-albums-photos-videos-pink , 
+.bg-albums-and-events ul.ul-list-events-albums li 
+.flipping-albums-events .caption .bg-pink-flip ,
+.content-page-home .grid_12 ul.features-01 li .feature {
+    background: url(../../img/pink-bg-08.png) !important;
+}
+
+.slider-title-container div.subtitle , 
+.title-event-slider h2 ,
+.slider-title-container h2.sub-title,
+.information-block-container .container-information , 
+.information-block-container button , 
+.container-slider-single-page .arrow-slider-single-page button , 
+.information-block-container button , 
+.container-slider-single-page .arrow-slider-single-page button {
+	background:transparent;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#70ffffff,endColorstr=#70ffffff); 
+    zoom: 1;
+}
+
+.container-audio-player .time-of-song .time , 
+.side-bar ul.list-play-list-side-bar li.sidebar-li-audio-player-01 .song-name-side-bar .timer-bg-sidebar {
+	background:transparent;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#808e44ad,endColorstr=#808e44ad); 
+    zoom: 1;
+}
+
+.bg-albums-and-events ul.ul-list-events-albums li img.img-front-bg , 
+.bg-albums-and-events {
+	background:transparent;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#60ffffff,endColorstr=#60ffffff); 
+    zoom: 1;
+}
+
+.title-event-slider h1 , .slider-title-container div.title {
+	background:transparent;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#508e44ad,endColorstr=#508e44ad); 
+    zoom: 1;
+}
+
+.event-sidebar-block .container-information {
+	background: #fff;
+}
+
+.info-album {
+	float: right !important;
+	margin-right: 10px;
+}
+
+ul.home-latest-events li.home-latest-events-li {
+	width: 280px !important;
+}
+
+ul.home-latest-events li.ie_last_child {
+	margin-left: 20px !important;
+}
+
+ul.latest-events li .flipping-albums-events .black-sec-tornament ul.info-latest-events li.ie_last_child {
+	width: 90px !important;
+}
+
+.bg-header-menu .search form .input-bg {
+	background:transparent;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#10000000,endColorstr=#10000000); 
+    zoom: 1;
+}
+
+.container-title-page  {
+	background:transparent;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#50000000,endColorstr=#50000000); 
+    zoom: 1;
+}
+
+.sub-menu-audio-player .block-play-list ul li.selected .img-play-list img {
+	margin-bottom: 0;
+}
+
+.sub-menu-audio-player .block-play-list ul li {
+	background:transparent;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#1ffffff,endColorstr=#1ffffff); 
+    zoom: 1;
+    border-bottom: 1px solid #ccc;
+}
+
+.sub-menu-audio-player .block-play-list ul li .song-name-time {
+	border-left: 1px solid #ccc;
+}
+
+.nicescroll-rails {
+	background:transparent;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#10000000,endColorstr=#10000000); 
+    zoom: 1;
+}
+
+.container-audio-player {
+	background:transparent;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#1ffffff,endColorstr=#1ffffff); 
+    zoom: 1;
+}

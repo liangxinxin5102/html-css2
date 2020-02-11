@@ -1,0 +1,60 @@
+/* CSS3 Compatible with PIE Script */
+#header {
+    background:url("../img/bg/background1.jpg") repeat top left;
+}
+
+.bg-1 #header {
+    background:url("../img/bg/background1.jpg") repeat top left;
+}
+
+.bg-2 #header {
+	    background:url("../img/bg/background2.jpg") repeat top left;
+}
+
+.bg-3 #header {
+    background:url("../img/bg/background3.jpg") repeat top left;
+}
+
+.bg-4 #header {
+    background:url("../img/bg/background4.jpg") repeat top left;
+}
+
+.bg-5 #header {
+    background:url("../img/bg/background5.jpg") repeat top left;
+}
+
+.bg-6 #header {
+    background:url("../img/bg/background6.jpg") repeat top left;
+}
+
+.bg-7 #header {
+    background:url("../img/bg/background7.jpg") repeat top left;
+}
+
+#slider-top-level, .examples, button.btn, input {
+	border-radius:5px 5px 5px 5px;
+	position:relative;
+    behavior: url(PIE.htc);
+}
+
+ul.pagination li a {
+	border:1px solid #888;
+}
+
+ul.pagination li a:hover {
+	border:1px solid #ccc;
+}
+
+.num, .submit-form, .call-to-action, .call-to-action a, .content-submit-form {
+	border-radius:8px 8px 8px 8px;
+	position:relative;
+    behavior: url(PIE.htc);
+}
+
+.content-submit-form input, .submit-form input {
+font-family:"Trebuchet Ms";
+}
+
+
+
+

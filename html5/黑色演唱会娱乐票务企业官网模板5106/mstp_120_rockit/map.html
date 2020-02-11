@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Rockit Now</title>
+<meta name="description" content="">
+<meta name="author" content="">
+<!--// Mobile Metas //-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!--// Stylesheets //-->
+<link rel="stylesheet" href="css/base.css" />
+<link rel="stylesheet" href="css/skeleton.css" />
+<link rel="stylesheet" href="css/layout.css" />
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/player.css" />
+<link rel="stylesheet" href="css/color.css" />
+<link rel="stylesheet" href="css/fullcalendar.css">
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--// Favicons //-->
+<link rel="shortcut icon" href="images/favicon.ico" />
+<link rel="rockit-touch-icon" href="images/rockit-touch-icon.png" />
+<link rel="rockit-touch-icon" sizes="72x72" href="images/rockit-touch-icon-72x72.png" />
+<link rel="rockit-touch-icon" sizes="114x114" href="images/rockit-touch-icon-114x114.png" />
+<!--// Javascript //-->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/animatedcollapse.js"></script>
+<script type="text/javascript" src="js/ddsmoothmenu.js"></script>
+<script type="text/javascript" src="js/scrolltopcontrol.js"></script>
+<script src="http://maps.google.com/maps?file=api&amp;v=2.x&key=AIzaSyCQY6NJ2ILti6r9ZxudlFVgEoc9axg6R54" type="text/javascript"></script>
+<script type="text/javascript" src="js/map.js"></script>
+</head>
+<body onload="setupMap()" onunload="GUnload()">
+<!-- Outer Wrapper Start -->
+<div id="outer-wrapper">
+	<div class="inner">
+    	<!-- Header Start -->
+    	<div id="header">
+        	<span class="topbar">&nbsp;</span>
+        	<!-- Container Start -->
+            <div class="container">
+            	<!-- Logo Start -->
+            	<div class="five columns left">
+                	<a href="index.html" class="logo"><img src="images/logo.png" alt="" /></a>
+                </div>
+                <!-- Logo End -->
+                <div class="eleven columns right">
+                	<!-- Top Links Start -->
+                    <ul class="top-links">
+                    	<li>
+                        	<a href="javascript:animatedcollapse.toggle('login-box')">LOG IN</a>
+                            <div id="login-box">
+                            	<ul>
+                                	<li><h4 class="white">User Login</h4></li>
+                                    <li>
+                                    	<input name="" value="yourname@email.com"
+                                        onfocus="if(this.value=='yourname@email.com') {this.value='';}"
+                                        onblur="if(this.value=='') {this.value='yourname@email.com';}"   type="text" class="bar" />
+                                    </li>
+                                    <li>
+                                    	<input name="" value="password"
+                                        onfocus="if(this.value=='password') {this.value='';}"
+                                        onblur="if(this.value=='') {this.value='password';}"   type="password" class="bar" />
+                                    </li>
+                                    <li>
+                                    	<input type="checkbox" class="left" />
+                                        <p>Remember me</p>
+                                    </li>
+                                    <li>
+                                    	<button class="backcolr">Login</button>
+                                    </li>
+                                </ul>
+                                <div class="forgot">
+                                	<a href="#">Forget Password?</a>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </li>
+                        <li><a href="#">Signup</a></li>
+                        <li>
+                        	<a href="javascript:animatedcollapse.toggle('search-box')">Search</a>
+                            <div id="search-box">
+                            	<input name="" value="Enter any keyword"
+                                onfocus="if(this.value=='Enter any keyword') {this.value='';}"
+                                onblur="if(this.value=='') {this.value='Enter any keyword';}" type="text" class="bar" />
+                                <button class="backcolr">Search</button>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- Top Links End -->
+                    <!-- Navigation Start -->
+                    <div class="navigation">
+                    	<a href="albums.html" class="onlinestore">Online Store</a>
+                        <div id="smoothmenu1" class="ddsmoothmenu">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about-us.html">About Us</a></li>
+                                <li><a href="news.html">News</a></li>
+                                <li><a href="#">Albums</a>
+                                    <ul>
+                                        <li><a href="albums.html">Albums</a></li>
+                                        <li><a href="album-detail.html">Album Detail</a></li>
+                                    </ul>
+                                </li>
+                                <li class="current-menu-item"><a href="#">GIGS</a>
+                                    <ul>
+                                        <li><a href="timeline.html">Timeline</a></li>
+                                        <li><a href="calendar.html">Calendar</a></li>
+                                        <li><a href="map.html">Map</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Blog</a>
+                                	<ul>
+                                    	<li><a href="blog.html">Blog</a></li>
+                                        <li><a href="blog-detail.html">Three Column</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Gallery</a>
+                                    <ul>
+                                        <li><a href="gallery-two-col.html">Two Column</a></li>
+                                        <li><a href="gallery-three-col.html">Three Column</a></li>
+                                        <li><a href="gallery-four-col.html">Four Column</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="contact-us.html">Contact</a></li>
+                            </ul>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <!-- Navigation End -->
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <!-- Container End -->
+        </div>
+        <!-- Header End -->
+        <div class="clear"></div>
+        <div class="inner shadow">
+        	<!-- Second Level Navigation Start -->
+            <div class="second-nav">
+            	<ul>
+                	<li><a href="timeline.html">Timeline</a></li>
+                    <li><a href="calendar.html">Calendar</a></li>
+                    <li><a href="map.html" class="active">GIGs Map</a></li>
+                </ul>
+            </div>
+            <!-- Second Level Navigation End -->
+            <div class="clear"></div>
+            <!-- Sub Page Banner Start -->
+            <div id="sub-banner" class="row">
+            	<a href="#"><img src="images/sub-banner2.jpg" alt="" /></a>
+                <div class="sub-caption">
+                	<h1></h1>
+                    <h1>OUR <span class="colr">BAND</span></h1>
+                </div>
+            </div>
+            <!-- Sub Page Banner End -->
+            <div class="clear"></div>
+        	<!-- Container Start -->
+            <div class="container row">
+            	<div class="two-thirds column left">
+                	<h1 class="heading">LATEST FROM Rockit Band</h1>
+                    <!-- Gigs Tabs Start -->
+                    <div class="in-sec in-sec-nopad">
+                    	<!-- Gigs Map Start -->
+                        <div id="tab-gigmaps">
+                        	<p class="txt">
+                            	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in magna ipsum. Nunc euismod, nisi ac pretium lobortis, felis mauris aliquam neque, et pulvinar tortor diam sed magna. In fringilla eleifend sapien vitae sagittis. Sed porta bibendum rhoncus. Nulla dui nisl, iaculis sit amet vestibulum a, sollicitudin et lorem.
+                            </p>
+                            <div class="mapsec">
+                            	<div id="map"></div>
+                            </div>
+                        </div>
+                        <!-- Gigs Map End -->    
+                        <div class="clear"></div>
+                    </div>
+                    <!-- Gigs Tabs End -->
+                    <div class="clear"></div>
+                </div>
+                <div class="one-third column left">
+                	<div class="box-small">
+                    	<h1 class="heading">More Albums</h1>
+                        <div class="box-in">
+                        	<!-- Now Playing Start -->
+                        	<div class="list-thumb">
+                            	<ul>
+                                	<li>
+                                    	<a href="#" class="thumb"><img src="images/thumb1.gif" alt="" /></a>
+                                        <div class="desc">
+                                        	<h5><a href="#">Jamie reaches number 1 in</a></h5>
+                                            <p>Lorem ipsum dolor sit amet, ectetur adipiscing elit. In tellus orci,</p>
+                                            <a href="#" class="readmore">Read More</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                    	<a href="#" class="thumb"><img src="images/thumb2.gif" alt="" /></a>
+                                        <div class="desc">
+                                        	<h5><a href="#">Jamie reaches number 1 in</a></h5>
+                                            <p>Lorem ipsum dolor sit amet, ectetur adipiscing elit. In tellus orci,</p>
+                                            <a href="#" class="readmore">Read More</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                    	<a href="#" class="thumb"><img src="images/thumb3.gif" alt="" /></a>
+                                        <div class="desc">
+                                        	<h5><a href="#">Jamie reaches number 1 in</a></h5>
+                                            <p>Lorem ipsum dolor sit amet, ectetur adipiscing elit. In tellus orci,</p>
+                                            <a href="#" class="readmore">Read More</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- Now Playing End -->
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <div class="box-small">
+                    	<h1 class="heading">Blog ARCHIVE</h1>
+                        <div class="box-in">
+                        	<!-- Now Playing Start -->
+                        	<div class="widget-links">
+                            	<ul>
+                                	<li><a href="#"><span>JULY 2012</span><span>23</span></a></li>
+                                    <li><a href="#"><span>June 2012</span><span>123</span></a></li>
+                                    <li><a href="#"><span>May 2012</span><span>89</span></a></li>
+                                    <li><a href="#"><span>April 2012</span><span>21</span></a></li>
+                                    <li><a href="#"><span>March 2012</span><span>32</span></a></li>
+                                    <li><a href="#"><span>February 2012</span><span>22</span></a></li>
+                                    <li><a href="#"><span>January 2012</span><span>100</span></a></li>
+                                    <li><a href="#"><span>2011</span><span>99</span></a></li>
+                                    <li><a href="#"><span>2010</span><span>98</span></a></li>
+                                </ul>
+                            </div>
+                            <!-- Now Playing End -->
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <!-- Footer Start -->
+            <div id="footer">
+            	<div class="foot-top">
+                	<!-- Footer Logo Start -->
+                    <div class="logo-foot">
+                    	<a href="#"><img src="images/logo-foot.png" alt="" /></a>
+                    </div>
+                    <!-- Footer Logo End -->
+                    <!-- Footer Navigation Start -->
+                    <div class="links-foot">
+                    	<ul>
+                        	<li><a href="#">Home</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Tour Dates</a></li>
+                            <li><a href="#">Audio</a></li>
+                            <li><a href="#">Videos</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <!-- Footer Navigation End -->
+                    <!-- Newsletter Start -->
+                    <div class="newsletter">
+                    	<h5 class="white">NEWSLETTER</h5>
+                        <ul>
+                        	<li class="left">
+                            	<input name="" value="Enter Email Address"
+                                onfocus="if(this.value=='Enter Email Address') {this.value='';}"
+                                onblur="if(this.value=='') {this.value='Enter Email Address';}" type="text" class="bar" />    
+                            </li>
+                            <li class="right"><button class="backcolr">Submit</button></li>
+                        </ul>
+                    </div>
+                    <!-- Newsletter End -->
+                </div>
+                <div class="foot-bottom">
+                	<!-- Copyrights Start -->
+                    <div class="copyrights">
+                    	<p>Copyright More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a> 2012</p>
+                    </div>
+                    <!-- Copyrights End -->
+                    <!-- Follow Us and Top Start -->
+                    <div class="followus-top">
+                    	<a href="#top" class="top">TOP</a>
+                        <!-- Follow Us Start -->
+                    	<ul>
+                        	<li><h6 class="white">Follow Us</h6></li>
+                        	<li><a href="#" class="facebook">&nbsp;</a></li>
+                            <li><a href="#" class="twitter">&nbsp;</a></li>
+                            <li><a href="#" class="vimeo">&nbsp;</a></li>
+                            <li><a href="#" class="amazon">&nbsp;</a></li>
+                            <li><a href="#" class="apple">&nbsp;</a></li>
+                            <li><a href="#" class="grooveshark">&nbsp;</a></li>
+                            <li><a href="#" class="soundcloud">&nbsp;</a></li>
+                        </ul>
+                        <!-- Follow Us End -->
+                    </div>
+                    <!-- Follow Us and Top End -->
+                </div>
+            </div>
+            <!-- Footer End -->
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<!-- Outer Wrapper End -->
+</body>
+</html>

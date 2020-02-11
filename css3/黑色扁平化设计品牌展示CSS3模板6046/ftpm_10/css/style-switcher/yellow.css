@@ -1,0 +1,27 @@
+    html body  #bottom-header {background:url('../../img/themes/yellow_bar.png') no-repeat center center;}
+    html body  .call-to-action a, html body  .submit input, html body  .submit input:active, html body  .submit input:focus {
+        background-color:#FCBC40; } /* standard color */
+    html body  .call-to-action .btn:hover, html body  .submit input:hover {
+        background-color:#FFCF3F;} /* hover color */
+    html body  ::selection {background:#FCBC40;} /* text selection css IE */
+    html body  ::-moz-selection {background:#FCBC40;} /* text selection css Mozzila */
+    html body  button.btn {
+        background: #FCBC40; 
+        background: -moz-linear-gradient(top, #FCBC40 0%, #FFCF3F); 
+        background: -webkit-gradient(linear, left top, left bottom, from(#FCBC40), to(#FFCF3F));
+        -moz-box-shadow: inset 1px 0px 9px rgba(255,255,255,0.03), inset 0px 1px 0px rgba(0,0,0,0.2); 
+        -webkit-box-shadow: inset 1px 0px 9px rgba(255,255,255,0.03), inset 0px 1px 0px rgba(0,0,0,0.2);  
+    }
+    html body  button.btn:hover {
+        background: #FCBC40; 
+        background: -moz-linear-gradient(top, #FFCF3F 0%, #FCBC40); 
+        background: -webkit-gradient(linear, left top, left bottom, from(#FFCF3F), to(#FCBC40));
+        -moz-box-shadow: inset 1px 0px 9px rgba(255,255,255,0.03), inset 0px 1px 0px rgba(0,0,0,0.2); 
+        -webkit-box-shadow: inset 1px 0px 9px rgba(255,255,255,0.03), inset 0px 1px 0px rgba(0,0,0,0.2);  
+    }	
+    html body  .pagination li.current a {color:#FCBC40; background-color: #FCBC40;
+    -moz-box-shadow: 0 -1px 0 #111 inset, 1px 1px 1px #111 inset;
+    -webkit-box-shadow: 0 -1px 0 #111 inset, 1px 1px 1px #111 inset;
+    box-shadow: 0 -1px 0 #111 inset, 1px 1px 1px #111 inset; }
+    html body .num {background-color:#FCBC40;}    
+	

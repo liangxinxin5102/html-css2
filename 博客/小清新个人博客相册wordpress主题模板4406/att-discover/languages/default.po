@@ -1,0 +1,636 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Board\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-06-03 14:50-0800\n"
+"PO-Revision-Date: 2013-06-03 14:50-0800\n"
+"Last-Translator: Authentic <support@authenticthemes.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:16
+msgid "404: Page Not Found"
+msgstr ""
+
+#: ../404.php:21
+msgid ""
+"Unfortunately, the page you tried accessing could not be retrieved. Please "
+"visit the"
+msgstr ""
+
+#: ../404.php:21
+msgid "homepage"
+msgstr ""
+
+#: ../archive-portfolio.php:30 ../templates/home.php:40
+msgid "Show All"
+msgstr ""
+
+#: ../archive.php:24
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: ../archive.php:26
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: ../archive.php:28
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: ../author-bio.php:20
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: ../author.php:21
+msgid "Articles Written By"
+msgstr ""
+
+#: ../comments.php:17
+msgid "Leave a comment"
+msgstr ""
+
+#: ../comments.php:17
+msgid "This article has 1 comment"
+msgstr ""
+
+#: ../comments.php:17
+#, php-format
+msgid "This article has % comments"
+msgstr ""
+
+#: ../comments.php:17
+msgid "Comments are currently closed"
+msgstr ""
+
+#: ../comments.php:21 ../comments.php:33
+msgid "Comment Navigation"
+msgstr ""
+
+#: ../comments.php:22 ../comments.php:34
+msgid "Older Comments"
+msgstr ""
+
+#: ../comments.php:23 ../comments.php:35
+msgid "Newer Comments"
+msgstr ""
+
+#: ../comments.php:53
+msgid "Name"
+msgstr ""
+
+#: ../comments.php:54
+msgid "Email"
+msgstr ""
+
+#: ../comments.php:55
+msgid "Website"
+msgstr ""
+
+#: ../comments.php:61
+msgid "Leave a Reply"
+msgstr ""
+
+#: ../comments.php:63
+msgid "Log In"
+msgstr ""
+
+#: ../comments.php:68
+msgid "Submit Comment"
+msgstr ""
+
+#: ../content-portfolio-related.php:28
+msgid "Similar Work"
+msgstr ""
+
+#: ../content-search.php:16 ../content.php:22 ../content.php:56
+msgid "Posted on"
+msgstr ""
+
+#: ../content-search.php:17
+msgid "in"
+msgstr ""
+
+#: ../content-search.php:18 ../content.php:23 ../content.php:57
+msgid "written by"
+msgstr ""
+
+#: ../content-search.php:19 ../content.php:24 ../content.php:58
+msgid "with"
+msgstr ""
+
+#: ../content-search.php:19 ../content.php:24 ../content.php:58
+msgid "0 Comments"
+msgstr ""
+
+#: ../content-search.php:19 ../content.php:24 ../content.php:58
+msgid "1 Comment"
+msgstr ""
+
+#: ../content-search.php:19 ../content.php:24 ../content.php:58
+msgid "% Comments"
+msgstr ""
+
+#: ../content-search.php:30 ../content.php:71
+msgid "Continue Reading"
+msgstr ""
+
+#: ../header.php:46
+msgid "EDIT YOUR TAGLINE IN THE THEME SETTINGS PANEL"
+msgstr ""
+
+#: ../index.php:24
+msgid "Recent Posts"
+msgstr ""
+
+#: ../options.php:25
+msgid "General"
+msgstr ""
+
+#: ../options.php:30
+msgid "Custom Logo"
+msgstr ""
+
+#: ../options.php:31
+msgid "Upload your custom logo."
+msgstr ""
+
+#: ../options.php:39
+msgid "Homepage"
+msgstr ""
+
+#: ../options.php:44
+msgid "Homepage: Tagline"
+msgstr ""
+
+#: ../options.php:45
+msgid "This allows you to change your homepage tagline."
+msgstr ""
+
+#: ../options.php:47
+msgid ""
+"Hello. I am Alexander Smith. I create steler illustrations.<br>I also have a "
+"moustache. You can take a look at my work below."
+msgstr ""
+
+#: ../options.php:52
+msgid "Homepage: Portfolio Items Count"
+msgstr ""
+
+#: ../options.php:53
+msgid "How many portfolio items do you wish to show on the homepage?"
+msgstr ""
+
+#: ../options.php:61 ../functions/post-types/portfolio.php:36
+msgid "Portfolio"
+msgstr ""
+
+#: ../options.php:66
+msgid "Portfolio Enable"
+msgstr ""
+
+#: ../options.php:67
+msgid "Check this box to enable the portfolio post type."
+msgstr ""
+
+#: ../options.php:74
+msgid "Portfolio: Items Per Page"
+msgstr ""
+
+#: ../options.php:75
+msgid ""
+"How many portfolio items do you wish to show on your portfolio templates and "
+"archives? Use -1 to show all."
+msgstr ""
+
+#: ../options.php:82
+msgid "Toggle: Portfolio Comments"
+msgstr ""
+
+#: ../options.php:83
+msgid "Check this box to enable comments on single portfolio posts."
+msgstr ""
+
+#: ../options.php:90
+msgid "Toggle: Portfolio More Items Section"
+msgstr ""
+
+#: ../options.php:91
+msgid ""
+"Check this box to enable the section that displays other portfolio items on "
+"single portfolio posts."
+msgstr ""
+
+#: ../options.php:99 ../single.php:20
+msgid "Blog"
+msgstr ""
+
+#: ../options.php:104
+msgid "Blog: Title"
+msgstr ""
+
+#: ../options.php:105
+msgid "Enter your custom blog title. Leave blank to remove it completely."
+msgstr ""
+
+#: ../options.php:112
+msgid "Toggle: Featured Images On Single Blog Posts"
+msgstr ""
+
+#: ../options.php:113
+msgid "Check this box to enable featured images on single blog posts."
+msgstr ""
+
+#: ../search.php:19 ../search.php:34
+msgid "Search Results For"
+msgstr ""
+
+#: ../search.php:39
+msgid "No results found for that query."
+msgstr ""
+
+#: ../admin/options-framework.php:173 ../admin/options-framework.php:388
+msgid "Theme Options"
+msgstr ""
+
+#: ../admin/options-framework.php:204
+msgid "Clear"
+msgstr ""
+
+#: ../admin/options-framework.php:205
+msgid "Default"
+msgstr ""
+
+#: ../admin/options-framework.php:206
+msgid "Select Color"
+msgstr ""
+
+#: ../admin/options-framework.php:252
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: ../admin/options-framework.php:284
+msgid "Default options restored."
+msgstr ""
+
+#: ../admin/options-framework.php:338
+msgid "Options saved."
+msgstr ""
+
+#: ../admin/options-media-uploader.php:51
+msgid "No file chosen"
+msgstr ""
+
+#: ../admin/options-media-uploader.php:54
+#: ../admin/options-media-uploader.php:111
+msgid "Upload"
+msgstr ""
+
+#: ../admin/options-media-uploader.php:56
+#: ../admin/options-media-uploader.php:112
+msgid "Remove"
+msgstr ""
+
+#: ../admin/options-media-uploader.php:59
+msgid "Upgrade your version of WordPress for full media support."
+msgstr ""
+
+#: ../admin/options-media-uploader.php:83
+msgid "View File"
+msgstr ""
+
+#: ../admin/options-sanitize.php:232
+msgid "No Repeat"
+msgstr ""
+
+#: ../admin/options-sanitize.php:233
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: ../admin/options-sanitize.php:234
+msgid "Repeat Vertically"
+msgstr ""
+
+#: ../admin/options-sanitize.php:235
+msgid "Repeat All"
+msgstr ""
+
+#: ../admin/options-sanitize.php:248
+msgid "Top Left"
+msgstr ""
+
+#: ../admin/options-sanitize.php:249
+msgid "Top Center"
+msgstr ""
+
+#: ../admin/options-sanitize.php:250
+msgid "Top Right"
+msgstr ""
+
+#: ../admin/options-sanitize.php:251
+msgid "Middle Left"
+msgstr ""
+
+#: ../admin/options-sanitize.php:252
+msgid "Middle Center"
+msgstr ""
+
+#: ../admin/options-sanitize.php:253
+msgid "Middle Right"
+msgstr ""
+
+#: ../admin/options-sanitize.php:254
+msgid "Bottom Left"
+msgstr ""
+
+#: ../admin/options-sanitize.php:255
+msgid "Bottom Center"
+msgstr ""
+
+#: ../admin/options-sanitize.php:256
+msgid "Bottom Right"
+msgstr ""
+
+#: ../admin/options-sanitize.php:269
+msgid "Scroll Normally"
+msgstr ""
+
+#: ../admin/options-sanitize.php:270
+msgid "Fixed in Place"
+msgstr ""
+
+#: ../admin/options-sanitize.php:344
+msgid "Normal"
+msgstr ""
+
+#: ../admin/options-sanitize.php:345
+msgid "Italic"
+msgstr ""
+
+#: ../admin/options-sanitize.php:346
+msgid "Bold"
+msgstr ""
+
+#: ../admin/options-sanitize.php:347
+msgid "Bold Italic"
+msgstr ""
+
+#: ../functions/comments-callback.php:13
+#, php-format
+msgid "<cite class=\"author\">%s</cite>"
+msgstr ""
+
+#: ../functions/comments-callback.php:16
+msgid "Reply"
+msgstr ""
+
+#: ../functions/scripts.php:64
+msgid "Navigation"
+msgstr ""
+
+#: ../functions/theme-setup.php:17
+msgid "Main"
+msgstr ""
+
+#: ../functions/meta/meta-portfolio.php:16
+msgid "Portfolio Settings"
+msgstr ""
+
+#: ../functions/meta/meta-portfolio.php:22
+msgid "Style"
+msgstr ""
+
+#: ../functions/meta/meta-portfolio.php:24
+msgid "Select the entry style for this post."
+msgstr ""
+
+#: ../functions/meta/meta-portfolio.php:31
+msgid "Video URL"
+msgstr ""
+
+#: ../functions/meta/meta-portfolio.php:32
+msgid ""
+"Enter in a video URL that is compatible with WordPress's built-in oEmbed "
+"feature."
+msgstr ""
+
+#: ../functions/meta/meta-portfolio.php:32
+msgid "Learn More"
+msgstr ""
+
+#: ../functions/post-types/portfolio.php:37
+msgid "Portfolio Item"
+msgstr ""
+
+#: ../functions/post-types/portfolio.php:38
+msgid "Add New Item"
+msgstr ""
+
+#: ../functions/post-types/portfolio.php:39
+#: ../functions/post-types/portfolio.php:41
+msgid "Add New Portfolio Item"
+msgstr ""
+
+#: ../functions/post-types/portfolio.php:40
+msgid "Edit Portfolio Item"
+msgstr ""
+
+#: ../functions/post-types/portfolio.php:42
+msgid "View Item"
+msgstr ""
+
+#: ../functions/post-types/portfolio.php:43
+msgid "Search Portfolio"
+msgstr ""
+
+#: ../functions/post-types/portfolio.php:44
+msgid "No portfolio items found"
+msgstr ""
+
+#: ../functions/post-types/portfolio.php:45
+msgid "No portfolio items found in trash"
+msgstr ""
+
+#: ../functions/post-types/portfolio.php:67
+#: ../functions/post-types/portfolio.php:81
+msgid "Portfolio Tags"
+msgstr ""
+
+#: ../functions/post-types/portfolio.php:68
+msgid "Portfolio Tag"
+msgstr ""
+
+#: ../functions/post-types/portfolio.php:69
+msgid "Search Portfolio Tags"
+msgstr ""
+
+#: ../functions/post-types/portfolio.php:70
+msgid "Popular Portfolio Tags"
+msgstr ""
+
+#: ../functions/post-types/portfolio.php:71
+msgid "All Portfolio Tags"
+msgstr ""
+
+#: ../functions/post-types/portfolio.php:72
+msgid "Parent Portfolio Tag"
+msgstr ""
+
+#: ../functions/post-types/portfolio.php:73
+msgid "Parent Portfolio Tag:"
+msgstr ""
+
+#: ../functions/post-types/portfolio.php:74
+msgid "Edit Portfolio Tag"
+msgstr ""
+
+#: ../functions/post-types/portfolio.php:75
+msgid "Update Portfolio Tag"
+msgstr ""
+
+#: ../functions/post-types/portfolio.php:76
+msgid "Add New Portfolio Tag"
+msgstr ""
+
+#: ../functions/post-types/portfolio.php:77
+msgid "New Portfolio Tag Name"
+msgstr ""
+
+#: ../functions/post-types/portfolio.php:78
+msgid "Separate portfolio tags with commas"
+msgstr ""
+
+#: ../functions/post-types/portfolio.php:79
+msgid "Add or remove portfolio tags"
+msgstr ""
+
+#: ../functions/post-types/portfolio.php:80
+msgid "Choose from the most used portfolio tags"
+msgstr ""
+
+#: ../functions/post-types/portfolio.php:105
+#: ../functions/post-types/portfolio.php:119
+msgid "Portfolio Categories"
+msgstr ""
+
+#: ../functions/post-types/portfolio.php:106
+msgid "Portfolio Category"
+msgstr ""
+
+#: ../functions/post-types/portfolio.php:107
+msgid "Search Portfolio Categories"
+msgstr ""
+
+#: ../functions/post-types/portfolio.php:108
+msgid "Popular Portfolio Categories"
+msgstr ""
+
+#: ../functions/post-types/portfolio.php:109
+msgid "All Portfolio Categories"
+msgstr ""
+
+#: ../functions/post-types/portfolio.php:110
+msgid "Parent Portfolio Category"
+msgstr ""
+
+#: ../functions/post-types/portfolio.php:111
+msgid "Parent Portfolio Category:"
+msgstr ""
+
+#: ../functions/post-types/portfolio.php:112
+msgid "Edit Portfolio Category"
+msgstr ""
+
+#: ../functions/post-types/portfolio.php:113
+msgid "Update Portfolio Category"
+msgstr ""
+
+#: ../functions/post-types/portfolio.php:114
+msgid "Add New Portfolio Category"
+msgstr ""
+
+#: ../functions/post-types/portfolio.php:115
+msgid "New Portfolio Category Name"
+msgstr ""
+
+#: ../functions/post-types/portfolio.php:116
+msgid "Separate portfolio categories with commas"
+msgstr ""
+
+#: ../functions/post-types/portfolio.php:117
+msgid "Add or remove portfolio categories"
+msgstr ""
+
+#: ../functions/post-types/portfolio.php:118
+msgid "Choose from the most used portfolio categories"
+msgstr ""
+
+#: ../functions/post-types/portfolio.php:147
+msgid "Title"
+msgstr ""
+
+#: ../functions/post-types/portfolio.php:148
+msgid "Thumbnail"
+msgstr ""
+
+#: ../functions/post-types/portfolio.php:149
+msgid "Category"
+msgstr ""
+
+#: ../functions/post-types/portfolio.php:150
+msgid "Tags"
+msgstr ""
+
+#: ../functions/post-types/portfolio.php:151
+msgid "Author"
+msgstr ""
+
+#: ../functions/post-types/portfolio.php:152
+msgid "Comments"
+msgstr ""
+
+#: ../functions/post-types/portfolio.php:153
+msgid "Date"
+msgstr ""
+
+#: ../functions/post-types/portfolio.php:178
+#: ../functions/post-types/portfolio.php:188
+#: ../functions/post-types/portfolio.php:198
+msgid "None"
+msgstr ""
+
+#: ../functions/widgets/widget-areas.php:14
+msgid "Sidebar"
+msgstr ""
+
+#: ../functions/widgets/widget-areas.php:16
+msgid "Widgets in this area are used on the main sidebar region."
+msgstr ""
+
+#: ../functions/widgets/widget-areas.php:25
+msgid "Footer 1"
+msgstr ""
+
+#: ../functions/widgets/widget-areas.php:27
+#: ../functions/widgets/widget-areas.php:37
+#: ../functions/widgets/widget-areas.php:47
+msgid "Widgets in this area are used in the footer region."
+msgstr ""
+
+#: ../functions/widgets/widget-areas.php:35
+msgid "Footer 2"
+msgstr ""
+
+#: ../functions/widgets/widget-areas.php:45
+msgid "Footer 3"
+msgstr ""

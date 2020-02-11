@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Home - Green Deomo README Document</title>
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/style.css">
+<script src="../js/jquery-2.1.1.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/javascript.js"></script>
+</head>
+
+<body>
+<h2>社交媒体设置</h2>
+<p>在后台“外观-Admin Options-社交媒体”中设置。</p>
+<p>设置后会在网页的右上角出现社交媒体按钮，用户点击后就会跳到对应的页面。</p>
+<p>默认情况下，有几个灰色的是常用社交媒体账号。注意，右边的值一般都是链接，如果不是链接，你需要额外注意怎么使用，不能出现引号。</p>
+<h3>如何在前台调用？</h3>
+<p>你可以在前台使用PHP调用自己新增的社交媒体账号，代码如下：</p>
+<pre>global $admin_options;
+$socials = array_admin_options($admin_options['social']);
+$QQ = $socials['QQ'];</pre>
+<p>但是这仅仅是调用出它的值，css样式、按钮图片等还需要你自己添加。</p>
+
+
+<p class="btn-area text-center"><a href="javascript:next()" class="btn btn-success btn-lg">下一节</a></p>
+</body>
+</html>

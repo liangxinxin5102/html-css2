@@ -1,0 +1,23 @@
+::selection {background-color:#269ccc; color:#fff;}
+span {color:#269ccc; font-size:12px;}
+.sub_slider span {color: #269ccc; font-size:20px;}
+footer .footer_tag_cloud ul li:hover {background-color: #269ccc;}
+.news_button a {background-color: #269ccc;}
+.subfooter a {color: #269ccc;}
+.home2_blog_meta p.day {background-color: #269ccc;}
+h2 span {font-size:30px;}
+ul#twitter_update_list span a {color: #269ccc;}
+.home2_blog_post a {color: #269ccc;}
+.flex-caption div.caption-text-h1, .flex-caption div.caption-text-h2, .flex-caption-boxed div.caption-text-h1 {border-left:5px solid #269ccc;}
+.flex-caption div.caption-text-h2, .flex-caption-boxed div.caption-text-h2 {border-left:5px solid #269ccc;}
+.pricing-package .buy-section a {background-color: #269ccc;}
+.pricing-package span.amount {color: #269ccc;}
+.breadcrums ul li a:hover {color: #269ccc;}
+#navigation li:hover > ul, #navigation2 li:hover > ul {border-top:1px solid #269ccc;}
+h4#hide {background-color: #269ccc;}
+h2.trigger span {color: #269ccc;}
+.tooltip_container a {color: #269ccc;}
+.option-set li a.selected {background-color: #269ccc;}
+.project_details .button a {background-color: #269ccc;}
+.entry-month {background-color: #269ccc;}
+input#submit {background-color: #269ccc;}

@@ -1,0 +1,187 @@
+ul.latest-events {
+	li {
+		float: left;
+		margin-left: 7px;
+		margin-right: 6px;
+		.perspective(500);
+		.flipping-albums-events {
+				width: 300px;
+				height: 277px;
+				-webkit-backface-visibility: hidden;
+				-moz-backface-visibility: hidden;
+				-o-backface-visibility: hidden;
+
+				
+					img.img-latest-event {
+						border-bottom: 5px solid #8e44ad;
+						.transition(0.3s);
+					}
+					.black-sec-tornament {
+						position: absolute;
+						padding: 18px 18px 0 18px;
+						width: 264px;
+						position: relative;
+						height: 72px;
+						margin-top: -97px;
+						background: rgba(0,0,0,0.7);
+						.transition(0.3s);
+						h1.title-latst-h1 {
+							a {
+								font-size: 18px;
+								color: #fefefe;
+							}
+
+						}
+						.underline-title-latest-events {
+							height: 1px;
+							width: 35px;
+							background: #7d4d64;
+							margin: 12px 0;
+						}	
+						ul.info-latest-events {
+
+							li {
+								float: left;
+								width: 165px;
+								margin-right: 0 !important;
+								margin-bottom: 0 !important;
+								margin-left: 0 !important;
+								&:last-child {
+									width: 90px;
+									float: right;					
+								}
+								img {
+									float: left;
+									margin-right: 5px;
+								}
+								p {
+									float: left;
+									font-size: 12px;
+									color: #a1a1a1;
+									line-height: 15px;
+								}
+							}
+						}
+					}
+				.back {
+					-webkit-backface-visibility: hidden;
+					-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+					filter: alpha(opacity=0);
+					opacity: 0;
+					position: absolute;
+					z-index: -1;
+					.transition(0.3s);
+					.rotate-y(180deg);
+					img.img-latest-event {
+						z-index: -5;
+					}
+					img {
+						position: absolute;
+					}
+					.bg-black-flip {
+						width: 276px;
+						height: 253px;
+						padding: 12px;
+						background: rgba(0,0,0,0.7);
+						position: relative;
+						z-index: 99;
+						h1.title-flipp {
+							color: #dddddd;
+							font-size: 21px;
+							line-height: 27px;
+						}
+						.time-latest-events-flipp {
+							line-height: 35px;
+							color: #020306;
+							font-size: 24px;
+							font-weight: 200;
+							text-align: center;
+							padding: ;
+							background: #dddddd;
+							margin-bottom: 20px;
+						}
+						.under-line-flipp {
+							width: 35px;
+							height: 1px;
+							background: #4d5a62;
+							margin: 15px 0;
+						}
+						p {
+							color: #dddddd;
+							font-size: 14px;
+							margin-bottom: 20px;
+							line-height: 20px;
+						}
+						a.more-info-flipp {
+							text-align: center;
+							width: 100px;
+							display: block;
+							text-transform: uppercase;
+							color: #fff;
+							background: #8e44ad;
+							font-size: 12px;
+							line-height: 36px;
+							float: left;
+							.transition;
+							&:hover {
+									background: #DDDDDD !important;
+						        	color: #8E44AD !important;
+						    }
+						}
+						.info-latest-events {
+							float: left;
+							margin-left: 20px;
+							li {
+								float: none;
+								p {
+									margin-bottom: 0;
+									margin-left: 20px;
+									line-height: 12px;
+									margin-bottom: 11px;
+									color: #a1a1a1;
+									font-size: 12px;
+								}
+								&:first-child {
+									margin-right: 0;
+								}
+							}
+						}
+					}
+				}
+				&:hover {
+						.black-sec-tornament {
+							.rotate-y(180deg);
+							-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+							filter: alpha(opacity=0);
+							opacity: 0;
+						}
+						img.img-latest-event {
+							.rotate-y(180deg);
+						}
+					.back {
+						-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+						filter: alpha(opacity=100);
+						opacity: 1;
+						.rotate-y(360deg);
+						z-index: 99;		
+					}
+				}
+			}
+	}
+	&.home-latest-events {
+		li {
+			margin-left: 0 !important;
+			margin-right: 20px !important;
+			margin-bottom: 20px !important;
+			&:nth-child(2n+2) {
+				margin-right: 0 !important;
+			}
+			ul.info-latest-events {
+							li {
+								margin-right: 0 !important;
+								margin-bottom: 0 !important;
+						}
+					}
+		}
+	}
+}

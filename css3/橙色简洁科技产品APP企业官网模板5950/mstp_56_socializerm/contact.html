@@ -1,0 +1,165 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+<!-- Define Charset -->
+<meta charset="utf-8"/>
+
+<!-- Responsive Metatag -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<!-- Page Title -->
+<title> Socializer | Premium Responsive Landing Page  </title>
+
+<!-- Description and Keyword -->
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+
+<!-- Stylesheet and Bootstrap -->
+<link rel="stylesheet" href="css/bootstrap.min.css"/>
+<link rel="stylesheet" href="css/bootstrap-responsive.min.css"/>
+<link rel="stylesheet" href="css/styles.css"/>
+<link rel="stylesheet" href="demo.css" />
+<link href="css/skins/blue.css" rel="stylesheet" type="text/css" />
+
+
+<!-- Google Fonts -->
+<link href="http://fonts.useso.com/css@family=Roboto_3A400,300,500,700,900" rel="stylesheet" type="text/css"/>
+
+<!-- Javascript Library -->
+ 
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/main2.js"></script>
+ 
+
+<!-- Favicon -->
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+
+<script type="text/javascript" > 
+ 
+$(document).ready(function() {
+$(".styles-open").click(function(){
+$(".styles, .styles-open").animate({ "left":"-70px" }, 1000); $(".styles-closed").animate({ "left":"0" }, 1000);
+return false;
+});
+$(".styles-closed a").click(function(){
+$(".styles-closed").animate({ "left":"-40px" },1000);
+$(".styles").animate({ "left":"0" }, 1000);
+$(".styles-open").animate({ "left":"70" }, 1000);
+return false;
+});
+}); 
+</script>
+</head>
+<body>
+
+<!-- Main Content -->
+<div class="main-content2"> 
+<div class="wrapper">
+
+<!-- Header -->
+<div class="header">
+<div class="logo"><img src="img/logo.png" alt="" /></div>
+<div class="navi">
+<ul>
+<li><a href="index.html?style=blue">Home</a></li>
+<li><a href="pricing.html?style=blue">Pricing</a></li>
+<li  class="active"><a href="contact.html?style=blue">Contact</a></li>
+</ul>
+</div>
+</div><!-- END Header -->
+
+ 
+</div><!-- END Wrapper -->
+</div><!-- END Main Content -->
+ 
+<div class="contact">
+<div class="wrapper">
+<h3>If You <span>More Questions </span>..Please Contact Us</h3>
+<div class="row-fluid">
+<div class="span8 "> 
+<div class="wrap" id="overlay_form" >
+
+<form id="contactform" class="form-contact"  action="mailer.html" method="post">
+  
+ 
+ 
+ 
+  <input  placeholder="Your Name"  type="text" class="input-name" id="name" name="name" /> 
+ 
+  <input placeholder="Your Email" type="text" class="input-email" id="email" name="email" /> 
+ 
+ 
+ 
+ <textarea placeholder="Your Message" class="message" name="message" rows="5" cols="20"></textarea> 
+ <div id="success" ></div>
+ <input type="submit" class="input-submit" value="Submit" id="send" /> 
+
+</form>
+</div>
+</div>
+<div class="span4 cont">
+<h6>  Socializ<span>er</span> </h6>
+<p>20740 Somwhere, New York
+NY 4468, United States.</p>
+<a href="#">Check on Google Maps ...</a>
+<div class="credits">
+ <p>Phone : <strong>1 888 466 1508</strong></p> 
+ <p>Email : <strong>Contact@example.com</strong></p> 
+  <p> Paypal account: <strong>Example@paypal.com</strong></p>
+
+ <p class="help">Support : <strong>Support@example.com</strong></p> 
+ </div>
+</div>
+</div>
+
+
+
+
+ 
+
+</div>
+</div>
+ 
+<!-- Call to action -->
+ <div class="divi2"></div> 
+<div class="cta">
+<div class="wrapper">
+<h3>Discover Our <span>Amazing</span> Plans & Prices</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim ad minim veniam, quis nostrud exercitation laboris. </p>
+<a href="#" class="bt3">Download</a>
+</div>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+<div class="wrapper">
+<div class="copy"><p><strong>Socializ</strong><span>er &#169; copyright 2013. all rights reserved. More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></span></p></div>
+
+<div class="social">
+<ul>
+<li class="facebook"><a href="#"></a></li>
+<li class="twitter"><a href="#"></a></li>
+<li class="google"><a href="#"></a></li>
+</ul>
+</div>
+</div>
+</div>
+ <ul class="styles">
+  
+ <li><p class="skins">Skins</p><li>
+  <li class="orange"> <a href="contact.html?style=orange"> </a></li>
+  <li class="blue"> <a href="contact.html?style=blue"></a></li>
+  <li class="green"> <a href="contact.html?style=green"></a> </li> 
+  <li class="pink">  <a href="contact.html?style=pink"></a> </li> 
+  <li class="purple"> <a href="contact.html?style=purple"></a> </li> 
+  <li class="cyan"> <a href="contact.html?style=cyan"></a> </li> 
+  
+</ul>
+<a class="styles-open"  href="#closeoptions">  </a>
+ <div class="styles-closed " >
+<a href="#options"> </a>
+</div>
+</body>
+</html>

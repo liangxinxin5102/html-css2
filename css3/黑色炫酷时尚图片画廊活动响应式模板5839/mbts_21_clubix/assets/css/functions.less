@@ -1,0 +1,37 @@
+.transition(@time: 0.2s) {
+	-webkit-transition:all @time linear;
+	-moz-transition:all @time linear;
+	-o-transition:all @time linear;
+	-ms-transition:all @time linear;
+	transition:all @time linear;
+}
+
+.inner-shadow (inset, @x: 0, @y: 0, @blur: 1px, @color: #000) {
+  -webkit-box-shadow: @arguments;
+  -moz-box-shadow: @arguments;
+  -o-box-shadow: @arguments;
+  box-shadow: @arguments;
+}
+
+.perspective(@value-perspective) {
+	-webkit-perspective: @value-perspective;
+  	-ms-perspective: @value-perspective;
+  	-o-perspective: @value-perspective;
+  	perspective: @value-perspective;
+}
+
+.rotate-y(@deg) {
+	-webkit-transform: rotatey(@deg);
+	-moz-transform: rotatey(@deg);
+	-o-transform: rotatey(@deg);
+	-ms-transform: rotatey(@deg);
+	transform: rotatey(@deg);
+}
+
+.rotate-x(@deg) {
+	-webkit-transform: rotatex(@deg);
+	-moz-transform: rotatex(@deg);
+	-o-transform: rotatex(@deg);
+	-ms-transform: rotatex(@deg);
+	transform: rotatex(@deg);
+}

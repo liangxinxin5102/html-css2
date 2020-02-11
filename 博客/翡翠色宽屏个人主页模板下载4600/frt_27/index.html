@@ -1,0 +1,115 @@
+<!doctype html>
+<!--
+Design by Free Responsive Templates
+http://www.free-responsive-templates.com
+Released for free under a Creative Commons Attribution 3.0 Unported License (CC BY 3.0)
+Coder: lsa, free.responsive.templates@gmail.com
+Created: 13 September 2012 
+-->
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Free Responsive Template #27- Personal CO-模板之家cssMoban.com</title>
+<link href='http://fonts.googleapis.com/css?family=Montez|Happy+Monkey|Metamorphous' rel='stylesheet' type='text/css'>
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script>
+	 // DOM ready
+	 $(function() {
+	   
+      // Create the dropdown base
+      $("<select />").appendTo("nav");
+      
+      // Create default option "Go to..."
+      $("<option />", {
+         "selected": "selected",
+         "value"   : "",
+         "text"    : "Select a page"
+      }).appendTo("nav select");
+      
+      // Populate dropdown with menu items
+      $("nav a").each(function() {
+       var el = $(this);
+       $("<option />", {
+           "value"   : el.attr("href"),
+           "text"    : el.text()
+       }).appendTo("nav select");
+      });
+      
+	   // To make dropdown actually work
+      $("nav select").change(function() {
+        window.location = $(this).find("option:selected").val();
+      });
+	 
+	 });
+	</script>
+</head>
+<body>
+<div class="wrapper">
+	<header>
+    	<h1><a href="">Personal CO</a></h1>
+        <span>responsive website page</span>
+        <nav>
+            <ul>
+                <li class="active"><a href="">Home</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">News</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="clearfloat"></div>
+    </header>
+    <section>
+    	<h2>Welcome</h2>
+        <p class="welcome">
+        	<img src="images/pic1.jpg" class="floatRight" alt="pic1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of <a href="#">type and scrambled</a> it to make a type specimen book.  It has survived not only five centuries, but also the leap into electronic typesetting, <strong>remaining essentially</strong> unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. <br><br>
+            Letraset sheets containing <strong>Lorem Ipsum passages</strong>, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has <a href="#">been the industry's standard</a> dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.  It has survived not only five centuries, but also the leap into electronic typesetting, 
+        </p>
+        <p class="button"><a href="">Read more...</a></p>
+        <div class="clearfloat"></div>
+        <hr>
+        <div class="box">
+        	<h2>Title 1</h2>
+            <img src="images/pic2.jpg" alt="pic2">
+            <p>
+            	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of 
+            </p>
+            <p class="button"><a href="">Read more...</a></p>
+        </div>
+        <div class="box">
+        	<h2>Title 2</h2>
+            <img src="images/pic3.jpg" alt="pic3">
+            <p>
+            	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of 
+            </p>
+            <p class="button"><a href="">Read more...</a></p>
+        </div>
+        <div class="box lastBox">
+        	<h2>Title 3</h2>
+            <img src="images/pic4.jpg" alt="pic4">
+            <p>
+            	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of 
+            </p>
+            <p class="button"><a href="">Read more...</a></p>
+        </div>
+        <div class="clearfloat"></div>
+    </section>
+    <div class="clearfloat"></div>
+    <footer>
+        <div class="icons">
+            <ul>
+                <li><a href=""><img src="images/facebook.png" alt="facebook icon"></a></li>
+                <li><a href=""><img src="images/twitter.png" alt="twitter icon"></a></li>
+                <li><a href=""><img src="images/googleplus.png" alt="google plus icon"></a></li>
+                <li><a href=""><img src="images/dribbble.png" alt="dribble icon"></a></li>
+            </ul> 
+        </div>
+        <p>
+            Copyright &copy; <a href="#">Your Site Name</a> | Collect Form <a href="http://www.cssmoban.com/" title="网页模板">网页模板</a>
+        </p>
+    </footer>
+</div>
+</body>
+</html>

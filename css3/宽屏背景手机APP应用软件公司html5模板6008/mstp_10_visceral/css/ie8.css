@@ -1,0 +1,29 @@
+#spade {
+	margin-left: 440px
+}
+
+.cuttoff-slider {
+	margin-left: 0
+}
+
+#gallery-slider.flexslider {
+	width: 920px
+}
+
+#gallery-slider.flexslider img {
+	width: 920px;
+	height: auto
+}
+
+.fb_iframe_widget iframe {
+	width:430px!important
+}
+
+#newsletter-form input {
+	width: 290px!important;
+	line-height:40px;
+}
+
+#newsletter-form .btn  {
+	line-height:inherit!important;
+}

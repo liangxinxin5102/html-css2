@@ -1,0 +1,22 @@
+body {background-color: #212121;}
+p {color: #bababa;}
+h1,h2,h3,h4,h5 {color: #fff;}
+.home1_how_help .name {color: #fff;}
+.home1_how_help .button a {color: #fff;}
+.home1_promo_info ul li {border-bottom: 1px solid #414141;}
+.welcome_message {background-color: #181818;}
+.home2_services, .home2_from_blog {border-bottom:1px solid #373737;}
+.home3_service_wrapper, .home3_mockups {border-bottom:1px solid #373737;}
+.people_behind, .complete_solutions {border-bottom:1px solid #373737;}
+.sidebar_search input {background-color: #fff;}
+.process , .service_wrapper ul li, .teammate_container {border-bottom:1px solid #373737;}
+.sitemap ul li.main a {color: #e5e5e5;}
+.testimonial_page .line {background-color: #373737;}
+.testimonial .testimonial-content {box-shadow: none;}
+.css3_buttons, .normal_buttons, .column16, .column8, .column4 , .column2 , .dropcaps {border-bottom:1px solid #373737;}
+.alert_box h5 {color: #000;}
+.alert_box.general {background-color: #fff;}
+.tab-body {background-color: #fff;}
+.small_tags, .bold_tags, .italic_tags {border-bottom:1px solid #373737;}
+#portfolio_container h1, #portfolio_container h, #portfolio_container h3, #portfolio_container h4 {color: #212121;} 
+.entry-title {color: #fff;}

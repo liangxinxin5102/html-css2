@@ -1,0 +1,28 @@
+.bg-header-menu {
+	background: rgba(14,14,14,0.7);
+	position: relative;
+	z-index: 9999;
+	ul.menu {
+		li {
+			float: left;
+			a {
+				line-height: 40px;
+				display: block;
+				color: #dadada;
+				padding: 0 15px;
+				font-size: 12px;
+				border-right: 1px solid rgba(255,255,255,0.1);
+                font-weight:bold;
+				.transition;
+				&:hover , &.selected {
+					color: #fff;
+					background: #191919;
+					.inner-shadow(inset ,0 , 2px , 0 , #8e44ad);
+				}
+			}
+			&:first-child a {
+				border-left: 1px solid rgba(255,255,255,0.1);
+			}
+		}
+	}
+}

@@ -1,0 +1,58 @@
+/* ----------------------------------------------------------------------------------------------------------
+
+    This website template was downloaded from http://www.nuviotemplates.com - visit us for more templates
+
+---------------------------------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------------------------------------------------
+HTML
+---------------------------------------------------------------------------------------------------------- */
+
+body {background-color:#1f1f1f; color:#000;}
+
+a {color:#1493EB;}
+a:hover {color:#F80;}
+
+/* ----------------------------------------------------------------------------------------------------------
+Layout
+---------------------------------------------------------------------------------------------------------- */
+    
+#logo, #logo a {color:#FFF;}
+#logo span {color:#F80;}    
+
+#slogan {color:#A0A0A0;}
+
+#content {background:#FFF;}
+
+#aside {color:#5F5F5F;}   
+#aside a {color:#FFF;}    
+#aside a:hover {color:#F80;}
+#aside ul.ul-style01 li a, #aside ul.ul-rss li a {border-bottom:1px solid #1F1F1F;}
+#aside ul.ul-style01 li#nav-active a {color:#2C9EED;}
+
+#aside .title {color:#F80;}
+
+#search-top, #search-bottom {background-color:#1F1F1F;}
+#search {color:#909090;}
+
+#footer {color:#5F5F5F;}
+#footer a {color:#5F5F5F;}
+#footer a:hover {color:#FFF;}
+
+/* ----------------------------------------------------------------------------------------------------------
+Page: Home
+---------------------------------------------------------------------------------------------------------- */
+
+#topstory {background-color:#DFEFFB;}
+#topstory #topstory-title {background-color:#1493EB;}
+#topstory #topstory-title, #topstory #topstory-title a {color:#FFF;}
+#topstory #topstory-title a:hover {color:#000;}
+#topstory #topstory-title p.info, #topstory #topstory-title p.info a {color:#000;}
+#topstory #topstory-title p.info a:hover {color:#FFF;}
+
+/* ----------------------------------------------------------------------------------------------------------
+Others
+---------------------------------------------------------------------------------------------------------- */
+
+.low, .low a {color:#7F7F7F;}
+.low a:hover {color:#000;}

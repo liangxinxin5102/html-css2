@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>eLearn - Register</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />	
+    <!-- CSS Files -->
+	<link rel="stylesheet" href="plugin/bootstrap/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="plugin/font-awesome/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/animate.min.css" />
+	<!-- / CSS Files -->
+	
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <header class="main">
+        <div class="container">
+            <nav class="navbar" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.htm"><img id="logo" src="img/logo.png" alt="eLearn" /></a>
+                </div>
+                <div class="collapse navbar-collapse">
+                <div class="navbar-right menu-main"> 
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span>Home</span> <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="index.htm">Home, version 1</a></li>
+                                <li><a href="index2.htm">Home, version 2</a></li>
+                                <li><a href="index3.htm">Home, version 3</a></li><li><a href="http://www.cssmoban.com/">Home, version 4</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="about-us.htm"><span>About us</span></a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span>Video</span> <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="categories.htm">Categories of video</a></li>
+                                <li><a href="videos-list.htm">Video list</a></li>
+                                <li><a href="videos-grid.htm">Video list (grid)</a></li>
+                                <li><a href="video.htm">Video film detail</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="features.htm"><span>Features</span></a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span>Blog</span> <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="blog-list.htm">Blog list</a></li>
+                                <li><a href="blog-post.htm">Blog post detail</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="contact.htm"><span>Contact us</span></a></li>
+                    </ul>
+                    <a class="btn btn-theme navbar-btn btn-default sign-in" href="#">Sign in</a>
+                    <a class="btn btn-theme navbar-btn btn-orange  sign-up" href="register.htm">Sign up</a>
+                </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <h1>Sign up a teachers guide account</h1>
+                </div>
+                <div class="col-md-5">
+                    <ol class="breadcrumb pull-right">
+                        <li><a href="index.htm">Home</a></li>
+                        <li><a href="#">Registration</a></li>
+                        <li class="active">Teacher Account</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <section class="content content-light">
+        <div class="container">
+            <!-- Profil create stage - dotted -->
+            <div class="row profil-create-stage">
+                <div class="col-md-4 stage-first">
+                    <a href="plans.htm">
+                        <span>Choose your business plan</span>
+                        <span class="stage-dot"></span>
+                    </a>
+                </div>
+                <div class="col-md-4 active">
+                    <a href="register.htm">
+                        <span>Register a teacher account</span>
+                        <span class="stage-dot"></span>
+                    </a>
+                </div>
+                <div class="col-md-4 stage-last">
+                    <a href="register.htm">
+                        <span>Update your profile</span>
+                        <span class="stage-dot"></span>
+                    </a>
+                </div>
+            </div>
+            
+            <hr class="invisible" />
+            <hr class="invisible" />
+            <hr class="invisible" />
+            
+            <form action="register.htm" role="form">
+                <h2 class="title-form">Personal information</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label for="fieldInputName">First name</label>
+                            <input type="text" class="form-control input-lg" id="fieldInputName" placeholder="enter your name" />
+                        </div>
+                        <div class="form-group">
+                            <label for="fieldInputUsername">Username</label>
+                            <input type="text" class="form-control input-lg" id="fieldInputUsername" placeholder="choose an username" />
+                        </div>
+                        <div class="form-group">
+                            <label for="fieldInputPassword1">Password</label>
+                            <input type="password" class="form-control input-lg" id="fieldInputPassword1" placeholder="choose a password" />
+                        </div>
+                        <div class="form-group">
+                            <label for="fieldSelectGender">Gender</label>
+                            <select class="form-control input-lg" id="fieldSelectGender">
+                                <option></option>
+                                <option>male</option>
+                                <option>female</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label for="fieldInputLastname">Last name</label>
+                            <input type="text" class="form-control input-lg" id="fieldInputLastname" placeholder="enter your last name" />
+                        </div>
+                        <div class="form-group">
+                            <label for="fieldInputEmail1">Email address</label>
+                            <input type="email" class="form-control input-lg" id="fieldInputEmail1" placeholder="enter your email address" />
+                        </div>
+                        <div class="form-group">
+                            <label for="fieldInputPassword2">Confirm Password</label>
+                            <input type="password" class="form-control input-lg" id="fieldInputPassword2" placeholder="confirm your chosen password" />
+                        </div>
+                        <div class="form-group">
+                            <label for="fieldSelectCountry">Country</label>
+                            <select class="form-control input-lg" id="fieldSelectCountry">
+                                <option value="usa">United States</option>
+                                <option value="uk">United Kingdom</option>
+                                <option value="ger">Germany</option>
+                                <option value="jap">Japan</option>
+                                <option value="fra">France</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label for="fieldInputBirth">Date of birth</label>
+                            <input type="email" class="form-control input-lg" id="fieldInputBirth" placeholder="DD/MM/YYYY" />
+                        </div>
+                        <div class="form-group">
+                            <label for="fieldInputEmail2">Confirm email</label>
+                            <input type="email" class="form-control input-lg" id="fieldInputEmail2" placeholder="enter your email address" />
+                        </div>
+                        <div class="form-group">
+                            <label for="fieldInputPostalcode">Postal code</label>
+                            <input type="email" class="form-control input-lg" id="fieldInputPostalcode" placeholder="enter your postal code" />
+                        </div>
+                        <div class="form-group">
+                            <label for="fieldSelectCity">City</label>
+                            <select class="form-control input-lg" id="fieldSelectCity">
+                                <option></option>
+                                <option class="usa">New York City</option> <!-- class name = select#fieldSelectCountry | depend show/hide by JS -->
+                                <option class="usa">Los Angeles</option>
+                                <option class="usa">Chicago</option>
+                                <option class="usa">Houston</option>
+                                <option class="usa">Philadelphia</option>
+                                <option class="usa">Washington, D.C.</option>
+                                
+                                <option class="uk">London</option>
+                                <option class="uk">Manchester</option>
+                                <option class="uk">Birmingham</option>
+                                <option class="uk">Leeds</option>
+                                <option class="uk">Glasgow</option>
+                                
+                                <option class="ger">Berlin</option>
+                                <option class="ger">Hamburg</option>
+                                <option class="ger">Munich</option>
+                                <option class="ger">Cologne</option>
+                                
+                                <option class="jap">Tokyo</option>
+                                <option class="jap">Yokohama</option>
+                                <option class="jap">Osaka</option>
+                                <option class="jap">Nagoya</option>
+                                
+                                <option class="fra">Paris</option>
+                                <option class="fra">Marseille</option>
+                                <option class="fra">Lyon</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                
+                <hr class="invisible" />
+                <hr class="invisible" />
+                
+                <h2 class="title-form">Personal information</h2>
+                <label class="checkbox-inline">
+                    <input type="checkbox" /> Webdesign
+                </label>
+                <label class="checkbox-inline">
+                    <input type="checkbox" /> Marketing
+                </label>
+                <label class="checkbox-inline">
+                    <input type="checkbox" /> Webdevelopement
+                </label>
+                <label class="checkbox-inline">
+                    <input type="checkbox" /> Coding
+                </label>
+                <label class="checkbox-inline">
+                    <input type="checkbox" /> Search Engine Optimization
+                </label>
+                <label class="checkbox-inline">
+                    <input type="checkbox" /> Graphic Design
+                </label>
+                <label class="checkbox-inline">
+                    <input type="checkbox" /> MySQL / PHP
+                </label>
+                <label class="checkbox-inline">
+                    <input type="checkbox" /> HTML / CSS
+                </label>
+                <label class="checkbox-inline">
+                    <input type="checkbox" /> C++
+                </label>
+                <label class="checkbox-inline">
+                    <input type="checkbox" /> Making Videos
+                </label>
+                <label class="checkbox-inline">
+                    <input type="checkbox" /> Languages 
+                </label>
+                <label class="checkbox-inline">
+                    <input type="checkbox" /> Moviemaker 3D
+                </label>
+                <label class="checkbox-inline">
+                    <input type="checkbox" /> Logodesign
+                </label>
+                <label class="checkbox-inline">
+                    <input type="checkbox" /> Browser Co.
+                </label>
+                <label class="checkbox-inline">
+                    <input type="checkbox" /> Social Networking
+                </label>
+                
+                <hr class="invisible" />
+                
+                <label for="fieldInputAddSkills">Add other skills:</label>
+                <div class="row form-inline">
+                    <div class="form-group col-xs-4">
+                        <input type="email" class="form-control input-lg" id="fieldInputAddSkills" placeholder="add some skills" />
+                    </div>
+                    <a href="#" class="btn btn-green btn-lg">Add</a>
+                </div>
+                
+                <hr class="invisible" />
+                <hr class="invisible" />
+                
+                <h2 class="title-form">Add social networks</h2>
+                
+                <div class="form-inline">
+                    <a class="btn btn-lg btn-social btn-gray social-facebook" href="#facebook"><i class="fa fa-facebook"></i></a>
+                    <div class="form-group">
+                        <input type="url" class="form-control input-social input-lg" id="fieldInputFacebook" placeholder="profile address URL" />
+                    </div>
+                    <a class="btn btn-lg btn-social btn-gray social-youtube" href="#youtube"><i class="fa fa-youtube"></i></a>
+                    <div class="form-group">
+                        <input type="url" class="form-control input-social input-lg" id="fieldInputYoutube" placeholder="profile address URL" />
+                    </div>
+                    <a class="btn btn-lg btn-social btn-gray social-twitter" href="#twitter"><i class="fa fa-twitter"></i></a>
+                    <div class="form-group">
+                        <input type="url" class="form-control input-social input-lg" id="fieldInputTwitter" placeholder="profile address URL" />
+                    </div>
+                    <a class="btn btn-lg btn-social btn-gray social-gplus" href="#gplus"><i class="fa fa-google-plus"></i></a>
+                    <div class="form-group">
+                        <input type="url" class="form-control input-social input-lg" id="fieldInputGplus" placeholder="profile address URL" />
+                    </div>
+                    <a class="btn btn-lg btn-social btn-gray social-dribbble" href="#dribbble"><i class="fa fa-dribbble"></i></a>
+                    <div class="form-group">
+                        <input type="url" class="form-control input-social input-lg" id="fieldInputDribbble" placeholder="profile address URL" />
+                    </div>
+                    <a class="btn btn-lg btn-social btn-gray social-linkedin" href="#linkedin"><i class="fa fa-linkedin"></i></a>
+                    <div class="form-group">
+                        <input type="url" class="form-control input-social input-lg" id="fieldInputLinkedin" placeholder="profile address URL" />
+                    </div>
+                    <a class="btn btn-lg btn-social btn-gray social-tumblr" href="#tumblr"><i class="fa fa-tumblr"></i></a>
+                    <div class="form-group">
+                        <input type="url" class="form-control input-social input-lg" id="fieldInputTumblr" placeholder="profile address URL" />
+                    </div>
+                </div>
+                
+                <hr class="invisible" />
+                <hr class="invisible" />
+                <hr class="invisible" />
+                
+                <p><input type="submit" class="btn btn-theme btn-orange" value="Sign up" /> <input type="submit" class="btn btn-theme btn-green" value="Update profile" /></p>
+            </form>
+        </div>        
+    </section>
+    
+    <footer class="main bg-dark-img">
+        <section class="widgets">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h4>About us</h4>
+                    <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur.</p>
+                </div>
+                <div class="col-md-3 footer-qlink">
+                    <h4>Quick links</h4>
+                    <nav>
+                        <ul>
+                            <li><a href="plans.htm">Start teaching / learning</a></li>
+                            <li><a href="categories.htm">Tutorials database</a></li>
+                            <li><a href="about-us.htm">Meet the team</a></li>
+                            <li><a href="blog-list.htm">Our blog</a></li>
+                            <li><a href="contact.html">Contact us</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-3 footer-blog">
+                    <h4>Latest blogpostings</h4>
+                    <ul class="media-list">
+                        <li class="media">
+                            <a class="pull-left" href="blog-post.htm"><img class="media-object img-rounded" src="img/64x64.gif" alt="author" /></a>
+                            <div class="media-body">
+                                <h5 class="media-heading"><a href="blog-post.htm">Stet clita kasd</a></h5>
+                                <p>Lubergren, no sea...</p>
+                               	<span class="footer"><time datetime="2014-01-09T22:11" class="cute-time">2014/01/09 22:11:19</time> by admin</span> <!-- attribute "datetime" is optional -->
+                            </div>
+                        </li>
+                        <li class="media">
+                            <a class="pull-left" href="blog-post.htm"><img class="media-object img-rounded" src="img/64x64.gif" alt="author" /></a>
+                            <div class="media-body">
+                                <h5 class="media-heading"><a href="blog-post.htm">Stet clita kasd</a></h5>
+                                <p>Takimata sanctus est...</p>
+                                <span class="footer"><time datetime="2013-12-29T20:12" class="cute-time">2013/12/29 20:12:38</time> by admin</span> <!-- attribute "datetime" is optional -->
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 footer-social">
+                    <h4>Follow us on</h4>
+                    <a class="btn btn-social social-facebook" href="https://www.facebook.com/pages/KL-Webmedia/131260293670757"><i class="fa fa-facebook"></i></a>
+                    <!--<a class="btn-social social-vimeo" href="https://vimeo.com/"><i class="fa fa-vimeo"></i></a>-->
+                    <a class="btn btn-social social-youtube" href="http://www.youtube.com/"><i class="fa fa-youtube"></i></a>
+                    <a class="btn btn-social social-twitter" href="https://twitter.com/KLWebmedia"><i class="fa fa-twitter"></i></a>
+                    <a class="btn btn-social social-gplus" href="https://plus.google.com/113174627408639682462/posts"><i class="fa fa-google-plus"></i></a>
+                    <!--<a class="btn-social social-blogger" href="https://www.blogger.com/"><i class="fa fa-facebook"></i></a>-->
+                    <a class="btn btn-social social-dribbble" href="http://dribbble.com/KL-Webmedia"><i class="fa fa-dribbble"></i></a>
+                    <!--<a class="btn-social social-deviantart" href="http://kl-webmedia.deviantart.com/"><i class="fa fa-deviantart"></i></a>-->
+                    <a class="btn btn-social social-linkedin" href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+                    <a class="btn btn-social social-tumblr" href="https://www.tumblr.com/"><i class="fa fa-tumblr"></i></a>
+                    <!--<a class="btn-social social-flickr" href="http://www.flickr.com/"><i class="fa fa-flickr"></i></a>-->
+                </div>
+            </div>
+        </div>
+        </section>
+        <section class="copyright">
+            <div class="container"> &copy; Copyright 2014 <b>KL-Webmedia.com</b> &nbsp; | &nbsp; All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a>
+            </div>
+        </section>
+    </footer>
+    <!-- JavaScript Files -->
+    <script src="plugin/jquery-1.10.2.min.js"></script>
+    <script src="plugin/bootstrap/js/bootstrap.min.js"></script>
+    <script src="plugin/jquery.cuteTime.min.js"></script>
+    <script src="script/script.js"></script>
+    <!-- / JavaScript Files -->
+</body>
+</html>

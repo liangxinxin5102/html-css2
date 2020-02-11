@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	
+	<title>Taylor&amp;Smith - Contact</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	
+	<script type="text/javascript" src="js/jquery.js"></script>
+	
+	<script type="text/javascript">
+	//<![CDATA[
+	function equalHeight(group) {
+	tallest = 0;
+	group.each(function() {
+	thisHeight = $(this).height();
+	if(thisHeight > tallest) {
+	tallest = thisHeight;
+	}
+	});
+	group.height(tallest);
+	}
+	$(document).ready(function() {
+	equalHeight($(".column"));
+	});
+	//]]>
+	</script>
+
+	<script type="text/javascript">
+	//<![CDATA[
+	$(document).ready(function(){
+	$("#ajax-contact-form").submit(function(){
+	var str = $(this).serialize();
+	$.ajax({
+	type: "POST",
+	url: "contact.php",
+	data: str,
+	success: function(msg){
+	$("#note").ajaxComplete(function(event, request, settings){
+	if(msg == 'OK') // Message Sent? Show the 'Thank You' message and hide the form
+	{
+	result = '<div class="notification_ok">Thankyou for contacting us, we will get back to you shortly<\/div>';
+	$("#fields").hide();
+	}
+	else
+	{
+	result = msg;
+	}
+	$(this).html(result);
+	});
+	}
+	});
+	return false;
+	});
+	});
+	//]]>
+	</script>
+</head>
+
+<body>
+	<div id="wrapper">
+	
+		<div id="header"><!-- Start Header -->
+		
+			<a href="index.html"><img id="logo" src="img/logo.png" alt="Taylor&amp;Smith" name="logo" /></a>
+			
+			<span id="number">1-800-728-494</span>
+			
+		</div><!-- End Header -->
+	
+	
+	
+		<ul id="nav"><!-- Navigation -->
+		
+			<li><a href="index.html">Home</a></li>
+			<li><a href="solutions.html">Solutions</a></li>
+			<li><a href="blog.html">blog</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			
+		</ul>
+
+
+
+		<div class="column" id="content"><!-- Start Content -->
+	
+			<h1>Contact</h1>
+			
+			<div id="contact-form">
+				<fieldset class="info_fieldset">
+	
+					<div id="note"></div>
+	
+					<div id="fields">
+						<form id="ajax-contact-form" action="javascript:alert('success!');" name="ajax-contact-form">
+							<p>name</p>
+							<input class="textbox" type="text" name="name" value="" /><br />
+	
+							<p>email</p>
+							<input class="textbox" type="text" name="email" value="" /><br />
+	
+							<p>subject</p>
+							<input class="textbox" type="text" name="subject" value="" /><br />
+	
+							<p>comments</p>
+							<textarea class="textbox" name="message" rows="5" cols="25"></textarea><br />
+	
+							<input class="button" type="submit" name="submit" value="send" />
+						</form>
+	
+					</div>
+	
+				</fieldset>
+			</div>
+			
+		</div><!-- End Content -->
+	
+	
+	
+		<div class="column" id="sidebar"><!-- Start Sidebar -->
+		
+			<h2>Locations</h2>
+	
+			<ul>
+				<li>
+				<strong>NY, USA - Headquarters</strong><br />
+				Tel: +232 99 28320938<br />
+				Fax: +232 99 28320939<br />
+				<a href="mailto:ny@taylorandsmith.com">ny@taylorandsmith.com</a>
+				<a href="">Location Map</a>
+				</li>
+	
+				<li>
+					<strong>Dubai, UAE</strong><br />
+					Tel: +971 6 3729820<br />
+					<a href="mailto:dubai@taylorandsmith.com">dubai@taylorandsmith.com<br /></a>
+					<a href="">Location Map</a>
+				</li>
+	
+				<li>
+					<strong>Sydney, AUS</strong><br />
+					+763 43 27832191<br />
+					<a href="mailto:sydney@taylorandsmith.com">sydney@taylorandsmith.com<br /></a>
+					<a href="">Location Map</a>
+				</li>
+	
+			</ul>
+			
+		</div><!-- End Sidebar -->
+	
+	
+	
+		<div id="footer">
+		
+			<p>Copyright  &copy;  <strong>Taylor&amp;Smith</strong> | Design by <strong><a href="http://www.kumailht.com">Kumail.H.T</a></strong></p>
+			
+		</div><!-- End Footer -->
+	
+	</div><!-- End Wrapper -->
+</body>
+</html>

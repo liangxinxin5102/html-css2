@@ -1,0 +1,55 @@
+.leave-a-comment {
+	form.comment-form {
+		p {
+			margin-bottom: 8px;
+			label {
+				font-size: 14px;
+				color: #525252;
+			}
+		}
+		ul.comment-form-inputs {
+			li {
+				margin-left: 20px;
+				float: left;
+				input {
+					width: 190px;
+					height: 13px;
+				}
+				input[id=name] {
+					width: 104px;
+				}
+				&:first-child {
+					margin-left: 0px;
+				}
+			}
+		}
+		textarea , input {
+			outline: none;
+			background: transparent;
+			border: 1px solid #ebebeb;
+			padding: 15px;
+			color: #727272;
+			font-size: 14px;
+			margin-bottom: 30px;
+		}
+		textarea {
+			width: 588px;
+			height: 148px;
+			font-family: 'Lato';
+		}
+		input[type=submit] {
+			border: none;
+			background: #8e44ad;
+			cursor: pointer;
+			text-transform: uppercase;
+			color: #d2d2d2;
+			height: 55px;
+			padding: 15px 30px;
+			.transition;
+			&:hover {
+		        background: #DDDDDD !important;
+		        color: #8E44AD !important;
+		      }
+		}
+	}
+}

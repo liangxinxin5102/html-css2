@@ -1,0 +1,105 @@
+.sub-menu-audio-player {
+	display: none;
+	width: 256px;
+	height: 185px;
+	background: rgba(255, 255, 255, 0.9);
+	position: relative;
+	float: right;
+	z-index: 99;
+	margin-top: -233px;
+	margin-bottom: -250px;
+	.volume-div {
+		float: left;
+		width: 23px;
+		border-right: 1px solid #2d2d2d;
+		height: 100%;
+		span.vol-icon {
+			width: 23px;
+			height: 24px;
+			background: url(../img/vol-icon.png) no-repeat center center;
+			cursor: pointer;
+			display: block;
+		}
+		.scale-volume {
+			width: 23px;
+			height: 160px;
+			background: #542f63;
+			border-bottom: 1px solid #8e44ad;
+			.indicator-vol {
+				height: 15%;
+				width: 23px;
+				background: #222222;
+			}
+		}
+	}
+
+	.block-play-list {
+		float: left;
+		width: 256px;
+		overflow-y: visible;
+		overflow-x: hidden;
+		height: 185px;
+		ul {
+			li {
+				cursor: pointer;
+				height: 47px;
+				.transition;
+				border-bottom: 1px solid rgba(0,0,0, 0.1);
+				.img-play-list {
+						float: left;
+						img {
+							float: left;
+							margin: 6px;
+							border: 2px solid #2d2d2d;
+							cursor: pointer;
+						}
+					}
+				.song-name-time {
+					border-left: 1px solid rgba(0,0,0, 0.1);
+					float: left;
+					height: 47px;
+					font-size: 12px;
+					color: #e6e6e6;
+					line-height: 47px;
+					padding: 0 15px;
+					width: 160px;
+					p {
+						float: left;
+					}
+				}
+				&:hover {
+					background: rgba(0, 0, 0, 0.1);
+				}
+				&:last-child {
+					border: none;
+				}
+				&.selected {
+					background: rgba(0, 0, 0, 0.1);
+					.img-play-list {
+						float: left;
+						img {
+							float: left;
+							margin: 8px;
+							border: none;
+							margin: 20px 19px 19px 19px;
+							cursor: auto;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.nicescroll-rails {
+			background: rgba(0, 0, 0, 0.1);
+			width: 2px !important;
+			padding: 1px !important;
+			height: 183px !important;
+			div {
+				width: 2px !important;
+				border: none !important;
+				border-radius: 0 !important;
+				background: #414141 !important;
+			}
+		}

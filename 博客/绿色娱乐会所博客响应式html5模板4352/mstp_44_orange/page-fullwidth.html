@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="stylesheet" href="css/grid.css">
+        <link rel="stylesheet" href="css/grid.responsive.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="http://fonts.useso.com/css?family=Oswald">
+        <link rel="stylesheet" href="http://fonts.useso.com/css?family=Pontano+Sans&amp;subset=latin,latin-ext">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/core.css">
+        <link rel="stylesheet" href="css/color-green.css">
+
+        <!--[if IE 8]> <link rel="stylesheet" href="css/ie8.css"> <![endif]-->        
+        
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body class="theme-orange">
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- stylesheet switcher begin
+        
+        Delete if you're not planning to use multiple 
+        layout colors depending on user choice.
+        -->
+
+        <dl id="styleswitcher">
+        	<dt>Choose color</dt>
+        	<dd><a href="#" class="style green" rel="css/color-green.css">Green</a></dd>
+        	<dd><a href="#" class="style orange" rel="css/color-orange.css">Orange</a></dd>
+        	<dd><a href="#" class="style red" rel="css/color-red.css">Red</a></dd>
+        	<dd><a href="#" class="style violet" rel="css/color-violet.css">Violet</a></dd>
+        	<dd><a href="#" class="style blue" rel="css/color-blue.css">Blue</a></dd>
+	    </dl>
+	    <!-- stylesheet switcher end -->
+
+        <header id="page-header">
+        	<div class="container">
+        		<div class="row-fluid">
+        			<div class="span12">
+        				<a href="index-2.html" id="logotype">company name</a>
+        				<nav id="primary-nav">
+        					<ul>
+        						<li><a href="index-2.html">home</a></li>
+        						<li>
+        							<a href="#" class="withsiblings">pages</a>
+        							<ul>
+        								<li><a href="index-left.html">Index - left sidebar</a></li>
+        								<li><a href="page-fullwidth.html">fullwidth-page</a></li>
+        								<li><a href="page-fullwidth-grid2.html">fullwidth-page 2-col</a></li>
+        								<li><a href="page-fullwidth-grid3.html">fullwidth-page 3-col</a></li>
+        								<li><a href="page-fullwidth-grid4.html">fullwidth-page 4-col</a></li>
+        							</ul>
+        						</li>
+        						<li><a href="page-eventcalendar.html">events</a></li>
+        						<li>
+        							<a href="#" class="withsiblings">blog</a>
+        							<ul>
+        								<li><a href="blog.html">blog page</a></li>
+        								<li><a href="blog-left.html">blog page - left sidebar</a></li>
+        								<li><a href="single.html">single post</a></li>
+        								<li><a href="single-left.html">single post - left sidebar</a></li>
+        							</ul>
+        						</li>
+        						<li><a href="contact.html">contact</a></li>
+        					</ul>
+        				</nav><!-- /primary nav -->
+        				<nav id="primary-nav-mobile">
+	        				<form method="post" action="#" name="mobile-menu">
+	        					<select id="mobileSelect" onchange="$(this).submit();">
+	        						<option value="index-2.html">home</option>
+	        						<option value="page.html">pages</option>
+	        						<option value="index-left.html">- Index - left sidebar</option>
+	        						<option value="page-fullwidth.html">- fullwidth-page</option>
+	        						<option value="page-fullwidth-grid2.html">- fullwidth-page 2-col</option>
+	        						<option value="page-fullwidth-grid3.html">- fullwidth-page 3-col</option>
+	        						<option value="page-fullwidth-grid4.html">- fullwidth-page 4-col</option>
+	        						<option value="page-eventcalendar.html">events</option>
+	        						<option value="blog.html">blog</option>
+	        						<option value="blog.html">- blog page</option>
+	        						<option value="blog-left.html">- blog page - left sidebar</option>
+	        						<option value="single.html">- single post</option>
+	        						<option value="single-left.html">- single post - left sidebar</option>
+	        						<option value="contact.html">contact</option>
+	        					</select>
+	        				</form>
+        				</nav>
+        			</div>
+        		</div><!-- /row-fluid -->
+        	</div>
+        </header><!-- /page-header -->
+        <section id="slider">
+        	<div class="container">
+		        <!--
+		        Depending on purpose, there are two types of sliders included (Nivo Slider & Flexslider)
+		        For each slider you have to use an appropiate markup in order to use it
+		        -->
+	        
+		        <!-- Nivo Slider Basic Markup -->
+	<!--
+		        <div class="slider-wrapper">
+			        <div id="slider" class="nivoSlider">
+				        <img src="images/slide1.jpg" alt="" />
+				        <a href="http://dev7studios.com"><img src="images/slide2.jpg" alt="" title="#htmlcaption" /></a>
+				        <img src="images/slide3.jpg" alt="" title="This is an example of a caption" />
+				        <img src="images/slide4.jpg" alt="" />
+				    </div>
+				</div>
+				<div id="htmlcaption" class="nivo-html-caption">
+					<strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
+				</div>
+	-->
+		        <!-- End Nivo Slider Basic Markup -->
+		        
+		        <!-- Flexslider Basic Markup -->
+		        <div class="flex-container">
+			        <div class="flexslider">
+				        <ul class="slides">
+					        <li>
+						        <img src="img/common/slide01.jpg" />
+						        <div class="flex-caption">
+						        	<div>
+							        	<hgroup class="fancy-headers">
+								        	<h1>20/12/2013 <span>live event</span></h1>
+									        <h2>Jermaine Dupree</h2>
+									    </hgroup>
+									    <p>Maecenas ullamcorper feugiat dui vitae tempus. Suspendisse risus lectus, 
+									    faucibus vel placerat non, blandit id ante. Nullam orci lectus, cursus nec iaculis at, 
+									    ullamcorper sed erat. Praesent consectetur dui id mi pharetra bibendum.</p>
+						        	</div>
+						        </div>
+						    </li>
+						    <li>
+								<img src="img/common/slide02.jpg" />
+						        <div class="flex-caption">
+						        	<div>
+							        	<hgroup class="fancy-headers">
+								        	<h1>03/02/2013 <span>live event</span></h1>
+									        <h2>!HOT GIRLS NIGHT</h2>
+									    </hgroup>
+									    <p>Maecenas ullamcorper feugiat dui vitae tempus. Suspendisse risus lectus, 
+									    faucibus vel placerat non, blandit id ante. Nullam orci lectus, cursus nec iaculis at, 
+									    ullamcorper sed erat. Praesent consectetur dui id mi pharetra bibendum.</p>
+						        	</div>
+						        </div>
+							</li>
+							<li>
+								<img src="img/common/slide03.jpg" />
+						        <div class="flex-caption">
+						        	<div>
+							        	<hgroup class="fancy-headers">
+								        	<h1>14/02/2013 <span>lovers night</span></h1>
+									        <h2>dance &amp; romance</h2>
+									    </hgroup>
+									    <p>Maecenas ullamcorper feugiat dui vitae tempus. Suspendisse risus lectus, 
+									    faucibus vel placerat non, blandit id ante. Nullam orci lectus, cursus nec iaculis at, 
+									    ullamcorper sed erat. Praesent consectetur dui id mi pharetra bibendum.</p>
+						        	</div>
+						        </div>
+							</li>
+						</ul>
+					</div>
+				</div>
+		        <!-- End Flexslider Basic Markup -->
+        	</div>
+	        
+	    </section><!-- /slider -->
+
+	    <section id="content-header">
+	    	<div class="container">
+	    		<div class="row-fluid">
+	    			<div class="span12">
+				    	<hgroup class="content-title page">
+				    		<h1>Sample Fullwidth Page</h1>
+				    		<h2>With theme's most fancy things</h2>
+				    	</hgroup>
+	    			</div>
+	    		</div>
+	    	</div>
+	    </section><!-- /content-header -->	    
+
+	    <section id="content-container" class="container">
+
+	    	<div class="row-fluid">
+
+
+			    <section id="content" class="span12 blog posts">
+
+				    <article class="post single">
+				    	<div class="post-offset">
+				    	<figure class="post-icon"><a href="#" title=""><img src="img/common/news01.jpg" alt=""/></a></figure>
+				    	<h1><a href="#" title="">Sample h1 title</a></h1>
+				    	<time datetime="2013-01-09T15:19:59+00:00" class="entry-date">added: 9th January 2013</time>
+				    	<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+				    	Nunc ut diam dolor, rutrum bibendum nisi. Cras sapien ante, eleifend quis rhoncus a, hendrerit vel ante. 
+				    	Curabitur venenatis condimentum ligula, eu posuere mauris pharetra et.</p>
+				    	
+				    	<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+				    	Nunc ut diam dolor, rutrum bibendum nisi. Cras sapien ante, eleifend quis rhoncus a, hendrerit vel ante. 
+				    	Curabitur venenatis condimentum ligula, eu posuere mauris pharetra et.</p>
+
+				    	<hr/>
+
+				    	<h1>Sample h1 header</h1>
+				    	<h2>Sample h2 header</h2>
+				    	<h3>Sample h3 header</h3>
+				    	<h4>Sample h4 header</h4>
+				    	<h5>Sample h5 header</h5>
+				    	<h6>Sample h6 header</h6>
+				    	<p>Aliquam hendrerit, neque vel imperdiet consectetur, nisl nulla elementum turpis, vitae ultricies velit orci 
+				    	in tellus. Donec tincidunt rutrum ornare. Aenean eu libero nisl. Quisque nec mauris vitae libero volutpat 
+				    	imperdiet aliquam et nisi.</p>
+				    	
+				    	<h2>Sample table</h2>
+				    	<table>
+				    		<thead>
+				    			<tr>
+				    				<th>Name</th>
+				    				<th>Ingridients</th>
+				    				<th>For how many people</th>
+				    				<th>Price</th>
+				    			</tr>
+				    		</thead>
+				    		<tbody>
+				    			<tr>
+				    				<td>Pasta</td>
+				    				<td>Meatballs, Pasta, Tomato Sauce</td>
+				    				<td>4 people</td>
+				    				<td>22,50$</td>
+				    			</tr>
+				    			<tr>
+					    			<td>Pizza</td>
+					    			<td>Tomatoes, Salami, Cheese, Paprika</td>
+					    			<td>2 people</td>
+					    			<td>15$</td>
+				    			</tr>
+				    			<tr>
+				    				<td>Noodles</td>
+				    				<td>Cheese, Pasta</td>
+				    				<td>1 person</td>
+				    				<td>12$</td>
+				    			</tr>
+				    			<tr>
+				    				<td>Pasta</td>
+				    				<td>Meatballs, Pasta, Tomato Sauce</td>
+				    				<td>4 people</td>
+				    				<td>22,50$</td>
+				    			</tr>
+				    			<tr>
+					    			<td>Pizza</td>
+					    			<td>Tomatoes, Salami, Cheese, Paprika</td>
+					    			<td>2 people</td>
+					    			<td>15$</td>
+				    			</tr>
+				    			<tr>
+				    				<td>Noodles</td>
+				    				<td>Cheese, Pasta</td>
+				    				<td>1 person</td>
+				    				<td>12$</td>
+				    			</tr>
+				    		</tbody>
+				    	</table>
+
+				    	<hr/>				    	
+				    	<h2>Sample gallery grid</h2>
+				    	
+						    	<ul class="gallery">
+						    		<li>
+						    			<figure>
+						    				<a rel="lightbox" href="img/common/gal001.jpg"><img src="img/common/gal001.jpg" alt="gal001" width="" height="" /></a>
+							    		</figure>
+						    		</li>
+						    		<li>
+						    			<figure>
+						    				<a rel="lightbox" href="img/common/gal002.jpg"><img src="img/common/gal002.jpg" alt="gal002" width="" height="" /></a>
+							    		</figure>
+						    		</li>
+						    		<li>
+						    			<figure>
+						    				<a rel="lightbox" href="img/common/gal003.jpg"><img src="img/common/gal003.jpg" alt="gal003" width="" height="" /></a>
+							    		</figure>
+						    		</li>
+						    		<li>
+						    			<figure>
+						    				<a rel="lightbox" href="img/common/gal004.jpg"><img src="img/common/gal004.jpg" alt="gal004" width="" height="" /></a>
+							    		</figure>
+						    		</li>
+						    		<li>
+						    			<figure>
+						    				<a rel="lightbox" href="img/common/gal005.jpg"><img src="img/common/gal005.jpg" alt="gal005" width="" height="" /></a>
+							    		</figure>
+						    		</li>
+						    		<li>
+						    			<figure>
+						    				<a rel="lightbox" href="img/common/gal006.jpg"><img src="img/common/gal006.jpg" alt="gal006" width="" height="" /></a>
+							    		</figure>
+						    		</li>
+						    		<li>
+						    			<figure>
+						    				<a rel="lightbox" href="img/common/gal007.jpg"><img src="img/common/gal007.jpg" alt="gal007" width="" height="" /></a>
+							    		</figure>
+						    		</li>
+						    		<li>
+						    			<figure>
+						    				<a rel="lightbox" href="img/common/gal008.jpg"><img src="img/common/gal008.jpg" alt="gal008" width="" height="" /></a>
+							    		</figure>
+						    		</li>
+						    		<li>
+						    			<figure>
+						    				<a rel="lightbox" href="img/common/gal007.jpg"><img src="img/common/gal007.jpg" alt="gal007" width="" height="" /></a>
+							    		</figure>
+						    		</li>
+						    		<li>
+						    			<figure>
+						    				<a rel="lightbox" href="img/common/gal008.jpg"><img src="img/common/gal008.jpg" alt="gal008" width="" height="" /></a>
+							    		</figure>
+						    		</li>
+						    		<li>
+						    			<figure>
+						    				<a rel="lightbox" href="img/common/gal009.jpg"><img src="img/common/gal009.jpg" alt="gal009" width="" height="" /></a>
+							    		</figure>
+						    		</li>
+						    		<li>
+						    			<figure>
+						    				<a rel="lightbox" href="img/common/gal011.jpg"><img src="img/common/gal010.jpg" alt="gal011" width="" height="" /></a>
+							    		</figure>
+						    		</li>
+						    		<li>
+						    			<figure>
+						    				<a rel="lightbox" href="img/common/gal003.jpg"><img src="img/common/gal003.jpg" alt="gal003" width="" height="" /></a>
+							    		</figure>
+						    		</li>
+						    		<li>
+						    			<figure>
+						    				<a rel="lightbox" href="img/common/gal009.jpg"><img src="img/common/gal009.jpg" alt="gal009" width="" height="" /></a>
+							    		</figure>
+						    		</li>
+						    	</ul>
+
+				    	<hr/>
+				    	<h2>Sample lists</h2>
+				    	
+				    	<div class="row-fluid">
+					    	<div class="span6">
+						    	<ul>
+						    		<li>Sample list item</li>
+						    		<li>Nested li item sample
+							    		<ul>
+							    			<li>Item 01</li>
+							    			<li>Item 02</li>
+							    			<li>Item 03</li>
+							    			<li>Item 04</li>
+							    		</ul>
+						    		</li>
+						    	</ul>
+					    	</div>
+					    	<div class="span6">
+						    	<ol>
+						    		<li>Sample ordered-list item</li>
+						    		<li>Nested li item sample
+							    		<ol>
+							    			<li>Item 01</li>
+							    			<li>Item 02</li>
+							    			<li>Item 03</li>
+							    			<li>Item 04</li>
+							    		</ol>
+						    		</li>
+						    	</ol>
+					    	</div>
+				    	</div>
+				    	
+				    	<hr/>
+				    	<h2>Built-in icon presets</h2>
+				    	
+				    	<div class="row-fluid">
+					    	<div class="span8">
+					    	
+					    		<p>Aspecially for you, we've made a handful of icons available just by simply typing the appropiate class.
+						    	We've covered up over 210 icons in our theme. All of those icons can be used with a button class to give it some special feel. Enjoy!</p>
+					    		</p>
+					    	
+								<span class="icon icon-addtag"></span>
+								<span class="icon icon-alarm"></span>
+								<span class="icon icon-anchors"></span>
+								<span class="icon icon-arrow-down"></span>
+								<span class="icon icon-arrow-left"></span>
+								<span class="icon icon-arrow-right"></span>
+								<span class="icon icon-arrow-up"></span>
+								<span class="icon icon-article-add"></span>
+								<span class="icon icon-article-remove"></span>
+								<span class="icon icon-article"></span>
+								<span class="icon icon-attachment-2"></span>
+								<span class="icon icon-attachment"></span>
+								<span class="icon icon-basil"></span>
+								<span class="icon icon-basket"></span>
+								<span class="icon icon-beer-empty"></span>
+								<span class="icon icon-beer"></span>
+								<span class="icon icon-bike"></span>
+								<span class="icon icon-bill"></span>
+								<span class="icon icon-block"></span>
+								<span class="icon icon-bottle-w-label"></span>
+								<span class="icon icon-bottle"></span>
+								<span class="icon icon-bowl-of-chopsticks-1"></span>
+								<span class="icon icon-bowl-of-chopsticks-2"></span>
+								<span class="icon icon-box"></span>
+								<span class="icon icon-bread"></span>
+								<span class="icon icon-breads"></span>
+								<span class="icon icon-briefcase"></span>
+								<span class="icon icon-brightness"></span>
+								<span class="icon icon-browser"></span>
+								<span class="icon icon-bubble-1"></span>
+								<span class="icon icon-bubble-2"></span>
+								<span class="icon icon-bubble-3"></span>
+								<span class="icon icon-bubble-4"></span>
+								<span class="icon icon-cake"></span>
+								<span class="icon icon-calculator"></span>
+								<span class="icon icon-calendar-2"></span>
+								<span class="icon icon-calendar"></span>
+								<span class="icon icon-camera"></span>
+								<span class="icon icon-candy"></span>
+								<span class="icon icon-caps"></span>
+								<span class="icon icon-car"></span>
+								<span class="icon icon-card"></span>
+								<span class="icon icon-cassette"></span>
+								<span class="icon icon-charging-battery"></span>
+								<span class="icon icon-chart"></span>
+								<span class="icon icon-chicken"></span>
+								<span class="icon icon-classicbus"></span>
+								<span class="icon icon-clipboard-w-tick"></span>
+								<span class="icon icon-clipboard"></span>
+								<span class="icon icon-cloud"></span>
+								<span class="icon icon-cocktail-classic"></span>
+								<span class="icon icon-cocktail"></span>
+								<span class="icon icon-coffee-1"></span>
+								<span class="icon icon-coffee-2"></span>
+								<span class="icon icon-compass"></span>
+								<span class="icon icon-controller"></span>
+								<span class="icon icon-crop"></span>
+								<span class="icon icon-cross"></span>
+								<span class="icon icon-cupcake"></span>
+								<span class="icon icon-details"></span>
+								<span class="icon icon-diamond"></span>
+								<span class="icon icon-disk"></span>
+								<span class="icon icon-documents"></span>
+								<span class="icon icon-download"></span>
+								<span class="icon icon-dribbble"></span>
+								<span class="icon icon-drop"></span>
+								<span class="icon icon-egg"></span>
+								<span class="icon icon-email-back"></span>
+								<span class="icon icon-email-front"></span>
+								<span class="icon icon-empty-battery"></span>
+								<span class="icon icon-eraser"></span>
+								<span class="icon icon-eye"></span>
+								<span class="icon icon-facebook"></span>
+								<span class="icon icon-female"></span>
+								<span class="icon icon-files"></span>
+								<span class="icon icon-fish"></span>
+								<span class="icon icon-flag"></span>
+								<span class="icon icon-folder-add"></span>
+								<span class="icon icon-folder-remove"></span>
+								<span class="icon icon-folder"></span>
+								<span class="icon icon-fork-knife"></span>
+								<span class="icon icon-fork-spoon"></span>
+								<span class="icon icon-fridge"></span>
+								<span class="icon icon-full-battery"></span>
+								<span class="icon icon-fullscreen"></span>
+								<span class="icon icon-gear-1"></span>
+								<span class="icon icon-gear-2"></span>
+								<span class="icon icon-gear-3"></span>
+								<span class="icon icon-glasses"></span>
+								<span class="icon icon-globe"></span>
+								<span class="icon icon-grid-2"></span>
+								<span class="icon icon-grid"></span>
+								<span class="icon icon-grill"></span>
+								<span class="icon icon-group"></span>
+								<span class="icon icon-gym"></span>
+								<span class="icon icon-half-battery"></span>
+								<span class="icon icon-headphones"></span>
+								<span class="icon icon-heart"></span>
+								<span class="icon icon-home"></span>
+								<span class="icon icon-hot-food"></span>
+								<span class="icon icon-ice-cream-2"></span>
+								<span class="icon icon-ice-cream-3"></span>
+								<span class="icon icon-ice-cream"></span>
+								<span class="icon icon-imac"></span>
+								<span class="icon icon-instagram-1"></span>
+								<span class="icon icon-instagram-2"></span>
+								<span class="icon icon-ipad-landscape"></span>
+								<span class="icon icon-ipad-portrait-and-landscape-1"></span>
+								<span class="icon icon-ipad-portrait-and-landscape-2"></span>
+								<span class="icon icon-ipad-portrait"></span>
+								<span class="icon icon-iphone-landscape"></span>
+								<span class="icon icon-iphone-portrait-and-landscape-2"></span>
+								<span class="icon icon-iphone-portrait-and-landscape"></span>
+								<span class="icon icon-iphone-portrait"></span>
+								<span class="icon icon-jar"></span>
+								<span class="icon icon-ketchup"></span>
+								<span class="icon icon-key"></span>
+								<span class="icon icon-laptop"></span>
+								<span class="icon icon-list-w-images"></span>
+								<span class="icon icon-list"></span>
+								<span class="icon icon-location-2"></span>
+								<span class="icon icon-location"></span>
+								<span class="icon icon-locomotive"></span>
+								<span class="icon icon-lollipop-1"></span>
+								<span class="icon icon-lollipop-2"></span>
+								<span class="icon icon-magicmouse"></span>
+								<span class="icon icon-male"></span>
+								<span class="icon icon-map"></span>
+								<span class="icon icon-mastercard-1"></span>
+								<span class="icon icon-mastercard-2"></span>
+								<span class="icon icon-mayo"></span>
+								<span class="icon icon-medbrief"></span>
+								<span class="icon icon-meter"></span>
+								<span class="icon icon-mic-1"></span>
+								<span class="icon icon-mic-2"></span>
+								<span class="icon icon-microwave"></span>
+								<span class="icon icon-minus"></span>
+								<span class="icon icon-modernbus"></span>
+								<span class="icon icon-music"></span>
+								<span class="icon icon-news"></span>
+								<span class="icon icon-next"></span>
+								<span class="icon icon-notepad"></span>
+								<span class="icon icon-pause"></span>
+								<span class="icon icon-pen"></span>
+								<span class="icon icon-pencil-w-paper"></span>
+								<span class="icon icon-pencil"></span>
+								<span class="icon icon-person"></span>
+								<span class="icon icon-photo-1"></span>
+								<span class="icon icon-photo-2"></span>
+								<span class="icon icon-pizza-1"></span>
+								<span class="icon icon-pizza-2"></span>
+								<span class="icon icon-plane"></span>
+								<span class="icon icon-plate"></span>
+								<span class="icon icon-play"></span>
+								<span class="icon icon-plus"></span>
+								<span class="icon icon-polaroid-1"></span>
+								<span class="icon icon-polaroid-2"></span>
+								<span class="icon icon-power"></span>
+								<span class="icon icon-presentation"></span>
+								<span class="icon icon-prev"></span>
+								<span class="icon icon-ramen"></span>
+								<span class="icon icon-refresh"></span>
+								<span class="icon icon-reload"></span>
+								<span class="icon icon-removetag"></span>
+								<span class="icon icon-repeat"></span>
+								<span class="icon icon-ribbon"></span>
+								<span class="icon icon-rocket"></span>
+								<span class="icon icon-scooter"></span>
+								<span class="icon icon-search"></span>
+								<span class="icon icon-share"></span>
+								<span class="icon icon-ship"></span>
+								<span class="icon icon-shoppingbag-1"></span>
+								<span class="icon icon-shoppingbag-2"></span>
+								<span class="icon icon-shuffle"></span>
+								<span class="icon icon-spatula"></span>
+								<span class="icon icon-sportscar"></span>
+								<span class="icon icon-star"></span>
+								<span class="icon icon-stats-down"></span>
+								<span class="icon icon-stats-up"></span>
+								<span class="icon icon-stop"></span>
+								<span class="icon icon-tag-1"></span>
+								<span class="icon icon-tag-2"></span>
+								<span class="icon icon-tag-3"></span>
+								<span class="icon icon-task"></span>
+								<span class="icon icon-tea"></span>
+								<span class="icon icon-thermometer"></span>
+								<span class="icon icon-thumbsdown"></span>
+								<span class="icon icon-thumbsup"></span>
+								<span class="icon icon-tick"></span>
+								<span class="icon icon-tickets"></span>
+								<span class="icon icon-tie-1"></span>
+								<span class="icon icon-tie-2"></span>
+								<span class="icon icon-train"></span>
+								<span class="icon icon-trashcan"></span>
+								<span class="icon icon-tv"></span>
+								<span class="icon icon-twitter"></span>
+								<span class="icon icon-unlocked-1"></span>
+								<span class="icon icon-unlocked-2"></span>
+								<span class="icon icon-unlocked-3"></span>
+								<span class="icon icon-upload"></span>
+								<span class="icon icon-video"></span>
+								<span class="icon icon-videonegative"></span>
+								<span class="icon icon-volume-max"></span>
+								<span class="icon icon-volume-med"></span>
+								<span class="icon icon-volume-min"></span>
+								<span class="icon icon-volume-mute"></span>
+								<span class="icon icon-warning"></span>
+								<span class="icon icon-water"></span>
+								<span class="icon icon-wine-2"></span>
+								<span class="icon icon-wine"></span>
+								
+								<p>Icons used in this template are a modified version of handcrafted icon set by Turqois ( <a href="http://turqois.com/">http://turqois.com</a> ) and are licensed under GNU GPL license.</p>
+								
+					    	</div>
+					    	<div class="span4">
+					    		<h2>Buttons</h2>
+					    		<p>We've made three kinds of button sizes. When bundled up with icons they have some unique look!</p>
+					    		<p><a href="#" class="btn btn-small">Small-sized button</a></p>
+					    		<p><a href="#" class="btn btn-medium">Medium-sized button</a></p>
+					    		<p><a href="#" class="btn btn-xxl">Extra-sized button</a></p>
+					    		
+					    		<hr/>
+					    		
+					    		<h2>Buttons with icons</h2>
+					    		<p><a href="#" class="btn btn-small"><span class="icon icon-cloud"></span> Small-sized button</a></p>
+					    		<p><a href="#" class="btn btn-medium"><span class="icon icon-email-back"></span> Medium-sized button</a></p>
+					    		<p><a href="#" class="btn btn-xxl"><span class="icon icon-email-back"></span> Extra-sized button</a></p>
+					    	</div>
+				    	</div>
+				    	
+				    	<div class="post-options">
+				    		<ul class="social">
+				    			<li><a href="#" class="share">Share</a></li>
+				    			<li><a href="#" class="facebook-share">Share on Facebook</a></li>
+				    			<li><a href="#" class="twitter-share">Share on Twitter</a></li>
+				    		</ul>
+				    	</div>
+				    	</div>
+				    </article><!-- /post -->
+				    
+			    </section><!-- /content -->
+			    
+	    	</div>
+	    </section><!-- content-container -->
+	    
+
+	    <footer id="page-footer">
+
+	    	<div class="container">
+				<div class="row-fluid">
+					<div class="span4">
+						<div>
+							<div class="fancy-headers"><h3>need some info? <span>get in touch</span></h3></div>
+							<div class="vcard">
+								<span class="fn">Orange Club &amp; Restaurant</span><br/>
+								<div class="adr">
+									<span class="street-address">665 3rd St.</span>
+									<span class="extended-address">Suite 207</span><br/>
+									<span class="locality">San Francisco</span>,
+									<abbr class="region">CA</abbr>
+									<span class="postal-code">94107</span>
+								</div>
+								<div class="tel">818 555 1212</div>
+								<div><a class="email" href="mailto:sally@example.com">sally@example.com</a></div>
+							</div>
+						</div>
+						<div>
+							<div class="fancy-headers"><h3>order yourself <span>a table</span></h3></div>
+							<p>Make a reservation on any amount of tables you need under this number:</p>
+							<div class="vcard">
+								<div class="tel">phone: 392 120 320</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="span4">
+						<div>
+							<div class="fancy-headers"><h3>our staff</h3></div>
+							<p>Those are the people, who take care of everything, so you could party all night long being safe and have fun!</p>
+							<ul class="staff-members">
+								<li>
+									<p class="bubble">Tom, bartender</p>
+									<figure><img src="img/common/staff01.jpg" alt="staff01" width="" height="" /></figure>
+								</li>
+								<li>
+									<p class="bubble">Tom, bartender</p>
+									<figure><img src="img/common/staff02.jpg" alt="staff02" width="" height="" /></figure>
+								</li>
+								<li>
+									<p class="bubble">Tom, bartender</p>
+									<figure><img src="img/common/staff03.jpg" alt="staff03" width="" height="" /></figure>
+								</li>
+								<li>
+									<p class="bubble">Tom, bartender</p>
+									<figure><img src="img/common/staff04.jpg" alt="staff04" width="" height="" /></figure>
+								</li>
+								<li>
+									<p class="bubble">Tom, bartender</p>
+									<figure><img src="img/common/staff05.jpg" alt="staff05" width="" height="" /></figure>
+								</li>
+								<li>
+									<p class="bubble">Tom, bartender</p>
+									<figure><img src="img/common/staff06.jpg" alt="staff06" width="" height="" /></figure>
+								</li>
+								<li>
+									<p class="bubble">Tom, bartender</p>
+									<figure><img src="img/common/staff07.jpg" alt="staff07" width="" height="" /></figure>
+								</li>
+								<li>
+									<p class="bubble">Tom, bartender</p>
+									<figure><img src="img/common/staff08.jpg" alt="staff08" width="" height="" /></figure>
+								</li>
+								<li>
+									<p class="bubble">Tom, bartender</p>
+									<figure><img src="img/common/staff09.jpg" alt="staff09" width="" height="" /></figure>
+								</li>
+								<li>
+									<p class="bubble">Tom, bartender</p>
+									<figure><img src="img/common/staff10.jpg" alt="staff10" width="" height="" /></figure>
+								</li>
+							</ul>
+						</div>						
+					</div>
+					
+					<div class="span4">
+						<div>
+							<div class="fancy-headers"><h3>social hub</h3></div>
+							<p>Be always up to date with our latest events! Like our Facebook Fanpage and follow us on Twitter. Discounts, free entries and contest are waiting for you!</p>
+							<ul class="social-hub">
+				    			<li><a href="#" class="share"><span>Share</span></a></li>
+				    			<li><a href="#" class="facebook-share"><span>Share on Facebook</span></a></li>
+				    			<li><a href="#" class="twitter-share"><span>Share on Twitter</span></a></li>
+							</ul>
+						</div>
+						<div>
+							<div class="fancy-headers"><h3>latest tweet</h3></div>
+							<p class="latest-tweet">Be always up to date with our latest events! Like our Facebook Fanpage! <a href="#">#facebook</a> <a href="#">#twitter</a></p>
+						</div>							
+					</div>
+					
+				</div>
+	    	</div>
+	    
+			<div class="copyright">2013 All rights reserved by <a href="#">Orange Club &amp; Restaurant</a>. <span class="author">More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></span></div>
+	    </footer>
+
+
+
+        <script src="js/jquery-1.8.2.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/jquery.flexslider.js"></script>
+        <script src="js/jquery.nivo.slider.js"></script>
+        <script src="js/jquery.cookie.js"></script>
+        <script src="js/jquery.easing-1.3.pack.js"></script>
+        <script src="js/jquery.fancybox1.3.4.js"></script>
+        <script src="js/jquery.player.js"></script>
+        <script src="js/jquery.event-calendar.js"></script>
+
+        <script src="js/main.js"></script>
+
+        
+                
+    </body>
+</html>

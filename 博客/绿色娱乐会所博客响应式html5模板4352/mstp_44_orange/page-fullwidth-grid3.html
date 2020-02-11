@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="stylesheet" href="css/grid.css">
+        <link rel="stylesheet" href="css/grid.responsive.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="http://fonts.useso.com/css?family=Oswald">
+        <link rel="stylesheet" href="http://fonts.useso.com/css?family=Pontano+Sans&amp;subset=latin,latin-ext">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/core.css">
+        <link rel="stylesheet" href="css/color-green.css">
+
+        <!--[if IE 8]> <link rel="stylesheet" href="css/ie8.css"> <![endif]-->        
+        
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body class="theme-orange">
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- stylesheet switcher begin
+        
+        Delete if you're not planning to use multiple 
+        layout colors depending on user choice.
+        -->
+
+        <dl id="styleswitcher">
+        	<dt>Choose color</dt>
+        	<dd><a href="#" class="style green" rel="css/color-green.css">Green</a></dd>
+        	<dd><a href="#" class="style orange" rel="css/color-orange.css">Orange</a></dd>
+        	<dd><a href="#" class="style red" rel="css/color-red.css">Red</a></dd>
+        	<dd><a href="#" class="style violet" rel="css/color-violet.css">Violet</a></dd>
+        	<dd><a href="#" class="style blue" rel="css/color-blue.css">Blue</a></dd>
+	    </dl>
+	    <!-- stylesheet switcher end -->
+
+        <header id="page-header">
+        	<div class="container">
+        		<div class="row-fluid">
+        			<div class="span12">
+        				<a href="index-2.html" id="logotype">company name</a>
+        				<nav id="primary-nav">
+        					<ul>
+        						<li><a href="index-2.html">home</a></li>
+        						<li>
+        							<a href="#" class="withsiblings">pages</a>
+        							<ul>
+        								<li><a href="index-left.html">Index - left sidebar</a></li>
+        								<li><a href="page-fullwidth.html">fullwidth-page</a></li>
+        								<li><a href="page-fullwidth-grid2.html">fullwidth-page 2-col</a></li>
+        								<li><a href="page-fullwidth-grid3.html">fullwidth-page 3-col</a></li>
+        								<li><a href="page-fullwidth-grid4.html">fullwidth-page 4-col</a></li>
+        							</ul>
+        						</li>
+        						<li><a href="page-eventcalendar.html">events</a></li>
+        						<li>
+        							<a href="#" class="withsiblings">blog</a>
+        							<ul>
+        								<li><a href="blog.html">blog page</a></li>
+        								<li><a href="blog-left.html">blog page - left sidebar</a></li>
+        								<li><a href="single.html">single post</a></li>
+        								<li><a href="single-left.html">single post - left sidebar</a></li>
+        							</ul>
+        						</li>
+        						<li><a href="contact.html">contact</a></li>
+        					</ul>
+        				</nav><!-- /primary nav -->
+        				<nav id="primary-nav-mobile">
+	        				<form method="post" action="#" name="mobile-menu">
+	        					<select id="mobileSelect" onchange="$(this).submit();">
+	        						<option value="index-2.html">home</option>
+	        						<option value="page.html">pages</option>
+	        						<option value="index-left.html">- Index - left sidebar</option>
+	        						<option value="page-fullwidth.html">- fullwidth-page</option>
+	        						<option value="page-fullwidth-grid2.html">- fullwidth-page 2-col</option>
+	        						<option value="page-fullwidth-grid3.html">- fullwidth-page 3-col</option>
+	        						<option value="page-fullwidth-grid4.html">- fullwidth-page 4-col</option>
+	        						<option value="page-eventcalendar.html">events</option>
+	        						<option value="blog.html">blog</option>
+	        						<option value="blog.html">- blog page</option>
+	        						<option value="blog-left.html">- blog page - left sidebar</option>
+	        						<option value="single.html">- single post</option>
+	        						<option value="single-left.html">- single post - left sidebar</option>
+	        						<option value="contact.html">contact</option>
+	        					</select>
+	        				</form>
+        				</nav>
+        			</div>
+        		</div><!-- /row-fluid -->
+        	</div>
+        </header><!-- /page-header -->
+        <section id="slider">
+        	<div class="container">
+		        <!--
+		        Depending on purpose, there are two types of sliders included (Nivo Slider & Flexslider)
+		        For each slider you have to use an appropiate markup in order to use it
+		        -->
+		        
+		        <!-- Flexslider Basic Markup -->
+		        <div class="flex-container">
+			        <div class="flexslider">
+				        <ul class="slides">
+					        <li>
+						        <img src="img/common/slide01.jpg" />
+						        <div class="flex-caption">
+						        	<div>
+							        	<hgroup class="fancy-headers">
+								        	<h1>20/12/2013 <span>live event</span></h1>
+									        <h2>Jermaine Dupree</h2>
+									    </hgroup>
+									    <p>Maecenas ullamcorper feugiat dui vitae tempus. Suspendisse risus lectus, 
+									    faucibus vel placerat non, blandit id ante. Nullam orci lectus, cursus nec iaculis at, 
+									    ullamcorper sed erat. Praesent consectetur dui id mi pharetra bibendum.</p>
+						        	</div>
+						        </div>
+						    </li>
+						    <li>
+								<img src="img/common/slide02.jpg" />
+						        <div class="flex-caption">
+						        	<div>
+							        	<hgroup class="fancy-headers">
+								        	<h1>03/02/2013 <span>live event</span></h1>
+									        <h2>!HOT GIRLS NIGHT</h2>
+									    </hgroup>
+									    <p>Maecenas ullamcorper feugiat dui vitae tempus. Suspendisse risus lectus, 
+									    faucibus vel placerat non, blandit id ante. Nullam orci lectus, cursus nec iaculis at, 
+									    ullamcorper sed erat. Praesent consectetur dui id mi pharetra bibendum.</p>
+						        	</div>
+						        </div>
+							</li>
+							<li>
+								<img src="img/common/slide03.jpg" />
+						        <div class="flex-caption">
+						        	<div>
+							        	<hgroup class="fancy-headers">
+								        	<h1>14/02/2013 <span>lovers night</span></h1>
+									        <h2>dance &amp; romance</h2>
+									    </hgroup>
+									    <p>Maecenas ullamcorper feugiat dui vitae tempus. Suspendisse risus lectus, 
+									    faucibus vel placerat non, blandit id ante. Nullam orci lectus, cursus nec iaculis at, 
+									    ullamcorper sed erat. Praesent consectetur dui id mi pharetra bibendum.</p>
+						        	</div>
+						        </div>
+							</li>
+						</ul>
+					</div>
+				</div>
+		        <!-- End Flexslider Basic Markup -->
+        	</div>
+	        
+	    </section><!-- /slider -->
+
+	    <section id="content-header">
+	    	<div class="container">
+	    		<div class="row-fluid">
+	    			<div class="span12">
+				    	<hgroup class="content-title page">
+				    		<h1>Sample full-width page with 3-column grid</h1>
+				    		<h2>Great for some kick-ass features</h2>
+				    	</hgroup>
+	    			</div>
+	    		</div>
+	    	</div>
+	    </section><!-- /content-header -->	    
+
+	    <section id="content-container" class="container">
+
+	    	<div class="row-fluid">
+
+
+			    <section id="content" class="span12 posts">
+
+				    <article class="post single">
+				    	<div class="post-offset">
+				    	<div class="row-fluid">
+				    		<div class="span4">
+						    	<h2>Sample full-width page with 3 columns grid</h2>
+						    	<figure class="post-icon"><a title="" href="#"><img alt="" src="img/common/news01.jpg"></a></figure>
+						    	<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+						    	Nunc ut diam dolor, rutrum bibendum nisi. Cras sapien ante, eleifend quis rhoncus a, hendrerit vel ante. 
+						    	Curabitur venenatis condimentum ligula, eu posuere mauris pharetra et.</p>
+						    	
+						    	<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+						    	Nunc ut diam dolor, rutrum bibendum nisi. Cras sapien ante, eleifend quis rhoncus a, hendrerit vel ante. 
+						    	Curabitur venenatis condimentum ligula, eu posuere mauris pharetra et.</p>
+		
+						    	<h1>Sample h1 header</h1>
+						    	<p>Cras ullamcorper, mi quis suscipit pretium, sem eros egestas arcu, nec venenatis tellus ante at ante. 
+						    	Nam purus sapien, semper et rutrum quis, porttitor quis sapien. Integer et nulla neque. Sed eget lectus 
+						    	vitae sem posuere placerat et id justo. Phasellus dui metus, aliquam id venenatis eu, cursus vitae tellus.</p>
+						    	
+						    	<h2>Sample h2 header</h2>
+						    	<p>Aliquam hendrerit, neque vel imperdiet consectetur, nisl nulla elementum turpis, vitae ultricies velit orci 
+						    	in tellus. Donec tincidunt rutrum ornare. Aenean eu libero nisl. Quisque nec mauris vitae libero volutpat 
+						    	imperdiet aliquam et nisi.</p>
+				    		</div>
+				    		
+				    		<div class="span4">
+						    	<h2>Sample h2 header</h2>
+						    	<figure class="post-icon"><a href="#" title=""><img src="img/common/news02.jpg" alt=""/></a></figure>
+						    	<p>Aliquam hendrerit, neque vel imperdiet consectetur, nisl nulla elementum turpis, vitae ultricies velit orci 
+						    	in tellus. Donec tincidunt rutrum ornare. Aenean eu libero nisl. Quisque nec mauris vitae libero volutpat 
+						    	imperdiet aliquam et nisi.</p>
+						    	
+						    	<p>Curabitur sed nisl dolor, vel euismod nulla. Etiam sem ipsum, vehicula luctus ultricies vel, 
+						    	semper vitae neque. Donec eleifend mauris dapibus lorem tincidunt viverra. Etiam bibendum adipiscing 
+						    	felis in dignissim. Vivamus felis lectus, laoreet ac egestas vitae, varius sit amet ante. 
+						    	Proin fermentum lacus id orci ultricies posuere in vel turpis. Integer ultricies, ligula at dictum 
+						    	ultrices, est diam sollicitudin lectus, sit amet aliquam felis metus nec lectus. </p>
+						    	
+						    	<h2>Sample h2 header</h2>
+						    	<p>Aliquam hendrerit, neque vel imperdiet consectetur, nisl nulla elementum turpis, vitae ultricies velit orci 
+						    	in tellus. Donec tincidunt rutrum ornare. Aenean eu libero nisl. Quisque nec mauris vitae libero volutpat 
+						    	imperdiet aliquam et nisi.</p>
+						    	
+				    		</div>
+
+				    		<div class="span4">
+						    	<h2>Sample h2 header</h2>
+						    	<figure class="post-icon"><a title="" href="#"><img alt="" src="img/common/news04.jpg"></a></figure>
+						    	<p>Vivamus felis lectus, laoreet ac egestas vitae, varius sit amet ante. 
+						    	Proin fermentum lacus id orci ultricies posuere in vel turpis. Integer ultricies, ligula at dictum 
+						    	ultrices, est diam sollicitudin lectus. Aliquam hendrerit, neque vel imperdiet consectetur, nisl nulla elementum turpis, vitae ultricies velit orci 
+						    	in tellus. Donec tincidunt rutrum ornare. Aenean eu libero nisl. Quisque nec mauris vitae libero volutpat 
+						    	imperdiet aliquam et nisi.</p>
+						    	
+						    	<table>
+						    		<thead>
+						    			<tr>
+						    				<th>Name</th>
+						    				<th>Ingridients</th>
+						    				<th>For how many people</th>
+						    				<th>Price</th>
+						    			</tr>
+						    		</thead>
+						    		<tbody>
+						    			<tr>
+						    				<td>Pasta</td>
+						    				<td>Meatballs, Pasta, Tomato Sauce</td>
+						    				<td>4 people</td>
+						    				<td>22,50$</td>
+						    			</tr>
+						    			<tr>
+							    			<td>Pizza</td>
+							    			<td>Tomatoes, Salami, Cheese, Paprika</td>
+							    			<td>2 people</td>
+							    			<td>15$</td>
+						    			</tr>
+						    			<tr>
+						    				<td>Noodles</td>
+						    				<td>Cheese, Pasta</td>
+						    				<td>1 person</td>
+						    				<td>12$</td>
+						    			</tr>
+						    			<tr>
+						    				<td>Pasta</td>
+						    				<td>Meatballs, Pasta, Tomato Sauce</td>
+						    				<td>4 people</td>
+						    				<td>22,50$</td>
+						    			</tr>
+						    			<tr>
+							    			<td>Pizza</td>
+							    			<td>Tomatoes, Salami, Cheese, Paprika</td>
+							    			<td>2 people</td>
+							    			<td>15$</td>
+						    			</tr>
+						    			<tr>
+						    				<td>Noodles</td>
+						    				<td>Cheese, Pasta</td>
+						    				<td>1 person</td>
+						    				<td>12$</td>
+						    			</tr>
+						    		</tbody>
+						    	</table>
+						    	
+						    	<p>Curabitur sed nisl dolor, vel euismod nulla. Etiam sem ipsum, vehicula luctus ultricies vel, 
+						    	semper vitae neque. Donec eleifend mauris dapibus lorem tincidunt viverra. Etiam bibendum adipiscing 
+						    	felis in dignissim. Vivamus felis lectus, laoreet ac egestas vitae, varius sit amet ante. 
+						    	Proin fermentum lacus id orci ultricies posuere in vel turpis. Integer ultricies, ligula at dictum 
+						    	ultrices, est diam sollicitudin lectus, sit amet aliquam felis metus nec lectus. </p>
+				    		</div>
+
+				    	</div>
+				    	
+				    	<div class="post-options">
+				    		<ul class="social">
+				    			<li><a href="#" class="share">Share</a></li>
+				    			<li><a href="#" class="facebook-share">Share on Facebook</a></li>
+				    			<li><a href="#" class="twitter-share">Share on Twitter</a></li>
+				    		</ul>
+				    	</div>
+				    	</div>
+				    </article><!-- /post -->
+				    
+			    </section><!-- /content -->
+			    
+	    	</div>
+	    </section><!-- content-container -->
+	    
+
+	    <footer id="page-footer">
+
+	    	<div class="container">
+				<div class="row-fluid">
+					<div class="span4">
+						<div>
+							<div class="fancy-headers"><h3>need some info? <span>get in touch</span></h3></div>
+							<div class="vcard">
+								<span class="fn">Orange Club &amp; Restaurant</span><br/>
+								<div class="adr">
+									<span class="street-address">665 3rd St.</span>
+									<span class="extended-address">Suite 207</span><br/>
+									<span class="locality">San Francisco</span>,
+									<abbr class="region">CA</abbr>
+									<span class="postal-code">94107</span>
+								</div>
+								<div class="tel">818 555 1212</div>
+								<div><a class="email" href="mailto:sally@example.com">sally@example.com</a></div>
+							</div>
+						</div>
+						<div>
+							<div class="fancy-headers"><h3>order yourself <span>a table</span></h3></div>
+							<p>Make a reservation on any amount of tables you need under this number:</p>
+							<div class="vcard">
+								<div class="tel">phone: 392 120 320</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="span4">
+						<div>
+							<div class="fancy-headers"><h3>our staff</h3></div>
+							<p>Those are the people, who take care of everything, so you could party all night long being safe and have fun!</p>
+							<ul class="staff-members">
+								<li>
+									<p class="bubble">Tom, bartender</p>
+									<figure><img src="img/common/staff01.jpg" alt="staff01" width="" height="" /></figure>
+								</li>
+								<li>
+									<p class="bubble">Tom, bartender</p>
+									<figure><img src="img/common/staff02.jpg" alt="staff02" width="" height="" /></figure>
+								</li>
+								<li>
+									<p class="bubble">Tom, bartender</p>
+									<figure><img src="img/common/staff03.jpg" alt="staff03" width="" height="" /></figure>
+								</li>
+								<li>
+									<p class="bubble">Tom, bartender</p>
+									<figure><img src="img/common/staff04.jpg" alt="staff04" width="" height="" /></figure>
+								</li>
+								<li>
+									<p class="bubble">Tom, bartender</p>
+									<figure><img src="img/common/staff05.jpg" alt="staff05" width="" height="" /></figure>
+								</li>
+								<li>
+									<p class="bubble">Tom, bartender</p>
+									<figure><img src="img/common/staff06.jpg" alt="staff06" width="" height="" /></figure>
+								</li>
+								<li>
+									<p class="bubble">Tom, bartender</p>
+									<figure><img src="img/common/staff07.jpg" alt="staff07" width="" height="" /></figure>
+								</li>
+								<li>
+									<p class="bubble">Tom, bartender</p>
+									<figure><img src="img/common/staff08.jpg" alt="staff08" width="" height="" /></figure>
+								</li>
+								<li>
+									<p class="bubble">Tom, bartender</p>
+									<figure><img src="img/common/staff09.jpg" alt="staff09" width="" height="" /></figure>
+								</li>
+								<li>
+									<p class="bubble">Tom, bartender</p>
+									<figure><img src="img/common/staff10.jpg" alt="staff10" width="" height="" /></figure>
+								</li>
+							</ul>
+						</div>						
+					</div>
+					
+					<div class="span4">
+						<div>
+							<div class="fancy-headers"><h3>social hub</h3></div>
+							<p>Be always up to date with our latest events! Like our Facebook Fanpage and follow us on Twitter. Discounts, free entries and contest are waiting for you!</p>
+							<ul class="social-hub">
+				    			<li><a href="#" class="share"><span>Share</span></a></li>
+				    			<li><a href="#" class="facebook-share"><span>Share on Facebook</span></a></li>
+				    			<li><a href="#" class="twitter-share"><span>Share on Twitter</span></a></li>
+							</ul>
+						</div>
+						<div>
+							<div class="fancy-headers"><h3>latest tweet</h3></div>
+							<p class="latest-tweet">Be always up to date with our latest events! Like our Facebook Fanpage! <a href="#">#facebook</a> <a href="#">#twitter</a></p>
+						</div>							
+					</div>
+					
+				</div>
+	    	</div>
+	    
+			<div class="copyright">2013 All rights reserved by <a href="#">Orange Club &amp; Restaurant</a>. <span class="author">More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></span></div>
+	    </footer>
+
+
+
+        <script src="js/jquery-1.8.2.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/jquery.flexslider.js"></script>
+        <script src="js/jquery.nivo.slider.js"></script>
+        <script src="js/jquery.cookie.js"></script>
+        <script src="js/jquery.easing-1.3.pack.js"></script>
+        <script src="js/jquery.fancybox1.3.4.js"></script>
+        <script src="js/jquery.player.js"></script>
+        <script src="js/jquery.event-calendar.js"></script>
+
+        <script src="js/main.js"></script>
+
+        
+                
+    </body>
+</html>

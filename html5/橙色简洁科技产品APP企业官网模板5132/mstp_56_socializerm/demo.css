@@ -1,0 +1,32 @@
+
+
+.styles { background-color:#dadcdd; height:280px; width:40px; display:block; padding:15px; position:fixed; top:100px; left:-220px; z-index:10; }
+.styles-open  { background:url(demo/styles-open.png) no-repeat; height:32px; width:22px; display:block;   position:fixed; top:110px; left:-220px; z-index:9;}
+.styles p { padding:10px 0 20px; font-weight:600;}
+.styles p.skins { font-size:14px; padding:0px 0 10px; clear:both; }
+.styles li { clear:both; }
+ 
+.blue a { background:url(demo/blue.png) no-repeat; height:34px; width:34px; display:block; margin-top:8px;}
+.orange a { background:url(demo/orange.png) no-repeat; height:34px; width:34px; display:block; margin-top:8px;}
+.green a { background:url(demo/green.png) no-repeat; height:34px; width:34px; display:block;margin-top:8px;}
+.purple a { background:url(demo/purple.png) no-repeat; height:34px; width:34px; display:block;margin-top:8px;}
+.cyan a { background:url(demo/cyan.png) no-repeat; height:34px; width:34px; display:block;margin-top:8px;}
+.pink a { background:url(demo/pink.png) no-repeat; height:34px; width:34px; display:block;margin-top:8px;}
+ 
+.styles-closed  { width:51px; height:47px;  background:url(demo/styles-closed.png) no-repeat;  position:fixed; top:100px; left:0px; display:block; z-index:10; }
+.styles-closed a  { width:51px; height:47px;  position:fixed; top:100px; left:0px; }
+
+.main-intro {  
+	background: url("img/body.png") repeat #191919;
+     height:100%;
+   
+    width: 100%;
+    color:#191919;
+}
+.main-intro h1 {  
+	margin:0; padding:100px 0 30px;
+	 color:#191919;
+	 font-size:28px;
+}
+.intr { position:relative;  padding:80px 0; min-height:150px; max-width:100%;  width:200px;}
+a:focus { outline:0; }

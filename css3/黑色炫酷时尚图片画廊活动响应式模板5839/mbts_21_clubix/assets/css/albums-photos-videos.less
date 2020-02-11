@@ -1,0 +1,105 @@
+ul.albums-photos-videos {
+	li {
+		float: left;
+		width: 220px;
+		height: 198px;
+		padding: 7px;
+		.transition;
+		.perspective(500);
+		a {
+			.perspective(1300px);
+			img[alt=albums-photos-videos] {
+				border: 3px solid #3b3b3b;
+				z-index: 99;
+				position: absolute;
+				width: 214px;
+				.transition(0.3s);
+			}
+			.black-bg-albums-photos-videos {
+				margin: 3px;
+				margin-top: 144px;
+				width: 194px;
+				position: absolute;
+				z-index: 99;
+				background: rgba(0,0,0,0.7);
+				padding: 10px;
+				color: #fff;
+				.transition(0.3s);
+				.rotate-y(0deg);
+				h1 {
+					color: #ededed;
+					margin-bottom: 5px;
+				}
+				p {
+					text-transform: uppercase;
+					color: #b4b4b4;
+					font-size: 10px;
+				}
+			}
+			.black-bg-albums-photos-videos-pink {
+				position: relative;
+				z-index: -1;
+				height: 172px;
+				z-index: 1;
+				background: rgba(143,68,173,0.8);
+				padding: 13px;
+				color: #fff;
+				-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+				filter: alpha(opacity=0);
+				opacity: 0;
+				.transition(0.3s);
+				.rotate-y(180deg);
+				.perspective(1300px);
+				h1 {
+					color: #ededed;
+					margin-bottom: 5px;
+				}
+				p {
+					text-transform: uppercase;
+					color: #b4b4b4;
+					font-size: 10px;
+				}
+			}
+		}
+		&:hover {
+			img[alt=albums-photos-videos] {
+				.rotate-y(180deg);
+			}
+			.black-bg-albums-photos-videos {
+				.rotate-y(180deg);
+				-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+				filter: alpha(opacity=0);
+				opacity: 0;
+				position: absolute;
+			}
+			.black-bg-albums-photos-videos-pink {
+				-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+				filter: alpha(opacity=100);
+				opacity: 1;
+				.rotate-y(360deg);
+				z-index: 999;
+				.icon-albums-photos-videos {
+					width: 17px;
+					height: 17px;
+					margin: 0 auto;
+					margin-top: 50px;
+				}
+			}
+		}
+	}
+	&.photos {
+		.icon-albums-photos-videos {
+			background: url('../img/zoom-icon.png') center center no-repeat !important;
+		}
+	}
+	&.albums {
+		.icon-albums-photos-videos {
+			background: url('../img/link-album.png') center center no-repeat !important;
+		}
+	}
+	&.videos {
+		.icon-albums-photos-videos {
+			background: url('../img/play-icon-albums.png') center center no-repeat !important;
+		}
+	}
+}

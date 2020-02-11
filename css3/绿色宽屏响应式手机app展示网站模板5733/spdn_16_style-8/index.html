@@ -1,0 +1,415 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Landing Page</title>
+
+
+<!-- main JS libs  -->
+<script src="js/libs/modernizr.min.js"></script>
+<script src="js/libs/jquery-1.10.0.js"></script>
+<script src="js/libs/bootstrap.min.js"></script>
+
+<!-- Style CSS-->
+<link href="css/bootstrap.css" media="screen" rel="stylesheet">
+<link href="style.css" media="screen" rel="stylesheet">
+
+<!-- scripts  -->
+<script src="js/general.js"></script>
+<!-- oneByone slider -->
+<link href="css/animate.css" media="screen" rel="stylesheet">
+<script src="js/jquery.onecarousel.min.js"></script>
+<!-- Lightbox prettyPhoto -->
+<link href="css/prettyPhoto.css" rel="stylesheet">
+<script src="js/jquery.prettyPhoto.js"></script>
+<!-- Placeholders -->
+<script type="text/javascript" src="js/jquery.powerful-placeholder.min.js"></script>
+
+<!-- CarouFredSel  -->
+<script src="js/jquery.carouFredSel-6.2.1-packed.js"></script>
+<script>
+    jQuery(document).ready(function($) {
+        
+
+        $('#partners').carouFredSel({
+            next : "#partners-next",
+            prev : "#partners-prev",
+            auto: 8000,
+            scroll: {items : 1}
+        });
+
+        $(window).resize(function() {
+            $('#testimonials-1').carouFredSel({
+                next : "#testimonials-next-1",
+                prev : "#testimonials-prev-1",
+                infinite: false,
+                items: 1,
+                auto: {
+                    play: true,
+                    timeoutDuration: 8000
+                },
+                scroll: {
+                    items : 1,
+                    fx: "crossfade",
+                    easing: "linear",
+                    pauseOnHover: true,
+                    duration: 200
+                }
+            });
+
+            $('#partners').carouFredSel({
+                next : "#partners-next",
+                prev : "#partners-prev",
+                auto: 8000,
+                scroll: {items : 1}
+            });
+        })
+    });
+</script>
+
+<!-- Google Map -->
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+
+</head>
+
+<body>
+
+<div class="header cbp-af-header navbar-fixed-top">
+    <div class="cbp-af-inner">
+            
+        <div class="container">
+            
+            <div class="row">
+            	<div class="col-sm-12 col-md-3">
+                	<a href="#" class="logo"><img src="images/logo.png" class="img-responsive" alt="" /></a>
+                </div>
+                <div class="col-sm-12 col-md-9">
+                	
+                    <!-- Website Menu -->
+                    <div id="topmenu">
+                        <ul class="dropdown clearfix boxed boxed-blue">
+                            <!--<li class="link-more"><a href="#"><i></i></a></li>-->
+                            <li class="menu-level-0"><a href="#"><span>Home</span></a></li>
+                            <li class="menu-level-0"><a href="#"><span>About</span></a></li>
+                            <li class="menu-level-0"><a href="#"><span>Services</span></a>
+                                <ul class="submenu-1">
+                                    <li class="menu-level-1"><a href="#">Web design</a></li>
+                                    <li class="menu-level-1"><a href="#">User interface</a></li>
+                                    <li class="menu-level-1"><a href="#">Social media</a>
+                                        <ul class="submenu-2">
+                                            <li class="menu-level-2"><a href="#">Gallery images</a></li>
+                                            <li class="menu-level-2"><a href="#">Fine Slider</a></li>
+                                            <li class="menu-level-2"><a href="#">Video in header</a></li>
+                                            <li class="menu-level-2"><a href="#">Video Slider</a>
+                                                <ul class="submenu-3">
+                                                    <li class="menu-level-3"><a href="#">Item 1</a></li>
+                                                    <li class="menu-level-3"><a href="#">Item 2</a></li>
+                                                    <li class="menu-level-3"><a href="#">Item 3</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-level-0"><a href="#"><span>Portfolio</span></a>
+                                <ul class="submenu-1">
+                                    <li class="menu-level-1"><a href="#">Web design</a></li>
+                                    <li class="menu-level-1"><a href="#">User interface</a></li>
+                                    <li class="menu-level-1"><a href="#">Social media</a>
+                                        <ul class="submenu-2">
+                                            <li class="menu-level-2"><a href="#">Item 1</a></li>
+                                            <li class="menu-level-2"><a href="#">Item 2</a></li>
+                                            <li class="menu-level-2"><a href="#">Item 3</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-level-0"><a href="#"><span>Blog</span></a></li>
+                            <li class="menu-level-0"><a href="#"><span>Contact</span></a></li>
+                            <!--<li class="menu-search">
+                                <form id="searchForm" class="menu-search-form" method="post">
+                                    <input type="text" name="search" value="" class="menu-search-field" placeholder="Search the website" />
+                                    <input type="submit" value="" class="btn menu-search-submit" name="search-send" />
+                                </form>
+                            </li>-->
+                        </ul>
+                    </div>
+                    <!--/ Website Menu -->
+                    
+                </div>
+            </div>
+                
+        </div>
+
+	</div>
+</div><!--/ .header-->
+
+<!-- Main Slider -->
+                    <div id="myCarousel2" class="main-slider main-slider-style2 carousel slide">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <a class="carousel-image prettyPhoto" href="images/temp/main-slider-2.jpg" data-rel="prettyPhoto" title="Slider Image"><img src="images/temp/main-slider-2.jpg" alt=""></a>
+                                <div class="container">
+                                <div class="carousel-caption">
+                                    <div class="slider-title" data-animate="bounceIn">
+                                        <a href="#">A complete online solutions provider!<br />We will take your business and make it global!</a>
+                                    </div>
+                                    <a href="#" class="btn btn-turquoise" data-animate="fadeInDown"><span>Read More</span></a>
+                                </div>
+                                </div><!--/ .container -->
+                            </div>
+                            <div class="item">
+                                <a class="carousel-image prettyPhoto" href="images/temp/main-slider-3.jpg" data-rel="prettyPhoto" title="Slider Image"><img src="images/temp/main-slider-3.jpg" alt=""></a>
+                                <div class="container">
+                                <div class="carousel-caption">
+                                    <div class="slider-title" data-animate="lightSpeedIn">
+                                        <a href="#">Lorem Ipsum is simply dummy text of the printing and typesetting industry, the global standard.</a>
+                                    </div>
+                                    <a href="#" class="btn btn-turquoise" data-animate="rotateIn"><span>Read More</span></a>
+                                </div>
+                                </div><!--/ .container -->
+                            </div>
+                            <div class="item">
+                                <a class="carousel-image prettyPhoto" href="images/temp/main-slider-1.jpg" data-rel="prettyPhoto" title="Slider Image"><img src="images/temp/main-slider-1.jpg" alt=""></a>
+                                <div class="container">
+                                <div class="carousel-caption">
+                                    <div class="slider-title" data-animate="flipInY">
+                                        <a href="#">We help your business connect better &amp; reach higher, so we will take it and make it global!</a>
+                                    </div>
+                                    <a href="#" class="btn btn-turquoise" data-animate="rollIn"><span>Read More</span></a>
+                                </div>
+                                </div><!--/ .container -->
+                            </div>
+                        </div>
+                        <!-- Carousel nav -->
+                        <a class="carousel-control left" href="#myCarousel2" data-slide="prev"></a>
+                        <a class="carousel-control right" href="#myCarousel2" data-slide="next"></a>
+                    </div>
+
+                    <script type="text/javascript">
+                        $(document).ready(function() {
+                            $('#myCarousel2').oneCarousel({
+                                easeIn: 'rotateIn',
+                                interval: 8000,
+                                pause: 'hover'
+                            });
+                        });
+                    </script>
+<!--/ Main Slider -->
+
+<div class="main-content">
+	<div class="container">
+    	<div class="content-1">
+        	<h1>A stunning and robust app showcase.</h1>
+            <p class="content-1-p">Neue is the newest app landing page out there. It is equiped with amazing features and comes with even more amazing support.</p>
+        
+        
+        <div class="services">
+        	
+            <div class="row">
+            	<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                	<div class="tab-content icons">
+                        <div class="tab-icon"><img src="images/icons/tab-icon1.png" alt="" /></div>
+                        <h2>Communication</h2>
+                        <p>Lorem ipsum dolor sit amet, consecte tur adipiscing elit. Nullam in dui maurisiva mus hendrerit arcu sed erat mole stie vehi cula. Sed auctor neque eu tellus rhoncus</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                	<div class="tab-content icons">
+                        <div class="tab-icon"><img src="images/icons/tab-icon2.png" alt="" /></div>
+                        <h2>Communication</h2>
+                        <p>Lorem ipsum dolor sit amet, consecte tur adipiscing elit. Nullam in dui maurisiva mus hendrerit arcu sed erat mole stie vehi cula. Sed auctor neque eu tellus rhoncus</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                	<div class="tab-content icons">
+                        <div class="tab-icon"><img src="images/icons/tab-icon1.png" alt="" /></div>
+                        <h2>Communication</h2>
+                        <p>Lorem ipsum dolor sit amet, consecte tur adipiscing elit. Nullam in dui maurisiva mus hendrerit arcu sed erat mole stie vehi cula. Sed auctor neque eu tellus rhoncus</p>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+        
+        </div><!--/ .content-1 -->
+        
+        <div class="content-2">
+        	
+            <div class="row">
+            	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                	
+                    <img src="images/phone-small.png" alt="small-1" class="img-small" />
+                    <img src="images/phone-big.png" alt="small-1" class="img-big" />
+                    
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                	<h1>Super-sweet animations.</h1>
+                    <p>Did you notice the animations? Those trigger on the position of the scrollbar to the right. It is extremely easy to setup, all you need to do is choose the animation and the place you want it to trigger from.</p>
+                    <a href="#" class="learn-more">Learn More ></a>
+                </div>
+            </div>
+        
+        </div><!--/ .content-2 -->
+		
+        <div class="content-2">
+        	
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                	<h1>Super-sweet animations.</h1>
+                    <p>Did you notice the animations? Those trigger on the position of the scrollbar to the right. It is extremely easy to setup, all you need to do is choose the animation and the place you want it to trigger from.</p>
+                    <a href="#" class="learn-more">Learn More ></a>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                	
+                    <img src="images/statictablet.jpg" alt="small-1" class="img-tabe" />
+                    <img src="images/staticphone.png" alt="small-1" class="img-phn" />
+                    
+                </div>
+            </div>
+        
+        </div><!--/ .content-2 -->
+		
+        <div class="content-3">
+        
+        	<h1>Carefully executed features.</h1>
+            <p>With this loupe you get the chance to stun and amaze your visitors. Also to highlight something really important. Quite handy indeed.</p>
+            
+            <img src="images/place-holder.png" alt="place-holder" class="place-holder" />
+        
+        </div><!--/ .content-3 -->
+        
+        <div class="content-3">
+        
+        	<h1>Carefully executed features.</h1>
+            <p>With this loupe you get the chance to stun and amaze your visitors. Also to highlight something really important. Quite handy indeed.</p>
+            
+            		<div class="partners">
+                        <ul id="partners">
+                            <li><a href="#"><img src="images/temp/partner1.png" alt="" /></a></li>
+                            <li><a href="#"><img src="images/temp/partner2.png" alt="" /></a></li>
+                            <li><a href="#"><img src="images/temp/partner3.png" alt="" /></a></li>
+                            <li><a href="#"><img src="images/temp/partner4.png" alt="" /></a></li>
+                            <li><a href="#"><img src="images/temp/partner5.png" alt="" /></a></li>
+                            <li><a href="#"><img src="images/temp/partner1.png" alt="" /></a></li>
+                            <li><a href="#"><img src="images/temp/partner2.png" alt="" /></a></li>
+                            <li><a href="#"><img src="images/temp/partner3.png" alt="" /></a></li>
+                            <li><a href="#"><img src="images/temp/partner4.png" alt="" /></a></li>
+                            <li><a href="#"><img src="images/temp/partner5.png" alt="" /></a></li>
+                        </ul>
+                        <a id="partners-prev" class="prev" href="#">prev</a>
+                        <a id="partners-next" class="next" href="#">next</a>
+                    </div>
+        
+        </div><!--/ .content-3 -->
+        
+        <div class="content-4">
+        
+        	<h1>Subscribe to our newsletter.</h1>
+            
+            
+            <form class="form-inline" role="form">
+              <div class="form-group">
+                <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter email">
+              </div>
+              <button type="submit" class="btn btn-default">Subscribe now</button>
+            </form>
+
+            
+        
+        </div><!--/ .content-4 -->
+                
+    </div>
+</div>
+<!--/ .main-content -->
+
+
+<footer>
+	<!-- Footer Style 2 -->
+        <div class="footer style2 boxed">
+            <!-- container-->
+            <div class="container">
+                <!-- row -->
+                <div class="row">
+                    <div class="col-xs-6 col-sm-2">
+                        <div class="widget-container widget_nav_menu">
+                            <h3 class="widget-title"><span>VEHICLES</span></h3>
+                            <ul>
+                                <li><a href="#"><span>Motorbikes</span></a></li>
+                                <li><a href="#"><span>Compacts</span></a></li>
+                                <li><a href="#"><span>Sedans</span></a></li>
+                                <li><a href="#"><span>4x4 SUVs</span></a></li>
+                                <li><a href="#"><span>Pickups</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-2">
+                        <div class="widget-container widget_nav_menu">
+                            <h3 class="widget-title"><span>SERVICES</span></h3>
+                            <ul>
+                                <li><a href="#"><span>Buy a car</span></a></li>
+                                <li><a href="#"><span>Sell your Car</span></a></li>
+                                <li><a href="#"><span>Buy Back</span></a></li>
+                                <li><a href="#"><span>Repair Shop</span></a></li>
+                                <li><a href="#"><span>Compacts</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-2">
+                        <div class="widget-container widget_nav_menu">
+                            <h3 class="widget-title"><span>Privacy</span></h3>
+                            <ul>
+                                <li><a href="#"><span>Terms &amp; Conditions</span></a></li>
+                                <li><a href="#"><span>Privacy Statement</span></a></li>
+                                <li><a href="#"><span>F.A.Q.s</span></a></li>
+                                <li><a href="#"><span>Support</span></a></li>
+                                <li><a href="#"><span>Confidentiality</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-3">
+                        <div class="widget-container widget-contact">
+                            <h3 class="widget-title"><span>OUR SHOWROOM</span></h3>
+                            <ul>
+                                <li><span>21 Sunset Blvd, Los Angeles</span></li>
+                                <li><span>California, 90453</span></li>
+                                <li><span>Mon - Fri: 9AM - 7 PM</span></li>
+                                <li><span>Sat -  9AM - 2 PM</span></li>
+                                <li><span>Sun - Closed</span></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="clearfix visible-xs"></div>
+
+                    <div class="col-xs-12 col-sm-3">
+                        <div class="widget-container widget-map">
+                            <div id="map" class="map"></div>
+                            <script>
+                                var map;
+                                function initialize() {
+                                    var mapOptions = {
+                                        zoom: 18,
+                                        center: new google.maps.LatLng(33.993469,-118.477304),
+                                        mapTypeId: google.maps.MapTypeId.ROADMAP
+                                    };
+                                    map = new google.maps.Map(document.getElementById('map'),
+                                            mapOptions);
+                                }
+                                google.maps.event.addDomListener(window, 'load', initialize);
+                            </script>
+                        </div>
+                    </div>
+                </div>
+                <!--/ row -->
+            </div>
+            <!--/ container-->
+        </div>
+        <!--/ Footer Style 2 -->
+</footer>
+
+<script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.min.js"></script>
+    
+</body>
+</html>

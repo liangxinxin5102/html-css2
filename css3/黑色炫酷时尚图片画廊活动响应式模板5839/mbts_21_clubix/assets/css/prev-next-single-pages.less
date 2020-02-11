@@ -1,0 +1,39 @@
+ul.next-prev-single-page {
+	li {
+		float: left;
+		a {
+			width: 50px;
+			height: 30px;
+			padding-top: 20px;
+			display: block;
+			margin-left: 1px;
+			.transition;
+			&.prev {
+				background: rgba(0,0,0,0.4);
+				span {
+					width: 6px;
+					height: 11px;
+					display: block;
+					margin: 0 auto;
+					background: url(../img/left-arrow-single-page.png) no-repeat;
+				}
+				&:hover {
+					background: #8e44ad;
+				}
+			}
+			&.next {
+				background: rgba(0,0,0,0.4);
+				span {
+					width: 6px;
+					height: 11px;
+					display: block;
+					margin: 0 auto;
+					background: url(../img/right-arrow-single-page.png) no-repeat;
+				}
+				&:hover {
+					background: #8e44ad;
+				}
+			}
+		}
+	}
+}

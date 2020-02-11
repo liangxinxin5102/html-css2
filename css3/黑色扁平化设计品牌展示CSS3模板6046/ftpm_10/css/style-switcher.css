@@ -1,0 +1,311 @@
+/*
+    The Style switcher colours are, yellow, green, orange, purple, grey, black, olive, red, blue and sea blue. 
+    Instructions: Please put in your colour of choice in the index.htm file in the body tag where it reads 'put-your-color-here'
+    If you would like to request additional colors please visit www.vorelmedia.com and request a colour through there. 
+
+*/
+    /*Green*/
+    .green #bottom-header {background:url('../img/themes/green_bar.png') no-repeat center center;}
+    .green .call-to-action a, .green .submit input, .green .submit input:active, .green .submit input:focus {
+        background-color:#80963C; } /* standard color */
+    .green .call-to-action .btn:hover, .green .submit input:hover {
+        background-color:#9FB24F;} /* hover color */
+    .green ::selection {background:#80963C;} /* text selection css IE */
+    .green ::-moz-selection {background:#80963C;} /* text selection css Mozzila */
+    .green button.btn {
+        background: #80963C; 
+        background: -moz-linear-gradient(top, #80963C 0%, #9FB24F); 
+        background: -webkit-gradient(linear, left top, left bottom, from(#80963C), to(#9FB24F));
+        -moz-box-shadow: inset 1px 0px 9px rgba(255,255,255,0.03), inset 0px 1px 0px rgba(0,0,0,0.2); 
+        -webkit-box-shadow: inset 1px 0px 9px rgba(255,255,255,0.03), inset 0px 1px 0px rgba(0,0,0,0.2);  
+    }
+    .green button.btn:hover {
+        background: #80963C; 
+        background: -moz-linear-gradient(top, #9FB24F 0%, #80963C); 
+        background: -webkit-gradient(linear, left top, left bottom, from(#9FB24F), to(#80963C));
+        -moz-box-shadow: inset 1px 0px 9px rgba(255,255,255,0.03), inset 0px 1px 0px rgba(0,0,0,0.2); 
+        -webkit-box-shadow: inset 1px 0px 9px rgba(255,255,255,0.03), inset 0px 1px 0px rgba(0,0,0,0.2); 
+    }
+    .green .pagination li.current a {color:#80963C; background-color: #80963C;
+    -moz-box-shadow: 0 -1px 0 #000 inset, 1px 1px 1px #000 inset;
+    -webkit-box-shadow: 0 -1px 0 #000 inset, 1px 1px 1px #000 inset;
+    box-shadow: 0 -1px 0 #000 inset, 1px 1px 1px #000 inset; }
+    .green .num {background-color:#80963C;}
+
+    
+    /*Orange*/
+    .orange #bottom-header {background:url('../img/themes/orange_bar.png') no-repeat center center;}
+    .orange .call-to-action a, .orange .submit input, .orange .submit input:active, .orange .submit input:focus {
+        background-color:#FF7029; } /* standard color */
+    .orange .call-to-action .btn:hover, .orange .submit input:hover {
+        background-color:#FF7029;} /* hover color */
+    .orange ::selection {background:#EF5816;} /* text selection css IE */
+    .orange ::-moz-selection {background:#EF5816;} /* text selection css Mozzila */
+    .orange button.btn {
+        background: #EF5816; 
+        background: -moz-linear-gradient(top, #EF5816 0%, #FF7029); 
+        background: -webkit-gradient(linear, left top, left bottom, from(#EF5816), to(#FF7029));
+        -moz-box-shadow: inset 1px 0px 9px rgba(255,255,255,0.03), inset 0px 1px 0px rgba(0,0,0,0.2); 
+        -webkit-box-shadow: inset 1px 0px 9px rgba(255,255,255,0.03), inset 0px 1px 0px rgba(0,0,0,0.2);  
+    }
+    .orange .pagination li.current a {color:#E6722F; background-color: #E6722F;
+    -moz-box-shadow: 0 -1px 0 #000 inset, 1px 1px 1px #000 inset;
+    -webkit-box-shadow: 0 -1px 0 #000 inset, 1px 1px 1px #000 inset;
+    box-shadow: 0 -1px 0 #000 inset, 1px 1px 1px #000 inset; }
+    .orange .num {background-color:#FF7029;}
+    
+    
+    /*Purple*/
+    .purple #bottom-header {background:url('../img/themes/purple_bar.png') no-repeat center center;}
+    .purple .call-to-action a, .purple .submit input, .purple .submit input:active, .purple .submit input:focus {
+        background-color:#6516A2; } /* standard color */
+    .purple .call-to-action .btn:hover, .purple .submit input:hover {
+        background-color:#7E1BCA;} /* hover color */
+    .purple ::selection {background:#6516A2;} /* text selection css IE */
+    .purple ::-moz-selection {background:#6516A2;} /* text selection css Mozzila */
+    .purple button.btn {
+        background: #80963C; 
+        background: -moz-linear-gradient(top, #6516A2 0%, #7E1BCA); 
+        background: -webkit-gradient(linear, left top, left bottom, from(#6516A2), to(#7E1BCA));
+        -moz-box-shadow: inset 1px 0px 9px rgba(255,255,255,0.03), inset 0px 1px 0px rgba(0,0,0,0.2); 
+        -webkit-box-shadow: inset 1px 0px 9px rgba(255,255,255,0.03), inset 0px 1px 0px rgba(0,0,0,0.2);  
+    }
+	.purple button.btn:hover  {
+        background: #80963C; 
+        background: -moz-linear-gradient(top, #6516B3 0%, #7E1BDB); 
+        background: -webkit-gradient(linear, left top, left bottom, from(#6516B3), to(#7E1BDB));
+        -moz-box-shadow: inset 1px 0px 9px rgba(255,255,255,0.03), inset 0px 1px 0px rgba(0,0,0,0.2); 
+        -webkit-box-shadow: inset 1px 0px 9px rgba(255,255,255,0.03), inset 0px 1px 0px rgba(0,0,0,0.2);  
+    }		
+    .purple .pagination li.current a {color:#7B1AC5; background-color: #7B1AC5;
+    -moz-box-shadow: 0 -1px 0 #222 inset, 1px 1px 1px #222 inset;
+    -webkit-box-shadow: 0 -1px 0 #222 inset, 1px 1px 1px #222 inset;
+    box-shadow: 0 -1px 0 #222 inset, 1px 1px 1px #222 inset; }
+    .purple .num {background-color:#6516A2;}
+        
+    /*Grey*/
+    .grey #bottom-header {background:url('../img/themes/grey_bar.png') no-repeat center center;}
+    .grey .call-to-action a, .grey .submit input, .grey .submit input:active, .grey .submit input:focus {
+        background-color:#696969; } /* standard color */
+    .grey .call-to-action .btn:hover, .grey .submit input:hover {
+        background-color:#7B7B7B;} /* hover color */
+    .grey ::selection {background:#696969;} /* text selection css IE */
+    .grey ::-moz-selection {background:#696969;} /* text selection css Mozzila */
+    .grey button.btn, .grey button.btn:focus {
+        background: #80963C; 
+        background: -moz-linear-gradient(top, #696969 0%, #7B7B7B); 
+        background: -webkit-gradient(linear, left top, left bottom, from(#696969), to(#7B7B7B));
+        -moz-box-shadow: inset 1px 0px 9px rgba(255,255,255,0.03), inset 0px 1px 0px rgba(0,0,0,0.2); 
+        -webkit-box-shadow: inset 1px 0px 9px rgba(255,255,255,0.03), inset 0px 1px 0px rgba(0,0,0,0.2);  
+    }
+    .grey button.btn:hover {
+        background: #6D6D6D; 
+        background: -moz-linear-gradient(top, #7B7B7B 0%, #6D6D6D); 
+        background: -webkit-gradient(linear, left top, left bottom, from(#7B7B7B), to(#6D6D6D));
+        -moz-box-shadow: inset 1px 0px 9px rgba(255,255,255,0.03), inset 0px 1px 0px rgba(0,0,0,0.2); 
+        -webkit-box-shadow: inset 1px 0px 9px rgba(255,255,255,0.03), inset 0px 1px 0px rgba(0,0,0,0.2);  
+    }	
+    .grey .pagination li.current a {color:#696969; background-color: #696969;
+    -moz-box-shadow: 0 -1px 0 #222 inset, 1px 1px 1px #222 inset;
+    -webkit-box-shadow: 0 -1px 0 #222 inset, 1px 1px 1px #222 inset;
+    box-shadow: 0 -1px 0 #222 inset, 1px 1px 1px #222 inset; }
+    .grey .num {background-color:#696969;}
+    
+    /*Black*/
+    .black #bottom-header {background:url('../img/themes/black_bar.png') no-repeat center center;}
+    .black .call-to-action a, .black .submit input, .black .submit input:active, .black .submit input:focus {
+        background-color:#333; } /* standard color */
+    .black .call-to-action .btn:hover, .black .submit input:hover {
+        background-color:#3E3F3F;} /* hover color */
+    .black ::selection {background:#333;} /* text selection css IE */
+    .black ::-moz-selection {background:#333;} /* text selection css Mozzila */
+    .black button.btn {
+        background: #333; 
+        background: -moz-linear-gradient(top, #333 0%, #3E3F3F); 
+        background: -webkit-gradient(linear, left top, left bottom, from(#333), to(#3E3F3F));
+        -moz-box-shadow: inset 1px 0px 9px rgba(255,255,255,0.03), inset 0px 1px 0px rgba(0,0,0,0.2); 
+        -webkit-box-shadow: inset 1px 0px 9px rgba(255,255,255,0.03), inset 0px 1px 0px rgba(0,0,0,0.2);  
+    }
+	.black button.btn:hover {
+        background: #333; 
+        background: -moz-linear-gradient(top, #3E3F3F 0%, #333); 
+        background: -webkit-gradient(linear, left top, left bottom, from(#3E3F3F), to(#333));
+        -moz-box-shadow: inset 1px 0px 9px rgba(255,255,255,0.03), inset 0px 1px 0px rgba(0,0,0,0.2); 
+        -webkit-box-shadow: inset 1px 0px 9px rgba(255,255,255,0.03), inset 0px 1px 0px rgba(0,0,0,0.2);  
+    }
+    .black .pagination li.current a {color:#111; background-color: #111;
+    -moz-box-shadow: 0 -1px 0 #444 inset, 1px 1px 1px #444 inset;
+    -webkit-box-shadow: 0 -1px 0 #444 inset, 1px 1px 1px #444 inset;
+    box-shadow: 0 -1px 0 #444 inset, 1px 1px 1px #444 inset; }
+    .black .num {background-color:#333;}   
+    
+    /*Olive*/
+    .olive #bottom-header {background:url('../img/themes/olive_bar.png') no-repeat center center;}
+    .olive .call-to-action a, .olive .submit input, .olive .submit input:active, .olive .submit input:focus {
+        background-color:#889C37; } /* standard color */
+    .olive .call-to-action .btn:hover, .olive .submit input:hover {
+        background-color:#9FB740;} /* hover color */
+    .olive ::selection {background:#9FB740;} /* text selection css IE */
+    .olive ::-moz-selection {background:#9FB740;} /* text selection css Mozzila */
+    .olive button.btn {
+        background: #80963C; 
+        background: -moz-linear-gradient(top, #9FB740 0%, #889C37); 
+        background: -webkit-gradient(linear, left top, left bottom, from(#9FB740), to(#889C37));
+        -moz-box-shadow: inset 1px 0px 9px rgba(255,255,255,0.03), inset 0px 1px 0px rgba(0,0,0,0.2); 
+        -webkit-box-shadow: inset 1px 0px 9px rgba(255,255,255,0.03), inset 0px 1px 0px rgba(0,0,0,0.2);  
+    }
+    .olive  button.btn:hover {
+        background: #80963C; 
+        background: -moz-linear-gradient(top, #889C37 0%, #9FB740); 
+        background: -webkit-gradient(linear, left top, left bottom, from(#889C37), to(#9FB740));
+        -moz-box-shadow: inset 1px 0px 9px rgba(255,255,255,0.03), inset 0px 1px 0px rgba(0,0,0,0.2); 
+        -webkit-box-shadow: inset 1px 0px 9px rgba(255,255,255,0.03), inset 0px 1px 0px rgba(0,0,0,0.2);  
+    }		
+    .olive .pagination li.current a {color:#9FB740; background-color: #9FB740;
+    -moz-box-shadow: 0 -1px 0 #444 inset, 1px 1px 1px #000 inset;
+    -webkit-box-shadow: 0 -1px 0 #444 inset, 1px 1px 1px #000 inset;
+    box-shadow: 0 -1px 0 #444 inset, 1px 1px 1px #000 inset; }
+    .olive .num {background-color:#889C37;}
+    
+    /*Blue*/
+    .blue #bottom-header {background:url('../img/themes/blue_bar.png') no-repeat center center;}
+    .blue .call-to-action a, .blue .submit input, .blue .submit input:active, .blue .submit input:focus {
+        background-color:#004CCA; } /* standard color */
+    .blue .call-to-action .btn:hover, .blue .submit input:hover {
+        background-color:#0057E6;} /* hover color */
+    .blue ::selection {background:#0057E6;} /* text selection css IE */
+    .blue ::-moz-selection {background:#0057E6;} /* text selection css Mozzila */
+    .blue button.btn {
+        background: #80963C; 
+        background: -moz-linear-gradient(top, #0057E6 0%, #004CCA); 
+        background: -webkit-gradient(linear, left top, left bottom, from(#0057E6), to(#004CCA));
+        -moz-box-shadow: inset 1px 0px 9px rgba(255,255,255,0.03), inset 0px 1px 0px rgba(0,0,0,0.2); 
+        -webkit-box-shadow: inset 1px 0px 9px rgba(255,255,255,0.03), inset 0px 1px 0px rgba(0,0,0,0.2);  
+    }
+    .blue button.btn:hover {
+        background: #80963C; 
+        background: -moz-linear-gradient(top, #004CCA 0%, #0057E6); 
+        background: -webkit-gradient(linear, left top, left bottom, from(#004CCA), to(#0057E6));
+        -moz-box-shadow: inset 1px 0px 9px rgba(255,255,255,0.03), inset 0px 1px 0px rgba(0,0,0,0.2); 
+        -webkit-box-shadow: inset 1px 0px 9px rgba(255,255,255,0.03), inset 0px 1px 0px rgba(0,0,0,0.2);  
+    }
+    .blue .pagination li.current a {color:#0057E6; background-color: #0057E6;
+    -moz-box-shadow: 0 -1px 0 #333333 inset, 1px 1px 1px #222222 inset;
+    -webkit-box-shadow: 0 -1px 0 #333333 inset, 1px 1px 1px #222222 inset;
+    box-shadow: 0 -1px 0 #333333 inset, 1px 1px 1px #222222 inset; }
+    .blue .num {background-color:#004CCA;}  
+    
+    /*Light Blue*/
+    .light-blue #bottom-header {background:url('../img/themes/light_blue_bar.png') no-repeat center center;}
+    .light-blue .call-to-action a, .light-blue .submit input, .light-blue .submit input:active, .light-blue .submit input:focus {
+        background-color:#00AAF9; } /* standard color */
+    .light-blue .call-to-action .btn:hover, .light-blue .submit input:hover {
+        background-color:#1EC0F9;} /* hover color */
+    .light-blue ::selection {background:#00AAF9;} /* text selection css IE */
+    .light-blue ::-moz-selection {background:#00AAF9;} /* text selection css Mozzila */
+    .light-blue button.btn {
+        background: #80963C; 
+        background: -moz-linear-gradient(top, #00AAF9 0%, #1EC0F9); 
+        background: -webkit-gradient(linear, left top, left bottom, from(#00AAF9), to(#1EC0F9));
+        -moz-box-shadow: inset 1px 0px 9px rgba(255,255,255,0.03), inset 0px 1px 0px rgba(0,0,0,0.2); 
+        -webkit-box-shadow: inset 1px 0px 9px rgba(255,255,255,0.03), inset 0px 1px 0px rgba(0,0,0,0.2);  
+    }
+    .light-blue  button.btn:hover {
+        background: #80963C; 
+        background: -moz-linear-gradient(top, #1EC0F9 0%, #00AAF9); 
+        background: -webkit-gradient(linear, left top, left bottom, from(#1EC0F9), to(#00AAF9));
+        -moz-box-shadow: inset 1px 0px 9px rgba(255,255,255,0.03), inset 0px 1px 0px rgba(0,0,0,0.2); 
+        -webkit-box-shadow: inset 1px 0px 9px rgba(255,255,255,0.03), inset 0px 1px 0px rgba(0,0,0,0.2);  
+    }	
+    .light-blue .pagination li.current a {color:#00AAF9; background-color: #00AAF9;
+    -moz-box-shadow: 0 -1px 0 #222 inset, 1px 1px 1px #333 inset;
+    -webkit-box-shadow: 0 -1px 0 #222 inset, 1px 1px 1px #333 inset;
+    box-shadow: 0 -1px 0 #222 inset, 1px 1px 1px #333 inset; }
+    .light-blue .num {background-color:#00AAF9;}   
+
+    /*Red*/
+    .red #bottom-header {background:url('../img/themes/red_bar.png') no-repeat center center;}
+    .red .call-to-action a, .red .submit input, .red .submit input:active, .red .submit input:focus {
+        background-color:#B40200; } /* standard color */
+    .red .call-to-action .btn:hover, .red .submit input:hover {
+        background-color:#D30000;} /* hover color */
+    .red ::selection {background:#00AAF9;} /* text selection css IE */
+    .red ::-moz-selection {background:#00AAF9;} /* text selection css Mozzila */
+    .red button.btn {
+        background: #B40200; 
+        background: -moz-linear-gradient(top, #B40200 0%, #D30000); 
+        background: -webkit-gradient(linear, left top, left bottom, from(#B40200), to(#D30000));
+        -moz-box-shadow: inset 1px 0px 9px rgba(255,255,255,0.03), inset 0px 1px 0px rgba(0,0,0,0.2); 
+        -webkit-box-shadow: inset 1px 0px 9px rgba(255,255,255,0.03), inset 0px 1px 0px rgba(0,0,0,0.2);  
+    }
+    .red  button.btn:hover {
+        background: #B40200; 
+        background: -moz-linear-gradient(top, #D30000 0%, #B40200); 
+        background: -webkit-gradient(linear, left top, left bottom, from(#D30000), to(#B40200));
+        -moz-box-shadow: inset 1px 0px 9px rgba(255,255,255,0.03), inset 0px 1px 0px rgba(0,0,0,0.2); 
+        -webkit-box-shadow: inset 1px 0px 9px rgba(255,255,255,0.03), inset 0px 1px 0px rgba(0,0,0,0.2);  
+    }	
+    .red .pagination li.current a {color:#B40200; background-color: #B40200;
+    -moz-box-shadow: 0 -1px 0 #111 inset, 1px 1px 1px #111 inset;
+    -webkit-box-shadow: 0 -1px 0 #111 inset, 1px 1px 1px #111 inset;
+    box-shadow: 0 -1px 0 #111 inset, 1px 1px 1px #111 inset; }
+    .red .num {background-color:#B40200;}   
+
+    /*yellow*/
+    .yellow #bottom-header {background:url('../img/themes/yellow_bar.png') no-repeat center center;}
+    .yellow .call-to-action a, .yellow .submit input, .yellow .submit input:active, .yellow .submit input:focus {
+        background-color:#FCBC40; } /* standard color */
+    .yellow .call-to-action .btn:hover, .yellow .submit input:hover {
+        background-color:#FFCF3F;} /* hover color */
+    .yellow ::selection {background:#FCBC40;} /* text selection css IE */
+    .yellow ::-moz-selection {background:#FCBC40;} /* text selection css Mozzila */
+    .yellow button.btn {
+        background: #FCBC40; 
+        background: -moz-linear-gradient(top, #FCBC40 0%, #FFCF3F); 
+        background: -webkit-gradient(linear, left top, left bottom, from(#FCBC40), to(#FFCF3F));
+        -moz-box-shadow: inset 1px 0px 9px rgba(255,255,255,0.03), inset 0px 1px 0px rgba(0,0,0,0.2); 
+        -webkit-box-shadow: inset 1px 0px 9px rgba(255,255,255,0.03), inset 0px 1px 0px rgba(0,0,0,0.2);  
+    }
+    .yellow button.btn:hover {
+        background: #FCBC40; 
+        background: -moz-linear-gradient(top, #FFCF3F 0%, #FCBC40); 
+        background: -webkit-gradient(linear, left top, left bottom, from(#FFCF3F), to(#FCBC40));
+        -moz-box-shadow: inset 1px 0px 9px rgba(255,255,255,0.03), inset 0px 1px 0px rgba(0,0,0,0.2); 
+        -webkit-box-shadow: inset 1px 0px 9px rgba(255,255,255,0.03), inset 0px 1px 0px rgba(0,0,0,0.2);  
+    }		
+    .yellow .pagination li.current a {color:#FCBC40; background-color: #FCBC40;
+    -moz-box-shadow: 0 -1px 0 #111 inset, 1px 1px 1px #111 inset;
+    -webkit-box-shadow: 0 -1px 0 #111 inset, 1px 1px 1px #111 inset;
+    box-shadow: 0 -1px 0 #111 inset, 1px 1px 1px #111 inset; }
+    .yellow .num {background-color:#FCBC40;}    
+    
+    /* background switcher */    
+    body.bg-1 #header {background-image:url("../img/light.png"), url("../img/light.png"), url("../img/bg/background1.jpg")}
+    body.bg-2 #header {background-image:url("../img/light.png"), url("../img/light.png"), url("../img/bg/background2.jpg")}
+    body.bg-3 #header {background-image:url("../img/light.png"), url("../img/light.png"), url("../img/bg/background3.jpg")}
+    body.bg-4 #header {background-image:url("../img/light.png"), url("../img/light.png"), url("../img/bg/background4.jpg")}
+    body.bg-5 #header {background-image:url("../img/light.png"), url("../img/light.png"), url("../img/bg/background5.jpg")}
+    body.bg-6 #header {background-image:url("../img/light.png"), url("../img/light.png"), url("../img/bg/background6.jpg")}
+    body.bg-7 #header {background-image:url("../img/light.png"), url("../img/light.png"), url("../img/bg/background7.jpg")}
+    
+    body.bg-1 #footer {background:url("../img/bg/background1.jpg") repeat scroll left top transparent}
+    body.bg-2 #footer {background:url("../img/bg/background2.jpg") repeat scroll left top transparent}
+    body.bg-3 #footer {background:url("../img/bg/background3.jpg") repeat scroll left top transparent}
+    body.bg-4 #footer {background:url("../img/bg/background4.jpg") repeat scroll left top transparent}
+    body.bg-5 #footer {background:url("../img/bg/background5.jpg") repeat scroll left top transparent}
+    body.bg-6 #footer {background:url("../img/bg/background6.jpg") repeat scroll left top transparent}
+    body.bg-7 #footer {background:url("../img/bg/background7.jpg") repeat scroll left top transparent}
+    body.bg-1 .form-style-1, body.bg-2 .form-style-1, body.bg-3 .form-style-1, body.bg-4 .form-style-1, body.bg-5 .form-style-1, body.bg-6 .form-style-1, body.bg-7 .form-style-1 {
+        background-color:none;
+    }
+    
+    body.bg-1 .form-style-1 {background:url("../img/bg/background1.jpg") repeat scroll left top transparent}
+    body.bg-2 .form-style-1 {background:url("../img/bg/background2.jpg") repeat scroll left top transparent}
+    body.bg-3 .form-style-1 {background:url("../img/bg/background3.jpg") repeat scroll left top transparent}
+    body.bg-4 .form-style-1 {background:url("../img/bg/background4.jpg") repeat scroll left top transparent}
+    body.bg-5 .form-style-1 {background:url("../img/bg/background5.jpg") repeat scroll left top transparent}
+    body.bg-6 .form-style-1 {background:url("../img/bg/background6.jpg") repeat scroll left top transparent}
+    body.bg-7 .form-style-1 {background:url("../img/bg/background7.jpg") repeat scroll left top transparent}
+    
+
+    /* End of style switcher CSS */

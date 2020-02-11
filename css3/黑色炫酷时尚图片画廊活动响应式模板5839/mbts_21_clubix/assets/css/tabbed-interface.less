@@ -1,0 +1,48 @@
+.tabbed-interface-container {
+	background: #242424;
+	border-bottom: 2px solid #8e44ad;
+	.the-tabs {
+		background: #fff;
+		-webkit-box-shadow: inset 0 0 0 1px #e2e2e2;
+		-moz-box-shadow: inset 0 0 0 1px #e2e2e2;
+		box-shadow: inset 0 0 0 1px #e2e2e2;
+		ul.tabs-ul {
+			li.tab {
+				float: left;
+				a {
+					cursor: pointer;
+					padding: 0 15px;
+					height: 40px;
+					background: transparent;
+					display: block;
+					line-height: 40px;
+					color: #838383;
+					font-size: 13px;
+					.transition;
+					&:hover , &.selected {
+						background: #8e44ad;
+						color: #fff;
+					}
+					img {
+						margin-right: 2px;
+					}
+				}
+			}
+		}
+	}
+	.content-tabs {
+		padding: 20px 15px;
+		background: #f1f1f1;
+		img {
+			border: 2px solid #3a3a3a;
+			margin-right: 15px;
+			float: left;
+			margin-bottom: 5px;
+		}
+		p {
+			color: #444444;
+			font-size: 14px;
+			line-height: 20px;
+		}
+	}
+}

@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Green Deomo README Document</title>
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/style.css">
+<script src="../js/jquery-2.1.1.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/javascript.js"></script>
+</head>
+
+<body>
+<h2>异步加载设计</h2>
+<p>不探讨什么是异步加载了，总之它一方面让你的网页加载更快，另一方面或许还能给手机用户省流量。</p>
+<p>上面提到的图片延时加载其实也可以算作异步加载的一种设计。</p>
+<p>我在主题中充分考虑到了异步加载的重要性，所以从一开始就是这么去做的，下面举简单的例子来说明：</p>
+<div class="panel panel-default">
+  <div class="panel-heading">案例1 异步加载悬浮边栏让网页性能更酷</div>
+  <div class="panel-body">
+    <p>前面已经提到了边栏悬浮是怎么回事。但是是否有必要每次都加载悬浮的脚本代码呢？显然有的时候我们的网页里面没有用到这个功能，所以没有必要加载这部分代码。因此，我做了一个判断，加入存在fixed-sidebar这个区域，才加载插件脚本文件。    </p>
+    <pre>if($('#fixed-sidebar').length &gt; 0 &amp;&amp; $(window).width() &gt; _options_.response_phone_width) {<br>  $('#load-page-scripts').before('&lt;script src=&quot;' + _options_.template_url + '/js/fixed-widget.js&quot;&gt;\x3C/script&gt;');<br>  $.fixedwidget({<br>    fixedObj : '#fixed-sidebar',<br>    bottomObj : '#footer',<br>    fixedPos : 10<br>  });<br>}</pre>
+    <p>这种方法起到了这么几种好处：1.如果不需要悬浮边栏，就可以不加载插件脚本，节省流量和打开网页的时间。2.让其他的脚本更早加载，因为如果一旦把插件脚本文件直接在html中引用，就会导致网页加载到这里的时候卡壳。3.代码更优雅，修改和阅读更方便。</p>
+    <p class="alert alert-warning">注：fixed-widget.js是我个人开发的jQuery插件，这是第一次公开使用。</p>
+  </div>
+</div>
+<div class="panel panel-default">
+  <div class="panel-heading">案例2 异步加载广告让页面打开更顺利</div>
+  <div class="panel-body">
+    <p>广告是比较麻烦的，因为大部分广告代码是js代码，页面加载这里的时候，常常会卡住。GD优雅的利用异步加载解决了这个问题。</p>
+    <p>在后台，你可以自己定制自己的广告，如下图：</p>
+    <p><img src="../img/2-5-1.jpg" class="img-thumbnail"></p>
+    <p>在前台只需要使用一个短代码，即可调用对应的广告代码。而且这个短代码在widget_text中也照样可以用。</p>
+    <pre>[ad name="边栏悬浮"]</pre>
+    <p>你可以体验<a href="http://green.demo.utubon.com">http://green.demo.utubon.com</a>的效果，在边栏的浮动区域有一个谷歌广告，但是如果你仔细看HTML源代码，就会发现其实这个广告的脚本代码在页面的底部，因此页面加载的时候，顺利跳过了这个广告，直到页面加载完，才显示广告。</p>
+  </div>
+</div>
+
+<p class="alert alert-warning">无论把异步加载做的多好，想要让网站打开速度秒秒钟，唯一的办法还是提高基础设施建设，光靠代码性能，根本无法弥补服务器、宽度等带来的伤害。这两天国际线路又抽风，演示站打开速度好慢……</p>
+
+<p class="btn-area text-center"><a href="javascript:next()" class="btn btn-success btn-lg">下一节</a></p>
+
+</body>
+</html>

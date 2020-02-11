@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Home - Green Deomo README Document</title>
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/style.css">
+<script src="../js/jquery-2.1.1.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/javascript.js"></script>
+</head>
+
+<body>
+<h2>广告设置</h2>
+<p>在后台“外观-AdminOptions-广告”中的设置。为一段广告代码取一个名称，好用于调用。</p>
+<h3>怎么使用？</h3>
+<p>在文章中使用短代码即可调用这个广告。例如，你增加了一个广告叫“边栏最顶部”，写文章的时候只需要使用<code>[ad name="边栏最顶部"]</code>即可调用这个广告对应的代码。</p>
+<p>在前面已经提到过，广告的加载是异步加载的。</p>
+<p>如何在主题中调用呢？使用下面的代码即可</p>
+<pre>global $admin_options;
+$ads = array_admin_options($admin_options['ads']);
+echo $google = stripslashes($ads['GOOGLE-300-250']);
+// 获取的是广告代码
+或
+echo do_shortcode('[ad name="边栏最顶部"]');
+// 广告代码将会异步加载</pre>
+
+
+<p class="btn-area text-center"><a href="javascript:next()" class="btn btn-success btn-lg">下一节</a></p>
+</body>
+</html>

@@ -1,0 +1,567 @@
+/* commentlist with thread comment */
+
+#commentpost {
+	clear: both;
+	font-size: 1em;
+	margin-top: 2em;
+	margin-right: 10px;
+	margin-bottom: 2em;
+	margin-left: auto;
+	padding: 0px;
+	position: relative;
+	width: auto;
+	height: auto;	
+}
+#comments-title {
+	font:23px 'Droid Sans', Arial, Verdana, sans-serif; 
+	margin-left: 15px;
+}
+.nocomments {
+	color: #666666;
+	font-size: 12px;
+	font-style: italic;
+	margin: 0px;
+	padding: 0px;
+}
+h4#comments {
+	color:#7a7575;
+	clear: both;
+	display: block;
+	font-size: 1em;
+	font-weight: bold;
+	padding: 0;	
+	margin: 0px 0px 1em 0px;
+	text-transform: capitalize;
+	width: 100%;
+	height: auto;
+}
+h4#comments span {
+	color: #37322C;
+}
+#comments hr {
+width: 96%;
+}
+#comments p{
+padding: 5px;
+}
+ol.commentlist, 
+div#commentlist {
+	clear: both;
+	display: block;
+	font-size: 1em;
+	list-style:none;
+	margin: 0px 0px 0.8em 0px;
+	padding: 0px;
+	width: 100%;
+	height: auto;
+}
+#commentpost ol.commentlist blockquote {
+	border-left: 5px solid #ddd;
+	margin: 15px 30px 10px 10px;
+	padding-left: 20px;
+}
+ol.commentlist li {
+	clear: both;
+	position: relative;
+	padding: 13px 20px 15px 20px;
+	margin: 0px 0px 5px 0px;
+}
+ol.commentlist li.alt {
+ }
+ol.commentlist li.bypostauthor {
+}
+ol.commentlist li.byuser {
+}
+ol.commentlist li.comment-author-admin {
+}
+ol.commentlist li.comment {
+}
+ol.commentlist li div.comment-author {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+ol.commentlist li div.vcard {
+	font-family: 'Droid Sans', Arial, Verdana, sans-serif; 
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 1.4;
+}
+
+ol.commentlist li div.vcard cite.fn {
+	color: #2c2c2C;
+	font-style: normal;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+ol.commentlist li div.vcard cite.fn a.url {
+	color: #2c2c2C;
+	font-size: 18px;
+	text-decoration:none;
+	text-transform: uppercase;
+}
+ol.commentlist li div.vcard cite.fn a.url:hover {
+	color: #2c2c2C;
+	text-decoration: none;
+}
+ol.commentlist li div.vcard img.avatar {
+	background-color: #FFFFFF;
+	border: 1px solid #dbdbdb;
+	padding: 5px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	top:0px;
+	float: left;
+	z-index: 1;
+position:relative;
+}
+ol.commentlist li div.vcard img.avatar-32 {
+}
+ol.commentlist li div.vcard img.photo {
+}
+ol.commentlist li div.vcard span.says {
+}
+ol.commentlist li div.commentmetadata {
+position: absolute;
+text-transform: uppercase;
+z-index: 9;
+width: 38px;
+left: 26px;
+top:20px;
+text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+ol.commentlist li div.commentmetadata a{  
+font-size: 14px;
+	line-height: 14px;
+}
+ol.commentlist li div.comment-meta {
+	font-size: 11px;
+	font-weight: normal;
+	line-height: 1.4;
+	padding-bottom: 10px;
+	float: right;
+text-align: right;
+}
+ol.commentlist li div.comment-meta a { 
+	color:#ffffff; 
+	font-weight: bold;
+	text-decoration:none;
+}
+ol.commentlist li div.comment-meta a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+ol.commentlist li p {
+	font-size: 13px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 1.6;
+	margin:0 0 1em;
+}
+ol.commentlist li p a {
+	color: #37322C;
+	font-weight: bold;
+	text-decoration: none;
+}
+ol.commentlist li p a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+ol.commentlist li pre {
+	background-color: #F7F7F7;
+	border: 1px solid #D5D5D5;
+	clear: both;
+	color: #000000;
+	font-family: 'Droid Sans', Arial, Verdana, sans-serif;
+	font-size: 13px;
+	line-height: 22px;
+	margin-top: 8px;
+	margin-right: auto;
+	margin-bottom: 8px;
+	margin-left: auto;
+	overflow: scroll;
+	padding: 10px;
+	text-shadow:none;
+	width: auto;
+	white-space: nowrap;
+}
+ol.commentlist li ul {
+	font-size: 12px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 1.4;
+	list-style:square;
+	margin:0 0 1em;
+	padding:0;
+	text-indent:0;
+}
+ol.commentlist li div.reply {
+	clear: both;
+	margin: 0px;		
+	background: #efefef;
+	border:none;
+	color: #646464;
+	float:right;
+	font:11px 'Droid Sans', Arial, Verdana, sans-serif; 
+	padding: 9px;
+	width: auto;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 0px #ffffff;
+}
+ol.commentlist li div.reply a {
+	line-height: 1;
+	text-align:center;
+	text-decoration: none;
+}
+ol.commentlist li div.reply a:hover {
+	color: #000000;
+	text-align:center;
+	text-decoration: none;
+}
+
+ol.commentlist li ul.children { 
+	list-style:none; 
+	margin:1em 0 0; 
+	text-indent:0;
+ }
+ol.commentlist li ul.children li {
+}
+ol.commentlist li ul.children li.alt {
+}
+ol.commentlist li ul.children li.bypostauthor {
+}
+ol.commentlist li ul.children li.byuser {
+}
+ol.commentlist li ul.children li.comment {
+}
+ol.commentlist li ul.children li.comment-author-admin {
+}
+ol.commentlist li ul.children li.depth-2 { 
+	margin:0 0 .25em; 
+}
+ol.commentlist li ul.children li.depth-3 { 
+margin:0 0 .25em; 
+}
+ol.commentlist li ul.children li.depth-4 { 
+margin:0 0 .25em; 
+}
+ol.commentlist li ul.children li.depth-5 {
+}
+ol.commentlist li ul.children li.depth-6 {
+}
+ol.commentlist li ul.children li.depth-7 {
+}
+ol.commentlist li ul.children li.depth-8 {
+}
+ol.commentlist li ul.children li.depth-9 {
+}
+ol.commentlist li ul.children li.depth-10 {
+}
+ol.commentlist li ul.children li.odd {
+}
+ol.commentlist li.even {
+
+}
+ol.commentlist li.odd {
+
+}
+ol.commentlist li.parent {
+}
+ol.commentlist li.pingback {
+}
+ol.commentlist li.pingback .parent {
+}
+ol.commentlist li.pingback div.vcard { 
+padding:0 170px 0 0; 
+}
+ol.commentlist li.thread-alt {
+}
+ol.commentlist li.thread-even {
+}
+ol.commentlist li.thread-odd {
+}
+#pingbox {
+	border-bottom-color: #E4E4E4;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	clear: both;
+	display: block;
+	padding: 5px;
+	margin-top: 0em;
+	margin-right: auto;
+	margin-bottom: 0em;
+	margin-left: auto;
+	height: auto;
+	width: auto;
+}
+h4#pings {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #E4E4E4;
+	clear: both;
+	display: block;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin: 0px 0px 5px 0px;
+	padding: 0px 0px 5px 0px;
+	text-transform: capitalize;
+	width: 100%;
+	height: auto;
+}
+ol.pinglist {
+	clear: both;
+	font-size: 0.9em;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	text-transform: capitalize;
+	width: 100%;
+}
+ol.pinglist li {
+	display: block;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 26px;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: auto;
+}
+ol.pinglist li:hover {
+}
+ol.pinglist li a{
+	color: #37322C;
+	text-decoration: none;
+}
+ol.pinglist li a:hover{
+	color: #000000;
+	text-decoration: none;
+}
+#respond h4 {
+	clear: both;
+	display: block;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px 0px 5px 0px;
+	width: 100%;
+}
+#respond a {
+	text-decoration: none!important;
+}
+.cancel-comment-reply {
+	font-size: 12px!important;
+	padding: 0px 10px 0px 0px;
+	margin: 0px;
+}
+#cf {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+#cf label {
+	font-family: 'Droid Sans', Arial, Verdana, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+}
+#cf label a {
+	color: #000000;
+	text-decoration: underline;
+}
+#cf p {
+	font-size: 12px;
+	font-weight: normal;
+	margin: 5px 0px 10px 0px;
+	padding: 0px;
+	text-transform: capitalize;
+}
+#cf .tf {
+	background-color: #FFFFFF;
+	border: 1px solid #D5D5D5;
+	font-family: 'Droid Sans', Arial, Verdana, sans-serif;
+	font-size: 13px;
+	margin: 0px;
+	padding: 5px;
+	width: 35%;
+}
+#cf .af {
+	background-color: #FFFFFF;
+	border: 1px solid #D5D5D5;
+	font-size: 13px;
+	margin: 0px;
+	padding: 5px;
+	width: 90%;
+	height: 200px;
+}
+#cf .tinput {
+	background-color: #37322C;
+	border-width: 0px;
+	border-style: none;
+	color: #FFFFFF;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 18px;
+	margin: 0px;
+	overflow: visible;
+	padding: 2px 5px;
+	text-decoration: none;
+	text-shadow: 0px 1px 1px #000;
+}
+.pnav {
+	clear: both;
+	display: block;
+	font-size: 0.8em;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 1em;
+	margin-left: auto;
+	padding: 0px;
+	width: 100%;
+	height: auto;
+}
+.pnav a {
+	color: #37322C;
+	text-decoration: none;
+}
+.pnav a:hover {
+	text-decoration: underline;
+}
+.pnav .alignleft {
+	float: left;	
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	width: 49%;
+	height: auto;
+}
+.pnav .alignright {
+	float: right;
+	margin: 0px;
+	padding: 0px;
+	text-align: right;
+	width: 49%;
+	height: auto;
+}
+.comment-body {
+	font-family: 'Droid Sans', Arial, Verdana, sans-serif; 
+	color: #7a7575;
+}
+#respond {
+	font-family: 'Droid Sans', Arial, Verdana, sans-serif; 	
+	margin: 0px;
+	overflow: hidden;
+	position: relative;
+}
+#respond p {
+	margin: 0;
+}
+#respond .comment-notes {
+	margin: 0 0px 6px 20px;
+	font-size: 13px;
+	color: #7a7575;
+}
+.form-allowed-tags {
+	line-height: 1em;
+}
+.children #respond {
+	margin: 0 48px 0 0;
+}
+h3#reply-title {
+	margin: 0px;
+	margin-left: 15px;
+}
+#comments-list #respond {
+	margin: 0 0 18px 0;
+}
+#comments-list ul #respond {
+	margin: 0;
+}
+#cancel-comment-reply-link {
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 18px;
+}
+#respond .required {
+	color: #7a7575;
+padding-left: 2px;
+}
+#respond label {
+	color: #888;
+	font-size: 13px;
+	padding-left: 20px;
+}
+#respond input {
+	margin: 5px 0 9px 20px;
+	width: 89%;
+	height: 25px;
+}
+
+#respond textarea {
+	background: #f6f6f6;
+	font-family: 'Droid Sans', Arial, Verdana, sans-serif; 
+	width: 90%;
+	margin-left: 20px;
+	border:1px solid #d6d6d6;
+}
+#author, 
+#email, 
+#url {
+	background: #f6f6f6;
+	border:1px solid #d6d6d6;
+}
+.comment-form-author input, 
+.comment-form-email input , 
+.comment-form-url input {
+	padding-left: 5px;
+}
+#respond .form-allowed-tags {
+	color: #888;
+	font-size: 13px;
+	line-height: 18px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#respond .form-allowed-tags code {
+	font-size: 11px;
+}
+#respond .form-submit {
+	margin: 5px 0;
+}
+#respond .form-submit input {
+	background: #efefef;
+	border:none;
+	color: #646464;
+	float:left;
+	font:11px 'Droid Sans', Arial, Verdana, sans-serif; 
+	padding: 7px;
+	margin-left: 20px;
+	width: auto;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 0px #ffffff;
+}
+#comments ul li{
+	margin: 0;
+}
+#comments h3 {
+	color: #9a1d0d;
+	font: 'Droid Sans', Arial, Verdana, sans-serif; 
+	font-size: 24px;
+text-transform: uppercase;
+}
+.comment-awaiting-moderation  {
+font-size: 13px;
+}
+#respond  .logged-in-as  {
+font-size: 13px;
+margin-left: 20px;
+}
+.vcard img {
+background: red;
+}

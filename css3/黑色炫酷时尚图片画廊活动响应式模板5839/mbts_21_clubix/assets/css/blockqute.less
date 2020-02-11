@@ -1,0 +1,79 @@
+.blockqute {
+	background: #000;
+	padding: 20px;
+	border-left: 4px solid #8e44ad;
+	font-style: italic;
+	margin-bottom: 35px;
+	p {
+		margin-bottom: 0;
+	}
+}
+
+.blocqoute-author {
+	width: 300px;
+	float: left;
+	button {
+		width: 15px;
+		height: 17px;
+		border: none;
+		padding: 0;
+		margin: 0;
+		cursor: pointer;
+		margin-top: 10px;
+		&.left {
+			background: url(../img/blocqoute-arrow-left.png) no-repeat center center;
+		}
+		&.right {
+			background: url(../img/blocqoute-arrow-right.png) no-repeat center center;
+		}
+	}
+	.author {
+		width: 150px;
+		margin: 0 auto;
+		margin-top: -28px;
+		img.avatar {
+			border: 2px solid #e2e2e2;
+			margin-right: 5px;
+			float: left;
+		}
+		p {
+			font-size: 12px;
+			float: left;
+			line-height: 17px;
+			&.name {
+			color: #c0c0c0;
+			}
+			&.location {
+				color: #979797;
+			}
+		}
+	}
+	.arrow-content {
+		width: 11px;
+		height: 11px;
+		background: url(../img/arrow-content-blocqoute.jpg) no-repeat center center;
+		display: block;
+		margin: 0 auto;
+		margin-top: 15px;
+		margin-bottom: -1px;
+		position: relative;
+		z-index: 2;
+	}
+	.blocqoute-content {
+		padding: 15px;
+		border: 1px solid #e2e2e2;
+		font-size: 14px;
+		font-style: italic;
+		color: #858585;
+		p {
+			font-size: 14px;
+			margin-bottom: 15px;
+			&:after {
+				content: '"';
+			}
+			&:before {
+				content: '"';
+			}
+		}
+	}
+}

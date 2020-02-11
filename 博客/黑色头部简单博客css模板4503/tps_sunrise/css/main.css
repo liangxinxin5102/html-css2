@@ -1,0 +1,95 @@
+@import url("../css/font.css");
+
+html {background: url('../img/background.png') repeat-x;}
+body {background: url('../img/bg-header.png') no-repeat 50% 0;color: #353839;font: normal 12px Arial,sans-serif;padding-top: 75px}
+p {font-size: 1.0em;line-height: 1.8em;margin-bottom: 15px}
+address {font-style: normal;padding-bottom: 15px}
+
+/*******************************************************************************************************************
+*  LINKS                                                                                                           *
+*******************************************************************************************************************/
+a, a:link, a:focus {color: #0a9cd2;outline: 0}
+a:visited {color: #0a9cd2}
+a:hover {color: #000;text-decoration: none}
+a.more {padding-right: 12px;background: url('../img/more.png') no-repeat 100% 50%}
+
+/*******************************************************************************************************************
+*  TITLES                                                                                                          *
+*******************************************************************************************************************/
+h1, h2, h3, h4, h5 {margin: 0 0 10px 0}
+h1 {font-size: 4.0em;margin: 0;text-align: center;color: #d77400;text-shadow: 1px 1px 1px #f8c874;font-family: "MyriadPro-BoldCond";}
+h2 {font-size: 1.2em;padding-bottom: 10px;color: #353839;}
+h3 {font-size: 1.2em;color: #353839;margin-bottom: 20px;text-transform: uppercase}
+h4 {font-size: 1.2em;color: #353839;}
+h5 {font-size: 1.1em}
+
+
+/*******************************************************************************************************************
+*  HEADER                                                                                                          *
+*******************************************************************************************************************/
+#header {position: absolute;top: 0;left: 0;height: 111px;width: 100%;}
+#header #logo {background: url('../img/logo.png') no-repeat;display: block;height: 111px;left: 0;z-index: 10;text-indent: -9999px;position: absolute;top: 30px;width: 170px;color: #000}                
+/* navigation */
+#header #navigation {position: absolute;right: 0;top: 21px;}
+#header #navigation li {background: url('../img/nav-sep.png') no-repeat 0 50%;display: inline-block;}
+#header #navigation li a {display: inline-block;font-size: 12px;color: #7a7a7a;text-decoration: none;}
+#header #navigation li a span {display: inline-block;height: 33px;line-height: 33px;padding: 0 15px;}
+#header #navigation li.active a {color: #fff;font-weight: bold;}
+#header #navigation li a:hover {color: #fff}
+
+/*******************************************************************************************************************
+*  INTRO                                                                                                           *
+*******************************************************************************************************************/
+#intro {height: 135px;line-height: 135px;margin-bottom: 30px}
+
+/*******************************************************************************************************************
+*  CONTENT                                                                                                         *
+*******************************************************************************************************************/
+#container {padding-bottom: 20px}
+#container .cols {margin-bottom: 20px;padding: 20px 0 0}
+#container .cols li {width: 300px;float: left;padding: 0;background: none;}
+#container .cols li.first .inner {padding: 0 40px 0 0}
+#container .cols li.center {width: 300px;}
+#container .cols li.center .inner {padding: 0 20px}
+#container .cols li.last .inner {padding: 0 0 0 40px}
+#container .cols li.first h2 {background: url('../img/col1.png') no-repeat 0 1px;line-height: 25px;padding-left: 40px}
+#container .cols li.center h2 {background: url('../img/col1.png') no-repeat 0 1px;line-height: 25px;padding-left: 40px}
+#container .cols li.last h2 {background: url('../img/col1.png') no-repeat 0 1px;line-height: 25px;padding-left: 40px}
+
+#container ul {padding: 5px 10px 25px}
+#container ul li {padding: 3px 0 3px 15px;background: url('../img/more.png') no-repeat 0 50%}
+
+#container table {width: 100%;border-collapse: collapse;border: 1px solid #efefef}
+#container table th {text-align: left;padding: 10px;border: 1px solid #cc8307;border-bottom: 3px solid #cc8307;background: #f19b0a;color: #fff}
+#container table td {padding: 7px 10px;border: 1px solid #efefef}
+#container table .dark td {background: #f7f7f7}
+
+#container form {margin-bottom: 20px}
+#container form fieldset {background: #f7f7f7;padding: 10px 15px;border: 1px solid #efefef}
+#container form table {width: 100%;border: 0}
+#container form th {padding: 10px 0 10px 0;border: 0;background: none;color: #000;text-align: left;width: 30%;vertical-align: top}
+#container form td {padding: 5px 20px 5px 0;width: 70%;border: 0}
+#container form .text {padding: 5px;width: 199px;}
+#container form .textarea {padding: 5px;width:338px;height:158px;}
+#container form .checkbox {width: 20px;height: 20px;float: left;position: relative;top: -4px;margin-right: 2px}
+#container form .radio {width: 20px;height: 20px;float: left;position: relative;top: -5px;margin-right: 2px}
+#container form tfoot td {padding-top: 10px}
+#container form .submit {cursor: pointer;padding: 5px 10px;font-weight: bold;text-transform: uppercase;font-family: Arial;font-size: 1.0em;}
+    
+/*******************************************************************************************************************
+*  FOOTER                                                                                                          *
+*******************************************************************************************************************/
+#footer {background: url('../img/bg-footer.png') no-repeat 50% 0;height: 160px;}
+#footer p {color: #8e8e8e;font-size: 11px;padding: 23px 30px 0}
+#footer p a {color: #8e8e8e;}
+
+/*******************************************************************************************************************
+*  OTHER STYLES                                                                                                    *
+*******************************************************************************************************************/
+.high {font-weight: bold;color: #2d7bac}
+.inner {padding: 15px 20px}
+.middle {margin: 0 auto;position: relative;}
+.w900 {width: 900px}
+a.thumb img {border: 1px solid #e0e0e0}
+.inner_copyright{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
+

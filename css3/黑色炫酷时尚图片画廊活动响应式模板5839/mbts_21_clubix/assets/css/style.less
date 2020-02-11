@@ -1,0 +1,124 @@
+@import "css/fonts.css";
+@import "css/reset.css";
+@import "css/960.css";
+@import "css/adaptive.css";
+@import "animate_custom.css";
+@import "functions";
+@import "body";
+@import "header-top";
+@import "header-menu";
+@import "header-sub-menu";
+@import "header-search";
+@import "container-slider";
+@import "container-latest-events";
+@import "content-slider-title-event";
+@import "content-slider-information-event";
+@import "content-title-page";
+@import "content-page-home";
+@import "content-page-home-post";
+@import "content-page-home-blog-title";
+@import "bg-audio-player";
+@import "bg-audio-player-sub-menu";
+@import "bg-albums-and-events";
+@import "widgets";
+@import "widgets-audio-player";
+@import "footer-top";
+@import "footer-bottom";
+@import "phone-menu";
+@import "page-bar";
+@import "blog-page-pagination";
+@import "albums-photos-videos-page-pagination";
+@import "video-sidebar";
+@import "single-page-post";
+@import "single-page-comments";
+@import "single-page-comment-form";
+@import "contact-page-form";
+@import "select-categories";
+@import "albums-photos-videos";
+@import "page-bar-single-pages";
+@import "prev-next-single-pages";
+@import "events-item-page";
+@import "event-widget-single-page";
+@import "ddd-button";
+@import "post-events";
+@import "404";
+@import "typography";
+@import "heading";
+@import "html-styles";
+@import "dropcap";
+@import "blockqute";
+@import "columns";
+@import "elements";
+@import "tabbed-interface";
+@import "accordion-tab";
+@import "buttons";
+@import "lists";
+@import "slider-title-container";
+
+
+// Robert
+
+.container-flip-caption {
+  &:hover,
+  &:active {
+    .caption {
+      -webkit-transform: rotateY(360deg);
+      -ms-transform: rotateY(360deg);
+      -o-transform: rotateY(360deg);
+      transform: rotateY(360deg);
+    }
+
+    img {
+      -webkit-transform: rotateY(180deg);
+      -ms-transform: rotateY(180deg);
+      -o-transform: rotateY(180deg);
+      transform: rotateY(180deg);
+    }
+  }
+
+  position: relative;
+  overflow: visible;
+  -webkit-perspective: 1300px;
+  -ms-perspective: 1300px;
+  -o-perspective: 1300px;
+  perspective: 1300px;
+
+  img {
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+  }
+
+  .caption {
+    position: absolute;
+    -webkit-transition: 500ms;
+    -o-transition: 500ms;
+    transition: 500ms;
+    width: 100%;
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    -webkit-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+}
+
+// Vasi 
+
+  .read-more {
+    .transition;
+      
+      &:hover {
+        background: #DDDDDD !important;
+        color: #8E44AD !important;
+
+      }
+  }
